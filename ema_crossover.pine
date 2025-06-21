@@ -1,0 +1,50 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © Pythoncubes
+
+//@version=5
+strategy("EMA CROSSOVER", overlay=true)
+
+// pulling up ma's (indicators)
+infastEMA = input.int(defval = 50, title = "Fast EMA Length")
+inslowEMA = input.int(defval = 200, title = "Fast EMA Length")
+
+fastEMA = ta.ema(close, infastEMA)
+slowEMA = ta.ema(close, inslowEMA)
+
+rsi = ta.rsi(close, 14)
+atr = ta.atr(14)
+
+// Crossover
+open_trade = ta.crossover(fastEMA, slowEMA)
+close_trade = ta.crossunder(fastEMA, slowEMA)
+
+// BACKTEST RANGE
+fromMonth = input.int(defval = 1,    title = "From Month",  minval = 1, maxval = 12)
+fromDay   = input.int(defval = 1,    title = "From Day",    minval = 1, maxval = 31)
+fromYear  = input.int(defval = 2017, title = "From Year",   minval = 1970)
+thruMonth = input.int(defval = 1,    title = "Thru Month",  minval = 1, maxval = 12)
+thruDay   = input.int(defval = 1,    title = "Thru Day",    minval = 1, maxval = 31)
+thruYear  = input.int(defval = 2121, title = "Thru Year",   minval = 1970)
+
+// SHOW
+showDate  = input(defval = true, title = "Show Date Range")
+
+// === FUNCTION EXAMPLE ===
+start     = timestamp(fromYear, fromMonth, fromDay, 00, 00)            // backtest start  window
+finish    = timestamp(thruYear, thruMonth, thruDay, 23, 59)            // backtest finish window
+window()  => time >= start and time <= finish ? true : false           // create function "within window of time"
+
+// Execute
+if (open_trade)
+    stoploss = low - atr*2
+    //takeprofit = high + atr*2
+    strategy.entry("L", strategy.long, when = window())
+    strategy.exit("exit", "L", stop=stoploss, when = window())
+
+if (close_trade)
+    strategy.close("L", when = window())
+
+// plotting
+bgcolor(color = showDate and window() ? color.new(color.gray, 90) : na)                                      // plot "within window of time"
+plot(fastEMA, color=color.green)
+plot(slowEMA, color=color.red)

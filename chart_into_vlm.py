@@ -13,6 +13,36 @@ st.set_page_config(page_title="Trading Assistant", layout="wide")
 
 model_name = "/workspace/PDF-AI/hf/hub/models--Qwen--Qwen2.5-VL-72B-Instruct-AWQ/snapshots/c8b87d4b81f34b6a147577a310d7e75f0698f6c2"
 
+
+# helper to split into rows of 2 or 3 (never a single 1)
+def make_rows(symbols: list[str]) -> list[list[str|None]]:
+    n = len(symbols)
+    if n == 0:
+        return []
+    if n == 1:
+        # force two columns: [sym, None]
+        return [[symbols[0], None]]
+
+    rows: list[list[str|None]] = []
+    # if remainder 1, peel off 4 for two rows of 2
+    if n % 3 == 1:
+        # build rows of 3 from head
+        for i in range(0, n - 4, 3):
+            rows.append(symbols[i : i + 3])
+        # last 4 → two rows of 2
+        tail = symbols[n - 4 : n]
+        rows.append(tail[0:2])
+        rows.append(tail[2:4])
+    else:
+        # remainder 0 or 2
+        main_end = n - (n % 3)
+        for i in range(0, main_end, 3):
+            rows.append(symbols[i : i + 3])
+        if n % 3 == 2:
+            rows.append(symbols[main_end : main_end + 2])
+    return rows
+
+
 # sidebar for token selection via text input (max 10) with validation
 exchange = ccxt.binance()
 exchange.load_markets()
@@ -46,26 +76,24 @@ def fetch_ohlcv(symbol: str) -> pd.DataFrame:
     return df
 
 def plot_and_get_png(df: pd.DataFrame) -> bytes:
-    # 1) compute three MAs
+    # compute three moving averages
     df["SMMA14"] = df["close"].ewm(alpha=1/14, adjust=False).mean()
     df["EMA13"]  = df["close"].ewm(span=13, adjust=False).mean()
     df["EMA21"]  = df["close"].ewm(span=21, adjust=False).mean()
 
-    # 2) build addplot objects
+    # build addplot objects
     apds = [
         mpf.make_addplot(df["SMMA14"], type="step",  color="#00bcd4", width=0.5),
         mpf.make_addplot(df["EMA13"],  type="line",  color="#673ab7", width=0.5),
         mpf.make_addplot(df["EMA21"],  type="line",  color="#056656", width=0.5),
     ]
 
-    # 3) render to Figure of higher dpi
+    # render to Figure
     fig, axes = mpf.plot(
         df, type="candle", style="charles", addplot=apds,
         returnfig=True, figsize=(6, 4), volume=False, tight_layout=True
     )
-    
     ax = axes[0]
-    
     ax.xaxis.set_tick_params(labelbottom=False)
     ax.grid(which='major', linestyle='-', linewidth=0.8, alpha=0.7)
     ax.grid(which='minor', linestyle=':', linewidth=0.5, alpha=0.5)
@@ -85,18 +113,22 @@ def make_image_part(png_bytes: bytes):
 # title in the center
 st.markdown("<h1 style='text-align: center;'>Trading Assistant</h1>", unsafe_allow_html=True)
 
-# split symbols into rows of max 3
-rows = [SYMBOLS[i:i+3] for i in range(0, len(SYMBOLS), 3)]
-
 # auto-refresh every 5 minutes
 _ = st_autorefresh(interval=300_000, key="ticker")
 
 client = get_client()
 
+# split into rows of 2 or 3
+rows = make_rows(SYMBOLS)
+
 for row in rows:
     cols = st.columns(len(row))
     for col, symbol in zip(cols, row):
         with col:
+            if symbol is None:
+                st.empty()
+                continue
+
             st.subheader(symbol)
             df = fetch_ohlcv(symbol)
             png = plot_and_get_png(df)
@@ -115,7 +147,6 @@ for row in rows:
                     {"type": "text", "text":
                         f"Here’s the latest {symbol} chart with SMMA(14), EMA(13), EMA(21): "
                         "Is the price above or below the trend? Choose between bullish or bearish or sideways."
-                       
                     },
                     make_image_part(png)
                 ]
@@ -129,7 +160,7 @@ for row in rows:
             )
             latency = time.time() - start
 
-            # capture and colorize the single-word response
+            # Colorize the response
             result = resp.choices[0].message.content.strip().lower()
             if "bullish" in result:
                 display = f"<span style='color:green;font-weight:bold;'>{result}</span>"

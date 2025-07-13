@@ -8,6 +8,10 @@ from streamlit_autorefresh import st_autorefresh
 import base64
 import time
 
+from main_plot import plot_main_chart
+from oscillator_plot import plot_oscillator
+from stock_rsi_plot import plot_stock_rsi
+
 # must be the very first Streamlit command to enable wide mode
 st.set_page_config(page_title="Trading Assistant", layout="wide")
 

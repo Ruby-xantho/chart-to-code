@@ -11,6 +11,7 @@ from vllm import LLM, SamplingParams
 @st.cache_resource
 def load_model():
     MODEL_PATH = "Qwen/Qwen2.5-VL-72B-Instruct-AWQ"
+
     model = LLM(
         model=MODEL_PATH,
         trust_remote_code=True,

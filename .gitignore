@@ -1,0 +1,3 @@
+# ignore my personal access token file
+PAT.txt
+.DS_Store

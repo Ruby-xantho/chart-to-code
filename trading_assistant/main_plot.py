@@ -1,6 +1,6 @@
 import mplfinance as mpf
 from io import BytesIO
-import matplotlib.dates as mdates  # ✅ Import for x-axis formatting
+import matplotlib.dates as mdates  
 
 def plot_main_chart(df, style='charles', figsize=(6, 4), dpi=100) -> bytes:
     """

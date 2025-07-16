@@ -74,5 +74,5 @@ def plot_oscillator(df, ao_fast=5, ao_slow=34) -> bytes:
     fig.savefig(buf, format='png', dpi=150)
     buf.seek(0)
     plt.close(fig)
-    
+
     return buf.getvalue()

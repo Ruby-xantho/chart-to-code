@@ -1,5 +1,6 @@
 import mplfinance as mpf
 from io import BytesIO
+import matplotlib.dates as mdates  # ✅ Import for x-axis formatting
 
 def plot_main_chart(df, style='charles', figsize=(6, 4), dpi=100) -> bytes:
     """
@@ -29,12 +30,17 @@ def plot_main_chart(df, style='charles', figsize=(6, 4), dpi=100) -> bytes:
         volume=False,
         tight_layout=True
     )
+
     ax = axes[0]
-    # Format axes
-    ax.xaxis.set_tick_params(labelbottom=False)
+
+    ax.xaxis.set_tick_params(labelbottom=True)
+    #ax.xaxis.set_major_formatter(mdates.DateFormatter('%d'))
+
+    # Format grid
     ax.grid(which='major', linestyle='-', linewidth=0.8, alpha=0.7)
     ax.grid(which='minor', linestyle=':', linewidth=0.5, alpha=0.5)
 
+    # Save to buffer
     buf = BytesIO()
     fig.savefig(buf, format='png', dpi=dpi, bbox_inches='tight')
     buf.seek(0)

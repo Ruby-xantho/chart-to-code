@@ -1,0 +1,22 @@
+{
+  "symbol": "MINA/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Stoch RSI in overbought range may trigger pullback.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.21,
+    "trend": 0.19,
+    "ao": 0.03,
+    "%K": 100.0,
+    "%D": 94.89
+  },
+  "images": {
+    "main": "panels/main/0044_main.png",
+    "ao": "panels/ao/0044_ao.png",
+    "rsi": "panels/rsi/0044_rsi.png"
+  }
+}

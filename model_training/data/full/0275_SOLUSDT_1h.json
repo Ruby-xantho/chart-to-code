@@ -1,0 +1,22 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "AO is positive, indicating bullish momentum.",
+    "RSI has fully reset and may support a bounce."
+  ],
+  "debug": {
+    "price": 175.66,
+    "trend": 174.16,
+    "ao": 1.6,
+    "%K": 11.73,
+    "%D": 18.43
+  },
+  "images": {
+    "main": "panels/main/0275_main.png",
+    "ao": "panels/ao/0275_ao.png",
+    "rsi": "panels/rsi/0275_rsi.png"
+  }
+}

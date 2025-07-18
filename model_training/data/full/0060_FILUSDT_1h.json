@@ -1,0 +1,22 @@
+{
+  "symbol": "FIL/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Stochastic RSI values remain neutral."
+  ],
+  "debug": {
+    "price": 2.71,
+    "trend": 2.68,
+    "ao": 0.02,
+    "%K": 53.35,
+    "%D": 53.05
+  },
+  "images": {
+    "main": "panels/main/0060_main.png",
+    "ao": "panels/ao/0060_ao.png",
+    "rsi": "panels/rsi/0060_rsi.png"
+  }
+}

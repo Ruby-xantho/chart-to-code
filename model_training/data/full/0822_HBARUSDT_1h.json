@@ -1,0 +1,22 @@
+{
+  "symbol": "HBAR/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "AO histogram is green and climbing.",
+    "Momentum cycle reset near bottom range."
+  ],
+  "debug": {
+    "price": 0.27,
+    "trend": 0.27,
+    "ao": 0.01,
+    "%K": 0.0,
+    "%D": 6.68
+  },
+  "images": {
+    "main": "panels/main/0822_main.png",
+    "ao": "panels/ao/0822_ao.png",
+    "rsi": "panels/rsi/0822_rsi.png"
+  }
+}

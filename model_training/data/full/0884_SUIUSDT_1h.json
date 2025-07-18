@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Downtrend evident with price under EMAs.",
+    "Momentum has turned bearish according to AO.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 4.01,
+    "trend": 4.04,
+    "ao": -0.0,
+    "%K": 37.92,
+    "%D": 36.31
+  },
+  "images": {
+    "main": "panels/main/0884_main.png",
+    "ao": "panels/ao/0884_ao.png",
+    "rsi": "panels/rsi/0884_rsi.png"
+  }
+}

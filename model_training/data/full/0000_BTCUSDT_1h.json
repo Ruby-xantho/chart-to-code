@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Bullish momentum is building per AO.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 119080.01,
+    "trend": 119026.37,
+    "ao": 741.6,
+    "%K": 66.8,
+    "%D": 70.51
+  },
+  "images": {
+    "main": "panels/main/0000_main.png",
+    "ao": "panels/ao/0000_ao.png",
+    "rsi": "panels/rsi/0000_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Bearish continuation below trend lines.",
+    "AO continues to print lower bars.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 118864.11,
+    "trend": 119344.52,
+    "ao": -98.94,
+    "%K": 25.15,
+    "%D": 16.65
+  },
+  "images": {
+    "main": "panels/main/0854_main.png",
+    "ao": "panels/ao/0854_ao.png",
+    "rsi": "panels/rsi/0854_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Positive AO supports upward price movement.",
+    "Oversold conditions in RSI suggest rebound risk."
+  ],
+  "debug": {
+    "price": 3.99,
+    "trend": 3.95,
+    "ao": 0.17,
+    "%K": 5.57,
+    "%D": 7.41
+  },
+  "images": {
+    "main": "panels/main/0785_main.png",
+    "ao": "panels/ao/0785_ao.png",
+    "rsi": "panels/rsi/0785_rsi.png"
+  }
+}

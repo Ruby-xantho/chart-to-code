@@ -1,0 +1,20 @@
+{
+  "symbol": "FIL/USDT",
+  "timeframe": "1h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 2.74,
+    "trend": 2.68,
+    "ao": 0.03,
+    "%K": 76.66,
+    "%D": 60.82
+  },
+  "images": {
+    "main": "panels/main/0551_main.png",
+    "ao": "panels/ao/0551_ao.png",
+    "rsi": "panels/rsi/0551_rsi.png"
+  }
+}

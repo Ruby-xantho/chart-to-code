@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "Positive AO supports upward price movement.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 2.85,
+    "trend": 2.79,
+    "ao": 0.03,
+    "%K": 39.23,
+    "%D": 34.85
+  },
+  "images": {
+    "main": "panels/main/0543_main.png",
+    "ao": "panels/ao/0543_ao.png",
+    "rsi": "panels/rsi/0543_rsi.png"
+  }
+}

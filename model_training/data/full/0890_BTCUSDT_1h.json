@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Market is trading beneath EMA and SMMA support.",
+    "AO is negative, indicating weakness.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 118755.77,
+    "trend": 119333.5,
+    "ao": -129.99,
+    "%K": 21.75,
+    "%D": 15.52
+  },
+  "images": {
+    "main": "panels/main/0890_main.png",
+    "ao": "panels/ao/0890_ao.png",
+    "rsi": "panels/rsi/0890_rsi.png"
+  }
+}

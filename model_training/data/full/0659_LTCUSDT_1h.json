@@ -1,0 +1,22 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 103.16,
+    "trend": 100.68,
+    "ao": 2.55,
+    "%K": 63.83,
+    "%D": 47.33
+  },
+  "images": {
+    "main": "panels/main/0659_main.png",
+    "ao": "panels/ao/0659_ao.png",
+    "rsi": "panels/rsi/0659_rsi.png"
+  }
+}

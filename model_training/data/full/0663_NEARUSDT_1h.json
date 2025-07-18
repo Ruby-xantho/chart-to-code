@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Bullish momentum is building per AO.",
+    "RSI remains in a healthy range."
+  ],
+  "debug": {
+    "price": 2.88,
+    "trend": 2.79,
+    "ao": 0.03,
+    "%K": 54.43,
+    "%D": 39.92
+  },
+  "images": {
+    "main": "panels/main/0663_main.png",
+    "ao": "panels/ao/0663_ao.png",
+    "rsi": "panels/rsi/0663_rsi.png"
+  }
+}

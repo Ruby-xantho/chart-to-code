@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "Elevated momentum may invite sellers.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.45,
+    "trend": 0.39,
+    "ao": 0.09,
+    "%K": 100.0,
+    "%D": 96.85
+  },
+  "images": {
+    "main": "panels/main/0387_main.png",
+    "ao": "panels/ao/0387_ao.png",
+    "rsi": "panels/rsi/0387_rsi.png"
+  }
+}

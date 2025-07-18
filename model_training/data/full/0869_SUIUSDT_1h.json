@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Lower highs and lower lows dominate the structure.",
+    "Bearish AO suggests downside risk.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 4.0,
+    "trend": 4.03,
+    "ao": -0.0,
+    "%K": 35.55,
+    "%D": 35.52
+  },
+  "images": {
+    "main": "panels/main/0869_main.png",
+    "ao": "panels/ao/0869_ao.png",
+    "rsi": "panels/rsi/0869_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "MINA/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Momentum is positive according to AO.",
+    "Neither overbought nor oversold signals present."
+  ],
+  "debug": {
+    "price": 0.22,
+    "trend": 0.21,
+    "ao": 0.0,
+    "%K": 52.65,
+    "%D": 43.66
+  },
+  "images": {
+    "main": "panels/main/0606_main.png",
+    "ao": "panels/ao/0606_ao.png",
+    "rsi": "panels/rsi/0606_rsi.png"
+  }
+}

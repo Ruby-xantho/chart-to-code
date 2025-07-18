@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "AO is positive, indicating bullish momentum.",
+    "RSI has fully reset and may support a bounce."
+  ],
+  "debug": {
+    "price": 3.98,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 6.31,
+    "%D": 6.87
+  },
+  "images": {
+    "main": "panels/main/0733_main.png",
+    "ao": "panels/ao/0733_ao.png",
+    "rsi": "panels/rsi/0733_rsi.png"
+  }
+}

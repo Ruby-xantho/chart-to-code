@@ -1,0 +1,22 @@
+{
+  "symbol": "MANTA/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Bullish momentum is building per AO.",
+    "Stochastic RSI values remain neutral."
+  ],
+  "debug": {
+    "price": 0.25,
+    "trend": 0.24,
+    "ao": 0.01,
+    "%K": 44.47,
+    "%D": 52.42
+  },
+  "images": {
+    "main": "panels/main/0618_main.png",
+    "ao": "panels/ao/0618_ao.png",
+    "rsi": "panels/rsi/0618_rsi.png"
+  }
+}

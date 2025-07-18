@@ -1,0 +1,22 @@
+{
+  "symbol": "DOT/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 4.26,
+    "trend": 4.11,
+    "ao": 0.16,
+    "%K": 67.76,
+    "%D": 66.31
+  },
+  "images": {
+    "main": "panels/main/0378_main.png",
+    "ao": "panels/ao/0378_ao.png",
+    "rsi": "panels/rsi/0378_rsi.png"
+  }
+}

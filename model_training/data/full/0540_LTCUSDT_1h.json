@@ -1,0 +1,22 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "Positive AO supports upward price movement.",
+    "Momentum is contained within typical bounds."
+  ],
+  "debug": {
+    "price": 102.96,
+    "trend": 100.66,
+    "ao": 2.52,
+    "%K": 60.58,
+    "%D": 46.24
+  },
+  "images": {
+    "main": "panels/main/0540_main.png",
+    "ao": "panels/ao/0540_ao.png",
+    "rsi": "panels/rsi/0540_rsi.png"
+  }
+}

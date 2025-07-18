@@ -1,0 +1,22 @@
+{
+  "symbol": "FIL/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Extreme RSI values could precede retracement.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 2.71,
+    "trend": 2.52,
+    "ao": 0.26,
+    "%K": 100.0,
+    "%D": 86.94
+  },
+  "images": {
+    "main": "panels/main/0393_main.png",
+    "ao": "panels/ao/0393_ao.png",
+    "rsi": "panels/rsi/0393_rsi.png"
+  }
+}

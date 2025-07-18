@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "AO remains in bullish territory.",
+    "Stochastic RSI values remain neutral."
+  ],
+  "debug": {
+    "price": 2.81,
+    "trend": 2.7,
+    "ao": 0.17,
+    "%K": 67.56,
+    "%D": 71.37
+  },
+  "images": {
+    "main": "panels/main/0203_main.png",
+    "ao": "panels/ao/0203_ao.png",
+    "rsi": "panels/rsi/0203_rsi.png"
+  }
+}

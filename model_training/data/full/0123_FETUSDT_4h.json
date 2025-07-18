@@ -1,0 +1,22 @@
+{
+  "symbol": "FET/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Stochastic RSI values remain neutral."
+  ],
+  "debug": {
+    "price": 0.77,
+    "trend": 0.75,
+    "ao": 0.03,
+    "%K": 55.06,
+    "%D": 74.72
+  },
+  "images": {
+    "main": "panels/main/0123_main.png",
+    "ao": "panels/ao/0123_ao.png",
+    "rsi": "panels/rsi/0123_rsi.png"
+  }
+}

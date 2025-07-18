@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Oversold conditions in RSI suggest rebound risk."
+  ],
+  "debug": {
+    "price": 4.0,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 11.84,
+    "%D": 8.72
+  },
+  "images": {
+    "main": "panels/main/0703_main.png",
+    "ao": "panels/ao/0703_ao.png",
+    "rsi": "panels/rsi/0703_rsi.png"
+  }
+}

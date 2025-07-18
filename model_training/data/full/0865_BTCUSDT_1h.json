@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Bearish continuation below trend lines.",
+    "The Awesome Oscillator is below zero.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 118787.92,
+    "trend": 119336.77,
+    "ao": -117.1,
+    "%K": 22.74,
+    "%D": 15.85
+  },
+  "images": {
+    "main": "panels/main/0865_main.png",
+    "ao": "panels/ao/0865_ao.png",
+    "rsi": "panels/rsi/0865_rsi.png"
+  }
+}

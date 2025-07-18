@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "AO remains in bullish territory.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 1.94,
+    "trend": 1.93,
+    "ao": 0.02,
+    "%K": 44.45,
+    "%D": 52.23
+  },
+  "images": {
+    "main": "panels/main/0454_main.png",
+    "ao": "panels/ao/0454_ao.png",
+    "rsi": "panels/rsi/0454_rsi.png"
+  }
+}

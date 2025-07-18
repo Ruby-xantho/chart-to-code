@@ -1,0 +1,22 @@
+{
+  "symbol": "OP/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Positive AO supports upward price movement.",
+    "RSI remains in a healthy range."
+  ],
+  "debug": {
+    "price": 0.73,
+    "trend": 0.7,
+    "ao": 0.03,
+    "%K": 64.47,
+    "%D": 63.06
+  },
+  "images": {
+    "main": "panels/main/0554_main.png",
+    "ao": "panels/ao/0554_ao.png",
+    "rsi": "panels/rsi/0554_rsi.png"
+  }
+}

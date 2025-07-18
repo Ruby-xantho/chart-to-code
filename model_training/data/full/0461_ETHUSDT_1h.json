@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Mid-range RSI supports trend continuation."
+  ],
+  "debug": {
+    "price": 3477.17,
+    "trend": 3420.52,
+    "ao": 65.34,
+    "%K": 42.98,
+    "%D": 38.86
+  },
+  "images": {
+    "main": "panels/main/0461_main.png",
+    "ao": "panels/ao/0461_ao.png",
+    "rsi": "panels/rsi/0461_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "Momentum is stretched as RSI enters overbought zone.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 2.8,
+    "trend": 2.48,
+    "ao": 0.42,
+    "%K": 100.0,
+    "%D": 95.03
+  },
+  "images": {
+    "main": "panels/main/0251_main.png",
+    "ao": "panels/ao/0251_ao.png",
+    "rsi": "panels/rsi/0251_rsi.png"
+  }
+}

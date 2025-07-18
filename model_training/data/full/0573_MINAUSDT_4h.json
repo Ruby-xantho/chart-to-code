@@ -1,0 +1,22 @@
+{
+  "symbol": "MINA/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Positive AO supports upward price movement.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 0.22,
+    "trend": 0.21,
+    "ao": 0.01,
+    "%K": 71.62,
+    "%D": 70.46
+  },
+  "images": {
+    "main": "panels/main/0573_main.png",
+    "ao": "panels/ao/0573_ao.png",
+    "rsi": "panels/rsi/0573_rsi.png"
+  }
+}

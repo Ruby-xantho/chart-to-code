@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Downtrend evident with price under EMAs.",
+    "AO remains in bullish territory.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 1.93,
+    "trend": 1.93,
+    "ao": 0.02,
+    "%K": 37.16,
+    "%D": 49.8
+  },
+  "images": {
+    "main": "panels/main/0070_main.png",
+    "ao": "panels/ao/0070_ao.png",
+    "rsi": "panels/rsi/0070_rsi.png"
+  }
+}

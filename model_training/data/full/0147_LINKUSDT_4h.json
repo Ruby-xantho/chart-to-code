@@ -1,0 +1,22 @@
+{
+  "symbol": "LINK/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Extreme RSI values could precede retracement.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 17.94,
+    "trend": 16.68,
+    "ao": 1.28,
+    "%K": 94.66,
+    "%D": 96.12
+  },
+  "images": {
+    "main": "panels/main/0147_main.png",
+    "ao": "panels/ao/0147_ao.png",
+    "rsi": "panels/rsi/0147_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "DOT/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Overbought conditions signal caution.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 4.25,
+    "trend": 3.86,
+    "ao": 0.5,
+    "%K": 100.0,
+    "%D": 95.55
+  },
+  "images": {
+    "main": "panels/main/0334_main.png",
+    "ao": "panels/ao/0334_ao.png",
+    "rsi": "panels/rsi/0334_rsi.png"
+  }
+}

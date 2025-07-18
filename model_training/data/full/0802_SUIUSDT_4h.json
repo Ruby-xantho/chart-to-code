@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Conditions oversold based on both %K and %D."
+  ],
+  "debug": {
+    "price": 3.99,
+    "trend": 3.95,
+    "ao": 0.15,
+    "%K": 20.76,
+    "%D": 8.97
+  },
+  "images": {
+    "main": "panels/main/0802_main.png",
+    "ao": "panels/ao/0802_ao.png",
+    "rsi": "panels/rsi/0802_rsi.png"
+  }
+}

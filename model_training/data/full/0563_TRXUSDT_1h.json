@@ -1,0 +1,20 @@
+{
+  "symbol": "TRX/USDT",
+  "timeframe": "1h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 0.32,
+    "trend": 0.31,
+    "ao": 0.0,
+    "%K": 79.41,
+    "%D": 54.66
+  },
+  "images": {
+    "main": "panels/main/0563_main.png",
+    "ao": "panels/ao/0563_ao.png",
+    "rsi": "panels/rsi/0563_rsi.png"
+  }
+}

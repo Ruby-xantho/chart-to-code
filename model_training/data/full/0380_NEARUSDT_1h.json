@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Stoch RSI is deeply reset, preparing for reversal."
+  ],
+  "debug": {
+    "price": 2.81,
+    "trend": 2.78,
+    "ao": 0.03,
+    "%K": 7.47,
+    "%D": 24.27
+  },
+  "images": {
+    "main": "panels/main/0380_main.png",
+    "ao": "panels/ao/0380_ao.png",
+    "rsi": "panels/rsi/0380_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Neither overbought nor oversold signals present."
+  ],
+  "debug": {
+    "price": 3471.48,
+    "trend": 3419.94,
+    "ao": 65.34,
+    "%K": 36.89,
+    "%D": 36.83
+  },
+  "images": {
+    "main": "panels/main/0349_main.png",
+    "ao": "panels/ao/0349_ao.png",
+    "rsi": "panels/rsi/0349_rsi.png"
+  }
+}

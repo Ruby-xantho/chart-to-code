@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Bullish momentum is building per AO.",
+    "Momentum exhaustion reached on downside."
+  ],
+  "debug": {
+    "price": 3.98,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 7.24,
+    "%D": 7.18
+  },
+  "images": {
+    "main": "panels/main/0191_main.png",
+    "ao": "panels/ao/0191_ao.png",
+    "rsi": "panels/rsi/0191_rsi.png"
+  }
+}

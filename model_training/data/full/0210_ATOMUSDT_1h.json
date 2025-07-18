@@ -1,0 +1,22 @@
+{
+  "symbol": "ATOM/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Momentum is contained within typical bounds."
+  ],
+  "debug": {
+    "price": 4.83,
+    "trend": 4.79,
+    "ao": 0.05,
+    "%K": 48.52,
+    "%D": 51.83
+  },
+  "images": {
+    "main": "panels/main/0210_main.png",
+    "ao": "panels/ao/0210_ao.png",
+    "rsi": "panels/rsi/0210_rsi.png"
+  }
+}

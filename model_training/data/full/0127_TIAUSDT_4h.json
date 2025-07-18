@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Bearish continuation below trend lines.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 1.93,
+    "trend": 1.93,
+    "ao": 0.02,
+    "%K": 36.61,
+    "%D": 49.62
+  },
+  "images": {
+    "main": "panels/main/0127_main.png",
+    "ao": "panels/ao/0127_ao.png",
+    "rsi": "panels/rsi/0127_rsi.png"
+  }
+}

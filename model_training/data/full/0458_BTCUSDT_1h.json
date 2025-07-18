@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "AO histogram is green and climbing.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 119415.2,
+    "trend": 119060.47,
+    "ao": 751.39,
+    "%K": 74.57,
+    "%D": 73.1
+  },
+  "images": {
+    "main": "panels/main/0458_main.png",
+    "ao": "panels/ao/0458_ao.png",
+    "rsi": "panels/rsi/0458_rsi.png"
+  }
+}

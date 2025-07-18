@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "Momentum is positive according to AO.",
+    "Stoch RSI is under 75, showing no overbought conditions."
+  ],
+  "debug": {
+    "price": 2.81,
+    "trend": 2.7,
+    "ao": 0.17,
+    "%K": 68.0,
+    "%D": 71.51
+  },
+  "images": {
+    "main": "panels/main/0040_main.png",
+    "ao": "panels/ao/0040_ao.png",
+    "rsi": "panels/rsi/0040_rsi.png"
+  }
+}

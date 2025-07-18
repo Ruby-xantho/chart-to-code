@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "AO histogram is green and climbing.",
+    "Mid-range RSI supports trend continuation."
+  ],
+  "debug": {
+    "price": 3476.78,
+    "trend": 3420.48,
+    "ao": 65.34,
+    "%K": 42.6,
+    "%D": 38.74
+  },
+  "images": {
+    "main": "panels/main/0403_main.png",
+    "ao": "panels/ao/0403_ao.png",
+    "rsi": "panels/rsi/0403_rsi.png"
+  }
+}

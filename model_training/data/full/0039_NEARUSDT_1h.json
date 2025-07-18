@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "Momentum is positive according to AO.",
+    "Mean reversion may occur as RSI bottoms."
+  ],
+  "debug": {
+    "price": 2.81,
+    "trend": 2.78,
+    "ao": 0.03,
+    "%K": 6.64,
+    "%D": 23.99
+  },
+  "images": {
+    "main": "panels/main/0039_main.png",
+    "ao": "panels/ao/0039_ao.png",
+    "rsi": "panels/rsi/0039_rsi.png"
+  }
+}

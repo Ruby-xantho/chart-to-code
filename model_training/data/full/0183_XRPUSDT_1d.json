@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "Stoch RSI is above 80, suggesting overbought conditions.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 3.51,
+    "trend": 2.73,
+    "ao": 0.73,
+    "%K": 100.0,
+    "%D": 100.0
+  },
+  "images": {
+    "main": "panels/main/0183_main.png",
+    "ao": "panels/ao/0183_ao.png",
+    "rsi": "panels/rsi/0183_rsi.png"
+  }
+}

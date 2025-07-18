@@ -1,0 +1,22 @@
+{
+  "symbol": "POL/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "AO histogram is green and climbing.",
+    "Stochastic RSI is oversold, indicating potential upside."
+  ],
+  "debug": {
+    "price": 0.24,
+    "trend": 0.23,
+    "ao": 0.0,
+    "%K": 23.79,
+    "%D": 23.81
+  },
+  "images": {
+    "main": "panels/main/0435_main.png",
+    "ao": "panels/ao/0435_ao.png",
+    "rsi": "panels/rsi/0435_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "ATOM/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "RSI surge may lead to short-term exhaustion.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 4.85,
+    "trend": 4.47,
+    "ao": 0.52,
+    "%K": 100.0,
+    "%D": 94.09
+  },
+  "images": {
+    "main": "panels/main/0446_main.png",
+    "ao": "panels/ao/0446_ao.png",
+    "rsi": "panels/rsi/0446_rsi.png"
+  }
+}

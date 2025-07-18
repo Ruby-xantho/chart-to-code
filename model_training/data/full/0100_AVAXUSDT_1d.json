@@ -1,0 +1,22 @@
+{
+  "symbol": "AVAX/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "Overbought conditions signal caution.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 23.89,
+    "trend": 20.79,
+    "ao": 3.47,
+    "%K": 100.0,
+    "%D": 97.34
+  },
+  "images": {
+    "main": "panels/main/0100_main.png",
+    "ao": "panels/ao/0100_ao.png",
+    "rsi": "panels/rsi/0100_rsi.png"
+  }
+}

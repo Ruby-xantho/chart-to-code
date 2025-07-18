@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Lower highs and lower lows dominate the structure.",
+    "AO is positive, indicating bullish momentum.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.35,
+    "ao": 0.01,
+    "%K": 8.75,
+    "%D": 2.92
+  },
+  "images": {
+    "main": "panels/main/0208_main.png",
+    "ao": "panels/ao/0208_ao.png",
+    "rsi": "panels/rsi/0208_rsi.png"
+  }
+}

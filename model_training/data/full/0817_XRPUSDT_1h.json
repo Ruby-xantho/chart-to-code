@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "AO is positive, indicating bullish momentum.",
+    "Stoch RSI signals a possible bottoming setup."
+  ],
+  "debug": {
+    "price": 3.48,
+    "trend": 3.45,
+    "ao": 0.1,
+    "%K": 9.91,
+    "%D": 6.0
+  },
+  "images": {
+    "main": "panels/main/0817_main.png",
+    "ao": "panels/ao/0817_ao.png",
+    "rsi": "panels/rsi/0817_rsi.png"
+  }
+}

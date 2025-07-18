@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Price is below the moving averages (bearish trend).",
+    "Bullish momentum is building per AO.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 1.93,
+    "trend": 1.93,
+    "ao": 0.02,
+    "%K": 37.7,
+    "%D": 49.98
+  },
+  "images": {
+    "main": "panels/main/0219_main.png",
+    "ao": "panels/ao/0219_ao.png",
+    "rsi": "panels/rsi/0219_rsi.png"
+  }
+}

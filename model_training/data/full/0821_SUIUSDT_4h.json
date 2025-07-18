@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Bullish momentum is building per AO.",
+    "Momentum exhaustion reached on downside."
+  ],
+  "debug": {
+    "price": 3.98,
+    "trend": 3.95,
+    "ao": 0.15,
+    "%K": 14.72,
+    "%D": 6.96
+  },
+  "images": {
+    "main": "panels/main/0821_main.png",
+    "ao": "panels/ao/0821_ao.png",
+    "rsi": "panels/rsi/0821_rsi.png"
+  }
+}

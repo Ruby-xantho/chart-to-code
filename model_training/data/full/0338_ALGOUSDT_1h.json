@@ -1,0 +1,22 @@
+{
+  "symbol": "ALGO/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 0.33,
+    "trend": 0.31,
+    "ao": 0.02,
+    "%K": 65.71,
+    "%D": 65.87
+  },
+  "images": {
+    "main": "panels/main/0338_main.png",
+    "ao": "panels/ao/0338_ao.png",
+    "rsi": "panels/rsi/0338_rsi.png"
+  }
+}

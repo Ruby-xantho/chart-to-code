@@ -1,0 +1,22 @@
+{
+  "symbol": "MANTA/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "Positive AO supports upward price movement.",
+    "No oversold or overbought condition in RSI."
+  ],
+  "debug": {
+    "price": 0.24,
+    "trend": 0.24,
+    "ao": 0.01,
+    "%K": 31.73,
+    "%D": 48.17
+  },
+  "images": {
+    "main": "panels/main/0456_main.png",
+    "ao": "panels/ao/0456_ao.png",
+    "rsi": "panels/rsi/0456_rsi.png"
+  }
+}

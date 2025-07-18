@@ -1,0 +1,20 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "1d",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 1.93,
+    "trend": 1.81,
+    "ao": 0.29,
+    "%K": 93.13,
+    "%D": 79.54
+  },
+  "images": {
+    "main": "panels/main/0220_main.png",
+    "ao": "panels/ao/0220_ao.png",
+    "rsi": "panels/rsi/0220_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "LINK/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Stoch RSI is above 80, suggesting overbought conditions.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 17.86,
+    "trend": 16.67,
+    "ao": 1.28,
+    "%K": 89.1,
+    "%D": 94.27
+  },
+  "images": {
+    "main": "panels/main/0284_main.png",
+    "ao": "panels/ao/0284_ao.png",
+    "rsi": "panels/rsi/0284_rsi.png"
+  }
+}

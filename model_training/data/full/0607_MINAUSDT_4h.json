@@ -1,0 +1,22 @@
+{
+  "symbol": "MINA/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "AO remains in bullish territory.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 0.22,
+    "trend": 0.21,
+    "ao": 0.01,
+    "%K": 68.9,
+    "%D": 69.55
+  },
+  "images": {
+    "main": "panels/main/0607_main.png",
+    "ao": "panels/ao/0607_ao.png",
+    "rsi": "panels/rsi/0607_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "AO confirms upward momentum bias.",
+    "Mid-range RSI supports trend continuation."
+  ],
+  "debug": {
+    "price": 0.46,
+    "trend": 0.43,
+    "ao": 0.02,
+    "%K": 59.32,
+    "%D": 60.07
+  },
+  "images": {
+    "main": "panels/main/0515_main.png",
+    "ao": "panels/ao/0515_ao.png",
+    "rsi": "panels/rsi/0515_rsi.png"
+  }
+}

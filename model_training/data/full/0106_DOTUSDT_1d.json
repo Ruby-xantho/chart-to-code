@@ -1,0 +1,22 @@
+{
+  "symbol": "DOT/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "Extreme RSI values could precede retracement.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 4.25,
+    "trend": 3.86,
+    "ao": 0.5,
+    "%K": 100.0,
+    "%D": 95.55
+  },
+  "images": {
+    "main": "panels/main/0106_main.png",
+    "ao": "panels/ao/0106_ao.png",
+    "rsi": "panels/rsi/0106_rsi.png"
+  }
+}

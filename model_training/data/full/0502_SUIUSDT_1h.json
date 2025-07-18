@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "1h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Price is below the moving averages (bearish trend).",
+    "Momentum is positive according to AO.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 3.95,
+    "trend": 4.0,
+    "ao": 0.0,
+    "%K": 0.0,
+    "%D": 10.56
+  },
+  "images": {
+    "main": "panels/main/0502_main.png",
+    "ao": "panels/ao/0502_ao.png",
+    "rsi": "panels/rsi/0502_rsi.png"
+  }
+}

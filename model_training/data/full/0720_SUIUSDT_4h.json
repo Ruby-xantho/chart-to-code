@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "AO histogram is green and climbing.",
+    "Stochastic RSI is oversold, indicating potential upside."
+  ],
+  "debug": {
+    "price": 4.02,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 15.85,
+    "%D": 10.05
+  },
+  "images": {
+    "main": "panels/main/0720_main.png",
+    "ao": "panels/ao/0720_ao.png",
+    "rsi": "panels/rsi/0720_rsi.png"
+  }
+}

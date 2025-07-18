@@ -1,0 +1,22 @@
+{
+  "symbol": "AVAX/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "Stoch RSI in overbought range may trigger pullback.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 23.89,
+    "trend": 22.37,
+    "ao": 1.34,
+    "%K": 90.38,
+    "%D": 81.67
+  },
+  "images": {
+    "main": "panels/main/0099_main.png",
+    "ao": "panels/ao/0099_ao.png",
+    "rsi": "panels/rsi/0099_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "OP/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "AO confirms upward momentum bias.",
+    "RSI is stable, not flashing reversal risk."
+  ],
+  "debug": {
+    "price": 0.72,
+    "trend": 0.71,
+    "ao": 0.0,
+    "%K": 45.41,
+    "%D": 38.74
+  },
+  "images": {
+    "main": "panels/main/0394_main.png",
+    "ao": "panels/ao/0394_ao.png",
+    "rsi": "panels/rsi/0394_rsi.png"
+  }
+}

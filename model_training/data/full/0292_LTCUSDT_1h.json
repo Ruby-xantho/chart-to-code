@@ -1,0 +1,22 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "AO confirms upward momentum bias.",
+    "Neither overbought nor oversold signals present."
+  ],
+  "debug": {
+    "price": 101.66,
+    "trend": 100.53,
+    "ao": 2.43,
+    "%K": 34.9,
+    "%D": 37.69
+  },
+  "images": {
+    "main": "panels/main/0292_main.png",
+    "ao": "panels/ao/0292_ao.png",
+    "rsi": "panels/rsi/0292_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "1h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Market is trading beneath EMA and SMMA support.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 3.96,
+    "trend": 4.0,
+    "ao": 0.0,
+    "%K": 0.0,
+    "%D": 10.56
+  },
+  "images": {
+    "main": "panels/main/0537_main.png",
+    "ao": "panels/ao/0537_ao.png",
+    "rsi": "panels/rsi/0537_rsi.png"
+  }
+}

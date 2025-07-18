@@ -1,0 +1,22 @@
+{
+  "symbol": "ATOM/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Positive AO supports upward price movement.",
+    "RSI is stable, not flashing reversal risk."
+  ],
+  "debug": {
+    "price": 4.84,
+    "trend": 4.79,
+    "ao": 0.05,
+    "%K": 50.78,
+    "%D": 52.58
+  },
+  "images": {
+    "main": "panels/main/0116_main.png",
+    "ao": "panels/ao/0116_ao.png",
+    "rsi": "panels/rsi/0116_rsi.png"
+  }
+}

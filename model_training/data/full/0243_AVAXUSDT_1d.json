@@ -1,0 +1,22 @@
+{
+  "symbol": "AVAX/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Elevated momentum may invite sellers.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 23.77,
+    "trend": 20.78,
+    "ao": 3.47,
+    "%K": 100.0,
+    "%D": 97.34
+  },
+  "images": {
+    "main": "panels/main/0243_main.png",
+    "ao": "panels/ao/0243_ao.png",
+    "rsi": "panels/rsi/0243_rsi.png"
+  }
+}

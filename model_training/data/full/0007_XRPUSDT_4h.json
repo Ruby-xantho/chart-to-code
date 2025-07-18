@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Overbought conditions signal caution.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 3.5,
+    "trend": 3.12,
+    "ao": 0.38,
+    "%K": 100.0,
+    "%D": 98.64
+  },
+  "images": {
+    "main": "panels/main/0007_main.png",
+    "ao": "panels/ao/0007_ao.png",
+    "rsi": "panels/rsi/0007_rsi.png"
+  }
+}

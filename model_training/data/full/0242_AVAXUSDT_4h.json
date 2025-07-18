@@ -1,0 +1,20 @@
+{
+  "symbol": "AVAX/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 23.77,
+    "trend": 22.36,
+    "ao": 1.34,
+    "%K": 84.18,
+    "%D": 79.61
+  },
+  "images": {
+    "main": "panels/main/0242_main.png",
+    "ao": "panels/ao/0242_ao.png",
+    "rsi": "panels/rsi/0242_rsi.png"
+  }
+}

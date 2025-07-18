@@ -1,0 +1,22 @@
+{
+  "symbol": "DOT/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "AO remains in bullish territory.",
+    "Stoch RSI is under 75, showing no overbought conditions."
+  ],
+  "debug": {
+    "price": 4.25,
+    "trend": 4.2,
+    "ao": 0.03,
+    "%K": 59.33,
+    "%D": 58.89
+  },
+  "images": {
+    "main": "panels/main/0104_main.png",
+    "ao": "panels/ao/0104_ao.png",
+    "rsi": "panels/rsi/0104_rsi.png"
+  }
+}

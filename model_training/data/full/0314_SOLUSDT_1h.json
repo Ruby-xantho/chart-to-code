@@ -1,0 +1,22 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "AO is positive, indicating bullish momentum.",
+    "Stoch RSI signals a possible bottoming setup."
+  ],
+  "debug": {
+    "price": 176.01,
+    "trend": 174.2,
+    "ao": 1.6,
+    "%K": 18.94,
+    "%D": 20.83
+  },
+  "images": {
+    "main": "panels/main/0314_main.png",
+    "ao": "panels/ao/0314_ao.png",
+    "rsi": "panels/rsi/0314_rsi.png"
+  }
+}

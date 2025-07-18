@@ -1,0 +1,22 @@
+{
+  "symbol": "TRX/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Mid-range RSI supports trend continuation."
+  ],
+  "debug": {
+    "price": 0.32,
+    "trend": 0.31,
+    "ao": 0.0,
+    "%K": 58.91,
+    "%D": 47.83
+  },
+  "images": {
+    "main": "panels/main/0015_main.png",
+    "ao": "panels/ao/0015_ao.png",
+    "rsi": "panels/rsi/0015_rsi.png"
+  }
+}

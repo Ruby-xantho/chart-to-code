@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Stoch RSI signals a possible bottoming setup."
+  ],
+  "debug": {
+    "price": 4.03,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 16.4,
+    "%D": 10.24
+  },
+  "images": {
+    "main": "panels/main/0762_main.png",
+    "ao": "panels/ao/0762_ao.png",
+    "rsi": "panels/rsi/0762_rsi.png"
+  }
+}

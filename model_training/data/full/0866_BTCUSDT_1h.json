@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Downtrend evident with price under EMAs.",
+    "Negative AO reading confirms lack of strength.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 118802.88,
+    "trend": 119338.29,
+    "ao": -117.1,
+    "%K": 23.21,
+    "%D": 16.0
+  },
+  "images": {
+    "main": "panels/main/0866_main.png",
+    "ao": "panels/ao/0866_ao.png",
+    "rsi": "panels/rsi/0866_rsi.png"
+  }
+}

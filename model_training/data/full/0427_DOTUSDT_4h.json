@@ -1,0 +1,22 @@
+{
+  "symbol": "DOT/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Positive AO supports upward price movement.",
+    "RSI remains in a healthy range."
+  ],
+  "debug": {
+    "price": 4.26,
+    "trend": 4.12,
+    "ao": 0.16,
+    "%K": 69.51,
+    "%D": 66.89
+  },
+  "images": {
+    "main": "panels/main/0427_main.png",
+    "ao": "panels/ao/0427_ao.png",
+    "rsi": "panels/rsi/0427_rsi.png"
+  }
+}

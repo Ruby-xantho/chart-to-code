@@ -1,0 +1,22 @@
+{
+  "symbol": "MANTA/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Mid-range RSI supports trend continuation."
+  ],
+  "debug": {
+    "price": 0.24,
+    "trend": 0.24,
+    "ao": 0.01,
+    "%K": 27.23,
+    "%D": 46.67
+  },
+  "images": {
+    "main": "panels/main/0073_main.png",
+    "ao": "panels/ao/0073_ao.png",
+    "rsi": "panels/rsi/0073_rsi.png"
+  }
+}

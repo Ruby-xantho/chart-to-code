@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "Positive AO supports upward price movement.",
+    "Neither overbought nor oversold signals present."
+  ],
+  "debug": {
+    "price": 3.59,
+    "trend": 3.32,
+    "ao": 0.28,
+    "%K": 31.19,
+    "%D": 11.38
+  },
+  "images": {
+    "main": "panels/main/0559_main.png",
+    "ao": "panels/ao/0559_ao.png",
+    "rsi": "panels/rsi/0559_rsi.png"
+  }
+}

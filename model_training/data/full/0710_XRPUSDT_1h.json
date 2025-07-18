@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "RSI has fully reset and may support a bounce."
+  ],
+  "debug": {
+    "price": 3.6,
+    "trend": 3.36,
+    "ao": 0.32,
+    "%K": 11.15,
+    "%D": 18.61
+  },
+  "images": {
+    "main": "panels/main/0710_main.png",
+    "ao": "panels/ao/0710_ao.png",
+    "rsi": "panels/rsi/0710_rsi.png"
+  }
+}

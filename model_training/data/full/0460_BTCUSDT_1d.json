@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Overbought conditions signal caution.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 119383.93,
+    "trend": 114224.73,
+    "ao": 9611.21,
+    "%K": 100.0,
+    "%D": 83.38
+  },
+  "images": {
+    "main": "panels/main/0460_main.png",
+    "ao": "panels/ao/0460_ao.png",
+    "rsi": "panels/rsi/0460_rsi.png"
+  }
+}

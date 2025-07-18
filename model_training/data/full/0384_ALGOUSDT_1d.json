@@ -1,0 +1,22 @@
+{
+  "symbol": "ALGO/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "RSI at upper bound warns of market topping.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.33,
+    "trend": 0.24,
+    "ao": 0.1,
+    "%K": 100.0,
+    "%D": 99.59
+  },
+  "images": {
+    "main": "panels/main/0384_main.png",
+    "ao": "panels/ao/0384_ao.png",
+    "rsi": "panels/rsi/0384_rsi.png"
+  }
+}

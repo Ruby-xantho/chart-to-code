@@ -1,0 +1,20 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 3467.32,
+    "trend": 3275.91,
+    "ao": 316.3,
+    "%K": 79.8,
+    "%D": 84.37
+  },
+  "images": {
+    "main": "panels/main/0269_main.png",
+    "ao": "panels/ao/0269_ao.png",
+    "rsi": "panels/rsi/0269_rsi.png"
+  }
+}

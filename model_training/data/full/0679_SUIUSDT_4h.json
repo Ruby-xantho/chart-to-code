@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Positive AO supports upward price movement.",
+    "Stoch RSI is under 25, suggesting a momentum reset."
+  ],
+  "debug": {
+    "price": 4.0,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 11.98,
+    "%D": 8.77
+  },
+  "images": {
+    "main": "panels/main/0679_main.png",
+    "ao": "panels/ao/0679_ao.png",
+    "rsi": "panels/rsi/0679_rsi.png"
+  }
+}

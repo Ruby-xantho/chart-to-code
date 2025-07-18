@@ -1,0 +1,22 @@
+{
+  "symbol": "DOT/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Neither overbought nor oversold signals present."
+  ],
+  "debug": {
+    "price": 4.31,
+    "trend": 4.12,
+    "ao": 0.17,
+    "%K": 74.67,
+    "%D": 68.61
+  },
+  "images": {
+    "main": "panels/main/0542_main.png",
+    "ao": "panels/ao/0542_ao.png",
+    "rsi": "panels/rsi/0542_rsi.png"
+  }
+}

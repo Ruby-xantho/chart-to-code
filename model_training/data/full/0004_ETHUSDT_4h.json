@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Stoch RSI in overbought range may trigger pullback.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 3473.45,
+    "trend": 3276.54,
+    "ao": 316.3,
+    "%K": 83.21,
+    "%D": 85.5
+  },
+  "images": {
+    "main": "panels/main/0004_main.png",
+    "ao": "panels/ao/0004_ao.png",
+    "rsi": "panels/rsi/0004_rsi.png"
+  }
+}

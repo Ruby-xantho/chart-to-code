@@ -1,0 +1,22 @@
+{
+  "symbol": "TRX/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Positive AO supports upward price movement.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 0.32,
+    "trend": 0.31,
+    "ao": 0.0,
+    "%K": 73.03,
+    "%D": 52.53
+  },
+  "images": {
+    "main": "panels/main/0499_main.png",
+    "ao": "panels/ao/0499_ao.png",
+    "rsi": "panels/rsi/0499_rsi.png"
+  }
+}

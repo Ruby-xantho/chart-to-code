@@ -1,0 +1,22 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "AO remains in bullish territory.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 179.04,
+    "trend": 174.51,
+    "ao": 1.79,
+    "%K": 70.95,
+    "%D": 38.17
+  },
+  "images": {
+    "main": "panels/main/0562_main.png",
+    "ao": "panels/ao/0562_ao.png",
+    "rsi": "panels/rsi/0562_rsi.png"
+  }
+}

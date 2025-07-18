@@ -1,0 +1,22 @@
+{
+  "symbol": "MANTA/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Momentum is positive according to AO.",
+    "Neither overbought nor oversold signals present."
+  ],
+  "debug": {
+    "price": 0.25,
+    "trend": 0.24,
+    "ao": 0.01,
+    "%K": 47.42,
+    "%D": 53.4
+  },
+  "images": {
+    "main": "panels/main/0590_main.png",
+    "ao": "panels/ao/0590_ao.png",
+    "rsi": "panels/rsi/0590_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "Rising AO bars indicate growing strength.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 3.65,
+    "trend": 3.33,
+    "ao": 0.28,
+    "%K": 42.89,
+    "%D": 15.28
+  },
+  "images": {
+    "main": "panels/main/0622_main.png",
+    "ao": "panels/ao/0622_ao.png",
+    "rsi": "panels/rsi/0622_rsi.png"
+  }
+}

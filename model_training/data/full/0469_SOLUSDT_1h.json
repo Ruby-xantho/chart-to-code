@@ -1,0 +1,22 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "AO is positive, indicating bullish momentum.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 176.8,
+    "trend": 174.28,
+    "ao": 1.62,
+    "%K": 34.81,
+    "%D": 26.12
+  },
+  "images": {
+    "main": "panels/main/0469_main.png",
+    "ao": "panels/ao/0469_ao.png",
+    "rsi": "panels/rsi/0469_rsi.png"
+  }
+}

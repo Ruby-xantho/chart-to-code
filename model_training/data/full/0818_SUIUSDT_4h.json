@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Bullish momentum is building per AO.",
+    "Stoch RSI is under 25, suggesting a momentum reset."
+  ],
+  "debug": {
+    "price": 3.98,
+    "trend": 3.95,
+    "ao": 0.15,
+    "%K": 18.47,
+    "%D": 8.21
+  },
+  "images": {
+    "main": "panels/main/0818_main.png",
+    "ao": "panels/ao/0818_ao.png",
+    "rsi": "panels/rsi/0818_rsi.png"
+  }
+}

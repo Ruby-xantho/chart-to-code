@@ -1,0 +1,22 @@
+{
+  "symbol": "FET/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Bearish continuation below trend lines.",
+    "AO drift into negative confirms bearish mood.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 0.77,
+    "trend": 0.77,
+    "ao": -0.0,
+    "%K": 30.67,
+    "%D": 37.77
+  },
+  "images": {
+    "main": "panels/main/0216_main.png",
+    "ao": "panels/ao/0216_ao.png",
+    "rsi": "panels/rsi/0216_rsi.png"
+  }
+}

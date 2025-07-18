@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "Bullish momentum is building per AO.",
+    "No oversold or overbought condition in RSI."
+  ],
+  "debug": {
+    "price": 0.46,
+    "trend": 0.43,
+    "ao": 0.02,
+    "%K": 62.08,
+    "%D": 60.99
+  },
+  "images": {
+    "main": "panels/main/0547_main.png",
+    "ao": "panels/ao/0547_ao.png",
+    "rsi": "panels/rsi/0547_rsi.png"
+  }
+}

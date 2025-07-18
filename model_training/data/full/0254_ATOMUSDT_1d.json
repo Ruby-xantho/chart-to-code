@@ -1,0 +1,22 @@
+{
+  "symbol": "ATOM/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "RSI at upper bound warns of market topping.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 4.83,
+    "trend": 4.47,
+    "ao": 0.52,
+    "%K": 100.0,
+    "%D": 94.09
+  },
+  "images": {
+    "main": "panels/main/0254_main.png",
+    "ao": "panels/ao/0254_ao.png",
+    "rsi": "panels/rsi/0254_rsi.png"
+  }
+}

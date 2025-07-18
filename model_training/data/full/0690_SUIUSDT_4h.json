@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "AO confirms upward momentum bias.",
+    "Stochastic RSI is oversold, indicating potential upside."
+  ],
+  "debug": {
+    "price": 4.0,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 11.69,
+    "%D": 8.67
+  },
+  "images": {
+    "main": "panels/main/0690_main.png",
+    "ao": "panels/ao/0690_ao.png",
+    "rsi": "panels/rsi/0690_rsi.png"
+  }
+}

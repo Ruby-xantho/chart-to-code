@@ -1,0 +1,22 @@
+{
+  "symbol": "DOT/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "Momentum is positive according to AO.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 4.27,
+    "trend": 4.2,
+    "ao": 0.03,
+    "%K": 72.21,
+    "%D": 63.18
+  },
+  "images": {
+    "main": "panels/main/0474_main.png",
+    "ao": "panels/ao/0474_ao.png",
+    "rsi": "panels/rsi/0474_rsi.png"
+  }
+}

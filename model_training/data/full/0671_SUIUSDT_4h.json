@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "AO is positive, indicating bullish momentum.",
+    "Stochastic RSI is oversold, indicating potential upside."
+  ],
+  "debug": {
+    "price": 3.97,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 5.64,
+    "%D": 6.65
+  },
+  "images": {
+    "main": "panels/main/0671_main.png",
+    "ao": "panels/ao/0671_ao.png",
+    "rsi": "panels/rsi/0671_rsi.png"
+  }
+}

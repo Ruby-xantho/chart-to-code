@@ -1,0 +1,22 @@
+{
+  "symbol": "AVAX/USDT",
+  "timeframe": "1h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "RSI at upper bound warns of market topping.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 23.79,
+    "trend": 22.9,
+    "ao": 0.43,
+    "%K": 100.0,
+    "%D": 82.06
+  },
+  "images": {
+    "main": "panels/main/0289_main.png",
+    "ao": "panels/ao/0289_ao.png",
+    "rsi": "panels/rsi/0289_rsi.png"
+  }
+}

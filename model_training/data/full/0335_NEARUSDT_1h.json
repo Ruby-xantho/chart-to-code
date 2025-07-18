@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Stoch RSI signals a possible bottoming setup."
+  ],
+  "debug": {
+    "price": 2.8,
+    "trend": 2.78,
+    "ao": 0.03,
+    "%K": 2.6,
+    "%D": 22.64
+  },
+  "images": {
+    "main": "panels/main/0335_main.png",
+    "ao": "panels/ao/0335_ao.png",
+    "rsi": "panels/rsi/0335_rsi.png"
+  }
+}

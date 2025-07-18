@@ -1,0 +1,22 @@
+{
+  "symbol": "OP/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "AO remains in bullish territory.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 0.74,
+    "trend": 0.7,
+    "ao": 0.03,
+    "%K": 72.25,
+    "%D": 65.65
+  },
+  "images": {
+    "main": "panels/main/0656_main.png",
+    "ao": "panels/ao/0656_ao.png",
+    "rsi": "panels/rsi/0656_rsi.png"
+  }
+}

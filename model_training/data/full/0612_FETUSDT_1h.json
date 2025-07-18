@@ -1,0 +1,22 @@
+{
+  "symbol": "FET/USDT",
+  "timeframe": "1h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "AO drift into negative confirms bearish mood.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 0.78,
+    "trend": 0.77,
+    "ao": -0.0,
+    "%K": 89.48,
+    "%D": 57.37
+  },
+  "images": {
+    "main": "panels/main/0612_main.png",
+    "ao": "panels/ao/0612_ao.png",
+    "rsi": "panels/rsi/0612_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Bullish momentum is building per AO.",
+    "Stoch RSI is under 25, suggesting a momentum reset."
+  ],
+  "debug": {
+    "price": 3.6,
+    "trend": 3.36,
+    "ao": 0.32,
+    "%K": 12.62,
+    "%D": 19.1
+  },
+  "images": {
+    "main": "panels/main/0716_main.png",
+    "ao": "panels/ao/0716_ao.png",
+    "rsi": "panels/rsi/0716_rsi.png"
+  }
+}

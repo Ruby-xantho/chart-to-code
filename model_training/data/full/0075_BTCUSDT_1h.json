@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Neither overbought nor oversold signals present."
+  ],
+  "debug": {
+    "price": 119160.0,
+    "trend": 119034.51,
+    "ao": 741.6,
+    "%K": 69.08,
+    "%D": 71.27
+  },
+  "images": {
+    "main": "panels/main/0075_main.png",
+    "ao": "panels/ao/0075_ao.png",
+    "rsi": "panels/rsi/0075_rsi.png"
+  }
+}

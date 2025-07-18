@@ -1,0 +1,22 @@
+{
+  "symbol": "HBAR/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Stoch RSI is above 80, suggesting overbought conditions.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.28,
+    "trend": 0.24,
+    "ao": 0.02,
+    "%K": 100.0,
+    "%D": 97.33
+  },
+  "images": {
+    "main": "panels/main/0287_main.png",
+    "ao": "panels/ao/0287_ao.png",
+    "rsi": "panels/rsi/0287_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "AO histogram is green and climbing.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 3500.0,
+    "trend": 3422.84,
+    "ao": 66.78,
+    "%K": 62.41,
+    "%D": 45.34
+  },
+  "images": {
+    "main": "panels/main/0558_main.png",
+    "ao": "panels/ao/0558_ao.png",
+    "rsi": "panels/rsi/0558_rsi.png"
+  }
+}

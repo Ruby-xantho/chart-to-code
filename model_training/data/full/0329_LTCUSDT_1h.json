@@ -1,0 +1,22 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Bullish momentum is building per AO.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 101.75,
+    "trend": 100.54,
+    "ao": 2.43,
+    "%K": 36.98,
+    "%D": 38.38
+  },
+  "images": {
+    "main": "panels/main/0329_main.png",
+    "ao": "panels/ao/0329_ao.png",
+    "rsi": "panels/rsi/0329_rsi.png"
+  }
+}

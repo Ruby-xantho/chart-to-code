@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "Elevated momentum may invite sellers.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 3474.5,
+    "trend": 2939.41,
+    "ao": 593.44,
+    "%K": 100.0,
+    "%D": 100.0
+  },
+  "images": {
+    "main": "panels/main/0351_main.png",
+    "ao": "panels/ao/0351_ao.png",
+    "rsi": "panels/rsi/0351_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "AO remains in bullish territory.",
+    "Mean reversion may occur as RSI bottoms."
+  ],
+  "debug": {
+    "price": 3.59,
+    "trend": 3.38,
+    "ao": 0.33,
+    "%K": 10.18,
+    "%D": 21.68
+  },
+  "images": {
+    "main": "panels/main/0729_main.png",
+    "ao": "panels/ao/0729_ao.png",
+    "rsi": "panels/rsi/0729_rsi.png"
+  }
+}

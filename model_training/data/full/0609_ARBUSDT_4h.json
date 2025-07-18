@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "No oversold or overbought condition in RSI."
+  ],
+  "debug": {
+    "price": 0.46,
+    "trend": 0.43,
+    "ao": 0.02,
+    "%K": 64.78,
+    "%D": 61.89
+  },
+  "images": {
+    "main": "panels/main/0609_main.png",
+    "ao": "panels/ao/0609_ao.png",
+    "rsi": "panels/rsi/0609_rsi.png"
+  }
+}

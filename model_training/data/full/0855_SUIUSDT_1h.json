@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Market is under pressure beneath averages.",
+    "The Awesome Oscillator is below zero.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 3.98,
+    "trend": 4.03,
+    "ao": -0.0,
+    "%K": 31.1,
+    "%D": 34.04
+  },
+  "images": {
+    "main": "panels/main/0855_main.png",
+    "ao": "panels/ao/0855_ao.png",
+    "rsi": "panels/rsi/0855_rsi.png"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "symbol": "DOT/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 4.33,
+    "trend": 4.12,
+    "ao": 0.17,
+    "%K": 76.93,
+    "%D": 69.37
+  },
+  "images": {
+    "main": "panels/main/0632_main.png",
+    "ao": "panels/ao/0632_ao.png",
+    "rsi": "panels/rsi/0632_rsi.png"
+  }
+}

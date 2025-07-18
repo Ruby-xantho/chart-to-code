@@ -1,0 +1,22 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "Rising AO bars indicate growing strength.",
+    "RSI remains in a healthy range."
+  ],
+  "debug": {
+    "price": 178.97,
+    "trend": 174.5,
+    "ao": 1.82,
+    "%K": 69.98,
+    "%D": 37.84
+  },
+  "images": {
+    "main": "panels/main/0597_main.png",
+    "ao": "panels/ao/0597_ao.png",
+    "rsi": "panels/rsi/0597_rsi.png"
+  }
+}

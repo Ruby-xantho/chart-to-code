@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Momentum is stretched as RSI enters overbought zone.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 1.94,
+    "trend": 1.81,
+    "ao": 0.29,
+    "%K": 96.29,
+    "%D": 80.59
+  },
+  "images": {
+    "main": "panels/main/0399_main.png",
+    "ao": "panels/ao/0399_ao.png",
+    "rsi": "panels/rsi/0399_rsi.png"
+  }
+}

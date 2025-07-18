@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "Bullish momentum is building per AO.",
+    "Stoch RSI signals a possible bottoming setup."
+  ],
+  "debug": {
+    "price": 3.99,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 8.85,
+    "%D": 7.72
+  },
+  "images": {
+    "main": "panels/main/0684_main.png",
+    "ao": "panels/ao/0684_ao.png",
+    "rsi": "panels/rsi/0684_rsi.png"
+  }
+}

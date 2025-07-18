@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "Rising AO bars indicate growing strength.",
+    "No oversold or overbought condition in RSI."
+  ],
+  "debug": {
+    "price": 119127.73,
+    "trend": 119031.23,
+    "ao": 741.6,
+    "%K": 68.15,
+    "%D": 70.96
+  },
+  "images": {
+    "main": "panels/main/0176_main.png",
+    "ao": "panels/ao/0176_ao.png",
+    "rsi": "panels/rsi/0176_rsi.png"
+  }
+}

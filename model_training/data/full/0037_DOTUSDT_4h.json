@@ -1,0 +1,22 @@
+{
+  "symbol": "DOT/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Mid-range RSI supports trend continuation."
+  ],
+  "debug": {
+    "price": 4.25,
+    "trend": 4.11,
+    "ao": 0.16,
+    "%K": 66.91,
+    "%D": 66.03
+  },
+  "images": {
+    "main": "panels/main/0037_main.png",
+    "ao": "panels/ao/0037_ao.png",
+    "rsi": "panels/rsi/0037_rsi.png"
+  }
+}

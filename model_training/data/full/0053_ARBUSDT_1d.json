@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Overbought conditions signal caution.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.45,
+    "trend": 0.39,
+    "ao": 0.09,
+    "%K": 100.0,
+    "%D": 96.85
+  },
+  "images": {
+    "main": "panels/main/0053_main.png",
+    "ao": "panels/ao/0053_ao.png",
+    "rsi": "panels/rsi/0053_rsi.png"
+  }
+}

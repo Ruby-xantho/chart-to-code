@@ -1,0 +1,22 @@
+{
+  "symbol": "ALGO/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Momentum is stretched as RSI enters overbought zone.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.32,
+    "trend": 0.24,
+    "ao": 0.1,
+    "%K": 100.0,
+    "%D": 99.59
+  },
+  "images": {
+    "main": "panels/main/0163_main.png",
+    "ao": "panels/ao/0163_ao.png",
+    "rsi": "panels/rsi/0163_rsi.png"
+  }
+}

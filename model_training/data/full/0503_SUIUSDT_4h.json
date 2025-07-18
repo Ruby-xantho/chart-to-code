@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Positive AO supports upward price movement.",
+    "Momentum cycle reset near bottom range."
+  ],
+  "debug": {
+    "price": 3.95,
+    "trend": 3.92,
+    "ao": 0.19,
+    "%K": 1.36,
+    "%D": 5.23
+  },
+  "images": {
+    "main": "panels/main/0503_main.png",
+    "ao": "panels/ao/0503_ao.png",
+    "rsi": "panels/rsi/0503_rsi.png"
+  }
+}

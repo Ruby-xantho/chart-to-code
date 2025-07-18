@@ -1,0 +1,22 @@
+{
+  "symbol": "HBAR/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "Bullish momentum is building per AO.",
+    "Momentum exhaustion reached on downside."
+  ],
+  "debug": {
+    "price": 0.27,
+    "trend": 0.27,
+    "ao": 0.01,
+    "%K": 0.0,
+    "%D": 15.33
+  },
+  "images": {
+    "main": "panels/main/0771_main.png",
+    "ao": "panels/ao/0771_ao.png",
+    "rsi": "panels/rsi/0771_rsi.png"
+  }
+}

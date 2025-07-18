@@ -1,0 +1,20 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 2.87,
+    "trend": 2.71,
+    "ao": 0.18,
+    "%K": 81.77,
+    "%D": 76.1
+  },
+  "images": {
+    "main": "panels/main/0634_main.png",
+    "ao": "panels/ao/0634_ao.png",
+    "rsi": "panels/rsi/0634_rsi.png"
+  }
+}

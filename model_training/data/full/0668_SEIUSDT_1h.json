@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Price action reflects weak momentum below trend.",
+    "Momentum has turned bearish according to AO.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.35,
+    "ao": -0.01,
+    "%K": 27.29,
+    "%D": 21.67
+  },
+  "images": {
+    "main": "panels/main/0668_main.png",
+    "ao": "panels/ao/0668_ao.png",
+    "rsi": "panels/rsi/0668_rsi.png"
+  }
+}

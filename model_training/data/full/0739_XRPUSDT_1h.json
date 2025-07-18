@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "AO confirms upward momentum bias.",
+    "Stoch RSI signals a possible bottoming setup."
+  ],
+  "debug": {
+    "price": 3.58,
+    "trend": 3.38,
+    "ao": 0.33,
+    "%K": 0.7,
+    "%D": 18.52
+  },
+  "images": {
+    "main": "panels/main/0739_main.png",
+    "ao": "panels/ao/0739_ao.png",
+    "rsi": "panels/rsi/0739_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "1h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "The Awesome Oscillator is below zero.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 1.97,
+    "trend": 1.95,
+    "ao": -0.03,
+    "%K": 87.12,
+    "%D": 67.46
+  },
+  "images": {
+    "main": "panels/main/0555_main.png",
+    "ao": "panels/ao/0555_ao.png",
+    "rsi": "panels/rsi/0555_rsi.png"
+  }
+}

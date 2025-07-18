@@ -1,0 +1,22 @@
+{
+  "symbol": "FIL/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "AO confirms upward momentum bias.",
+    "Momentum is contained within typical bounds."
+  ],
+  "debug": {
+    "price": 2.71,
+    "trend": 2.68,
+    "ao": 0.02,
+    "%K": 52.56,
+    "%D": 52.79
+  },
+  "images": {
+    "main": "panels/main/0344_main.png",
+    "ao": "panels/ao/0344_ao.png",
+    "rsi": "panels/rsi/0344_rsi.png"
+  }
+}

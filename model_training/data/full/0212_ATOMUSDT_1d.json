@@ -1,0 +1,22 @@
+{
+  "symbol": "ATOM/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Elevated momentum may invite sellers.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 4.83,
+    "trend": 4.47,
+    "ao": 0.52,
+    "%K": 100.0,
+    "%D": 94.09
+  },
+  "images": {
+    "main": "panels/main/0212_main.png",
+    "ao": "panels/ao/0212_ao.png",
+    "rsi": "panels/rsi/0212_rsi.png"
+  }
+}

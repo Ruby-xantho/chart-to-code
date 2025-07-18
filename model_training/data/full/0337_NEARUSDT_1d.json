@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Overbought conditions signal caution.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 2.8,
+    "trend": 2.48,
+    "ao": 0.42,
+    "%K": 100.0,
+    "%D": 95.03
+  },
+  "images": {
+    "main": "panels/main/0337_main.png",
+    "ao": "panels/ao/0337_ao.png",
+    "rsi": "panels/rsi/0337_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Market is trading beneath EMA and SMMA support.",
+    "Momentum remains weak as AO trends lower.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 1.95,
+    "trend": 1.95,
+    "ao": -0.04,
+    "%K": 71.23,
+    "%D": 62.16
+  },
+  "images": {
+    "main": "panels/main/0490_main.png",
+    "ao": "panels/ao/0490_ao.png",
+    "rsi": "panels/rsi/0490_rsi.png"
+  }
+}

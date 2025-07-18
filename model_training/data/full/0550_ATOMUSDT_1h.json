@@ -1,0 +1,22 @@
+{
+  "symbol": "ATOM/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Momentum is positive according to AO.",
+    "Momentum is contained within typical bounds."
+  ],
+  "debug": {
+    "price": 4.9,
+    "trend": 4.8,
+    "ao": 0.05,
+    "%K": 73.49,
+    "%D": 60.15
+  },
+  "images": {
+    "main": "panels/main/0550_main.png",
+    "ao": "panels/ao/0550_ao.png",
+    "rsi": "panels/rsi/0550_rsi.png"
+  }
+}

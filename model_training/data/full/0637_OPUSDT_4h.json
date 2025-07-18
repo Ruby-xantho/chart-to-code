@@ -1,0 +1,22 @@
+{
+  "symbol": "OP/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "AO histogram is green and climbing.",
+    "Stochastic RSI values remain neutral."
+  ],
+  "debug": {
+    "price": 0.74,
+    "trend": 0.7,
+    "ao": 0.03,
+    "%K": 69.71,
+    "%D": 64.8
+  },
+  "images": {
+    "main": "panels/main/0637_main.png",
+    "ao": "panels/ao/0637_ao.png",
+    "rsi": "panels/rsi/0637_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "FET/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 0.77,
+    "trend": 0.75,
+    "ao": 0.03,
+    "%K": 52.83,
+    "%D": 73.98
+  },
+  "images": {
+    "main": "panels/main/0169_main.png",
+    "ao": "panels/ao/0169_ao.png",
+    "rsi": "panels/rsi/0169_rsi.png"
+  }
+}

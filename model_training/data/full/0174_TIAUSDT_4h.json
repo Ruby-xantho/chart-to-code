@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Price action reflects weak momentum below trend.",
+    "AO histogram is green and climbing.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 1.93,
+    "trend": 1.93,
+    "ao": 0.02,
+    "%K": 38.26,
+    "%D": 50.17
+  },
+  "images": {
+    "main": "panels/main/0174_main.png",
+    "ao": "panels/ao/0174_ao.png",
+    "rsi": "panels/rsi/0174_rsi.png"
+  }
+}

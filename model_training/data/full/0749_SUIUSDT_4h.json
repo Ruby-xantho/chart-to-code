@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "Momentum is positive according to AO.",
+    "Stochastic RSI is oversold, indicating potential upside."
+  ],
+  "debug": {
+    "price": 4.02,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 15.29,
+    "%D": 9.87
+  },
+  "images": {
+    "main": "panels/main/0749_main.png",
+    "ao": "panels/ao/0749_ao.png",
+    "rsi": "panels/rsi/0749_rsi.png"
+  }
+}

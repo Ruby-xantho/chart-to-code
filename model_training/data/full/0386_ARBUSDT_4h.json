@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Bullish momentum is building per AO.",
+    "No oversold or overbought condition in RSI."
+  ],
+  "debug": {
+    "price": 0.45,
+    "trend": 0.43,
+    "ao": 0.02,
+    "%K": 53.08,
+    "%D": 57.99
+  },
+  "images": {
+    "main": "panels/main/0386_main.png",
+    "ao": "panels/ao/0386_ao.png",
+    "rsi": "panels/rsi/0386_rsi.png"
+  }
+}

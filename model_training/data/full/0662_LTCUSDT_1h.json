@@ -1,0 +1,22 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "AO histogram is green and climbing.",
+    "RSI remains in a healthy range."
+  ],
+  "debug": {
+    "price": 103.26,
+    "trend": 100.69,
+    "ao": 2.55,
+    "%K": 65.4,
+    "%D": 47.85
+  },
+  "images": {
+    "main": "panels/main/0662_main.png",
+    "ao": "panels/ao/0662_ao.png",
+    "rsi": "panels/rsi/0662_rsi.png"
+  }
+}

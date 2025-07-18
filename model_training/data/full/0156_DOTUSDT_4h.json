@@ -1,0 +1,22 @@
+{
+  "symbol": "DOT/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "Rising AO bars indicate growing strength.",
+    "Stoch RSI is under 75, showing no overbought conditions."
+  ],
+  "debug": {
+    "price": 4.25,
+    "trend": 4.11,
+    "ao": 0.16,
+    "%K": 65.5,
+    "%D": 65.56
+  },
+  "images": {
+    "main": "panels/main/0156_main.png",
+    "ao": "panels/ao/0156_ao.png",
+    "rsi": "panels/rsi/0156_rsi.png"
+  }
+}

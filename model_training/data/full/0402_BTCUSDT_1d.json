@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Both %K and %D above 80 \u2014 typical sell zone.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 119362.73,
+    "trend": 114222.58,
+    "ao": 9601.41,
+    "%K": 100.0,
+    "%D": 83.38
+  },
+  "images": {
+    "main": "panels/main/0402_main.png",
+    "ao": "panels/ao/0402_ao.png",
+    "rsi": "panels/rsi/0402_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Momentum cycle reset near bottom range."
+  ],
+  "debug": {
+    "price": 4.0,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 11.36,
+    "%D": 8.56
+  },
+  "images": {
+    "main": "panels/main/0676_main.png",
+    "ao": "panels/ao/0676_ao.png",
+    "rsi": "panels/rsi/0676_rsi.png"
+  }
+}

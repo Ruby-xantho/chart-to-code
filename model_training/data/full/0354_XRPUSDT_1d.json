@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Both %K and %D above 80 \u2014 typical sell zone.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 3.52,
+    "trend": 2.73,
+    "ao": 0.73,
+    "%K": 100.0,
+    "%D": 100.0
+  },
+  "images": {
+    "main": "panels/main/0354_main.png",
+    "ao": "panels/ao/0354_ao.png",
+    "rsi": "panels/rsi/0354_rsi.png"
+  }
+}

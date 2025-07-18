@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "Overbought conditions signal caution.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.31,
+    "ao": 0.08,
+    "%K": 100.0,
+    "%D": 91.27
+  },
+  "images": {
+    "main": "panels/main/0390_main.png",
+    "ao": "panels/ao/0390_ao.png",
+    "rsi": "panels/rsi/0390_rsi.png"
+  }
+}

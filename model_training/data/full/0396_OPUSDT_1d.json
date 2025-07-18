@@ -1,0 +1,22 @@
+{
+  "symbol": "OP/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "RSI is elevated, warning of possible reversal.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.72,
+    "trend": 0.64,
+    "ao": 0.11,
+    "%K": 100.0,
+    "%D": 94.69
+  },
+  "images": {
+    "main": "panels/main/0396_main.png",
+    "ao": "panels/ao/0396_ao.png",
+    "rsi": "panels/rsi/0396_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Stoch RSI is above 80, suggesting overbought conditions.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 119235.76,
+    "trend": 114209.66,
+    "ao": 9601.41,
+    "%K": 100.0,
+    "%D": 83.38
+  },
+  "images": {
+    "main": "panels/main/0348_main.png",
+    "ao": "panels/ao/0348_ao.png",
+    "rsi": "panels/rsi/0348_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Bullish momentum is building per AO.",
+    "RSI is stable, not flashing reversal risk."
+  ],
+  "debug": {
+    "price": 1.94,
+    "trend": 1.93,
+    "ao": 0.02,
+    "%K": 46.53,
+    "%D": 52.92
+  },
+  "images": {
+    "main": "panels/main/0491_main.png",
+    "ao": "panels/ao/0491_ao.png",
+    "rsi": "panels/rsi/0491_rsi.png"
+  }
+}

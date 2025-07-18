@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Stoch RSI in overbought range may trigger pullback.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 119139.88,
+    "trend": 114199.91,
+    "ao": 9601.41,
+    "%K": 100.0,
+    "%D": 83.38
+  },
+  "images": {
+    "main": "panels/main/0267_main.png",
+    "ao": "panels/ao/0267_ao.png",
+    "rsi": "panels/rsi/0267_rsi.png"
+  }
+}

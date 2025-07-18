@@ -1,0 +1,22 @@
+{
+  "symbol": "BNB/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "AO remains in bullish territory.",
+    "RSI is stable, not flashing reversal risk."
+  ],
+  "debug": {
+    "price": 720.53,
+    "trend": 717.73,
+    "ao": 5.31,
+    "%K": 71.94,
+    "%D": 58.72
+  },
+  "images": {
+    "main": "panels/main/0273_main.png",
+    "ao": "panels/ao/0273_ao.png",
+    "rsi": "panels/rsi/0273_rsi.png"
+  }
+}

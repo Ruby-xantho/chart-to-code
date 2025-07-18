@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Momentum is positive according to AO.",
+    "Stoch RSI is deeply reset, preparing for reversal."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.35,
+    "ao": 0.01,
+    "%K": 19.75,
+    "%D": 6.58
+  },
+  "images": {
+    "main": "panels/main/0579_main.png",
+    "ao": "panels/ao/0579_ao.png",
+    "rsi": "panels/rsi/0579_rsi.png"
+  }
+}

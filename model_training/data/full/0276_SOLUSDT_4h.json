@@ -1,0 +1,20 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 175.68,
+    "trend": 169.79,
+    "ao": 9.35,
+    "%K": 79.56,
+    "%D": 79.2
+  },
+  "images": {
+    "main": "panels/main/0276_main.png",
+    "ao": "panels/ao/0276_ao.png",
+    "rsi": "panels/rsi/0276_rsi.png"
+  }
+}

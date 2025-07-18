@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "Rising AO bars indicate growing strength.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 2.81,
+    "trend": 2.78,
+    "ao": 0.03,
+    "%K": 11.68,
+    "%D": 25.67
+  },
+  "images": {
+    "main": "panels/main/0429_main.png",
+    "ao": "panels/ao/0429_ao.png",
+    "rsi": "panels/rsi/0429_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Market is under pressure beneath averages.",
+    "AO is negative, indicating weakness.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 119366.0,
+    "trend": 119392.6,
+    "ao": -125.09,
+    "%K": 22.01,
+    "%D": 14.68
+  },
+  "images": {
+    "main": "panels/main/0839_main.png",
+    "ao": "panels/ao/0839_ao.png",
+    "rsi": "panels/rsi/0839_rsi.png"
+  }
+}

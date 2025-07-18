@@ -1,0 +1,22 @@
+{
+  "symbol": "OP/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "RSI surge may lead to short-term exhaustion.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.72,
+    "trend": 0.64,
+    "ao": 0.11,
+    "%K": 100.0,
+    "%D": 94.69
+  },
+  "images": {
+    "main": "panels/main/0068_main.png",
+    "ao": "panels/ao/0068_ao.png",
+    "rsi": "panels/rsi/0068_rsi.png"
+  }
+}

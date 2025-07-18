@@ -1,0 +1,22 @@
+{
+  "symbol": "HBAR/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "AO remains in bullish territory.",
+    "Stoch RSI is under 25, suggesting a momentum reset."
+  ],
+  "debug": {
+    "price": 0.27,
+    "trend": 0.27,
+    "ao": 0.01,
+    "%K": 0.0,
+    "%D": 15.33
+  },
+  "images": {
+    "main": "panels/main/0768_main.png",
+    "ao": "panels/ao/0768_ao.png",
+    "rsi": "panels/rsi/0768_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "OP/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "AO is positive, indicating bullish momentum.",
+    "No oversold or overbought condition in RSI."
+  ],
+  "debug": {
+    "price": 0.72,
+    "trend": 0.7,
+    "ao": 0.03,
+    "%K": 37.63,
+    "%D": 54.11
+  },
+  "images": {
+    "main": "panels/main/0171_main.png",
+    "ao": "panels/ao/0171_ao.png",
+    "rsi": "panels/rsi/0171_rsi.png"
+  }
+}

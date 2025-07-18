@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Positive AO supports upward price movement.",
+    "RSI is stable, not flashing reversal risk."
+  ],
+  "debug": {
+    "price": 1.98,
+    "trend": 1.94,
+    "ao": 0.03,
+    "%K": 63.82,
+    "%D": 58.69
+  },
+  "images": {
+    "main": "panels/main/0639_main.png",
+    "ao": "panels/ao/0639_ao.png",
+    "rsi": "panels/rsi/0639_rsi.png"
+  }
+}

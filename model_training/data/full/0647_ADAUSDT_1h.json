@@ -1,0 +1,22 @@
+{
+  "symbol": "ADA/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "AO remains in bullish territory.",
+    "Stochastic RSI values remain neutral."
+  ],
+  "debug": {
+    "price": 0.85,
+    "trend": 0.8,
+    "ao": 0.03,
+    "%K": 31.04,
+    "%D": 20.93
+  },
+  "images": {
+    "main": "panels/main/0647_main.png",
+    "ao": "panels/ao/0647_ao.png",
+    "rsi": "panels/rsi/0647_rsi.png"
+  }
+}

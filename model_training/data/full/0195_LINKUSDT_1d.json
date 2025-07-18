@@ -1,0 +1,22 @@
+{
+  "symbol": "LINK/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "Overbought conditions signal caution.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 17.92,
+    "trend": 15.31,
+    "ao": 2.75,
+    "%K": 100.0,
+    "%D": 99.62
+  },
+  "images": {
+    "main": "panels/main/0195_main.png",
+    "ao": "panels/ao/0195_ao.png",
+    "rsi": "panels/rsi/0195_rsi.png"
+  }
+}

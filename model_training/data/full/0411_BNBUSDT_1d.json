@@ -1,0 +1,22 @@
+{
+  "symbol": "BNB/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Extreme RSI values could precede retracement.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 722.22,
+    "trend": 683.36,
+    "ao": 42.71,
+    "%K": 100.0,
+    "%D": 100.0
+  },
+  "images": {
+    "main": "panels/main/0411_main.png",
+    "ao": "panels/ao/0411_ao.png",
+    "rsi": "panels/rsi/0411_rsi.png"
+  }
+}

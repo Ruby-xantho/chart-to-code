@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Mean reversion may occur as RSI bottoms."
+  ],
+  "debug": {
+    "price": 4.02,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 15.97,
+    "%D": 10.09
+  },
+  "images": {
+    "main": "panels/main/0750_main.png",
+    "ao": "panels/ao/0750_ao.png",
+    "rsi": "panels/rsi/0750_rsi.png"
+  }
+}

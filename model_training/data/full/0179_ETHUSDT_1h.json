@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Momentum is positive according to AO.",
+    "Momentum is contained within typical bounds."
+  ],
+  "debug": {
+    "price": 3470.13,
+    "trend": 3419.8,
+    "ao": 65.34,
+    "%K": 35.48,
+    "%D": 36.36
+  },
+  "images": {
+    "main": "panels/main/0179_main.png",
+    "ao": "panels/ao/0179_ao.png",
+    "rsi": "panels/rsi/0179_rsi.png"
+  }
+}

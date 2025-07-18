@@ -1,0 +1,22 @@
+{
+  "symbol": "AVAX/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "RSI at upper bound warns of market topping.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 23.87,
+    "trend": 22.37,
+    "ao": 1.34,
+    "%K": 89.33,
+    "%D": 81.32
+  },
+  "images": {
+    "main": "panels/main/0031_main.png",
+    "ao": "panels/ao/0031_ao.png",
+    "rsi": "panels/rsi/0031_rsi.png"
+  }
+}

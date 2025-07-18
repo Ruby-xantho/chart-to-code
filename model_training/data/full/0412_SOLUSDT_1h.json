@@ -1,0 +1,22 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "AO is positive, indicating bullish momentum.",
+    "RSI is stable, not flashing reversal risk."
+  ],
+  "debug": {
+    "price": 176.49,
+    "trend": 174.25,
+    "ao": 1.6,
+    "%K": 28.82,
+    "%D": 24.12
+  },
+  "images": {
+    "main": "panels/main/0412_main.png",
+    "ao": "panels/ao/0412_ao.png",
+    "rsi": "panels/rsi/0412_rsi.png"
+  }
+}

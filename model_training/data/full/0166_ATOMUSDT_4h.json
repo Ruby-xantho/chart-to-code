@@ -1,0 +1,20 @@
+{
+  "symbol": "ATOM/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 4.84,
+    "trend": 4.72,
+    "ao": 0.13,
+    "%K": 79.73,
+    "%D": 79.58
+  },
+  "images": {
+    "main": "panels/main/0166_main.png",
+    "ao": "panels/ao/0166_ao.png",
+    "rsi": "panels/rsi/0166_rsi.png"
+  }
+}

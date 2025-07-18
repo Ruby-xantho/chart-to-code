@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Downward trend remains in control.",
+    "Rising AO bars indicate growing strength.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.35,
+    "ao": 0.01,
+    "%K": 10.85,
+    "%D": 3.62
+  },
+  "images": {
+    "main": "panels/main/0389_main.png",
+    "ao": "panels/ao/0389_ao.png",
+    "rsi": "panels/rsi/0389_rsi.png"
+  }
+}

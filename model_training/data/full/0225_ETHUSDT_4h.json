@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Stoch RSI in overbought range may trigger pullback.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 3469.16,
+    "trend": 3276.1,
+    "ao": 316.3,
+    "%K": 80.82,
+    "%D": 84.71
+  },
+  "images": {
+    "main": "panels/main/0225_main.png",
+    "ao": "panels/ao/0225_ao.png",
+    "rsi": "panels/rsi/0225_rsi.png"
+  }
+}

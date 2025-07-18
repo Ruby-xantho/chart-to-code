@@ -1,0 +1,22 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "AO histogram is green and climbing.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 101.95,
+    "trend": 100.56,
+    "ao": 2.44,
+    "%K": 41.42,
+    "%D": 39.86
+  },
+  "images": {
+    "main": "panels/main/0473_main.png",
+    "ao": "panels/ao/0473_ao.png",
+    "rsi": "panels/rsi/0473_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Bearish continuation below trend lines.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.35,
+    "ao": 0.01,
+    "%K": 17.07,
+    "%D": 5.69
+  },
+  "images": {
+    "main": "panels/main/0549_main.png",
+    "ao": "panels/ao/0549_ao.png",
+    "rsi": "panels/rsi/0549_rsi.png"
+  }
+}

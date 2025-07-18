@@ -1,0 +1,22 @@
+{
+  "symbol": "FIL/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "AO confirms upward momentum bias.",
+    "Stochastic RSI values remain neutral."
+  ],
+  "debug": {
+    "price": 2.74,
+    "trend": 2.68,
+    "ao": 0.02,
+    "%K": 73.44,
+    "%D": 59.75
+  },
+  "images": {
+    "main": "panels/main/0519_main.png",
+    "ao": "panels/ao/0519_ao.png",
+    "rsi": "panels/rsi/0519_rsi.png"
+  }
+}

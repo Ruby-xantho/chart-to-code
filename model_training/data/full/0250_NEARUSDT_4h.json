@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 2.8,
+    "trend": 2.7,
+    "ao": 0.17,
+    "%K": 64.93,
+    "%D": 70.49
+  },
+  "images": {
+    "main": "panels/main/0250_main.png",
+    "ao": "panels/ao/0250_ao.png",
+    "rsi": "panels/rsi/0250_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "POL/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Rising AO bars indicate growing strength.",
+    "Momentum is contained within typical bounds."
+  ],
+  "debug": {
+    "price": 0.24,
+    "trend": 0.23,
+    "ao": 0.0,
+    "%K": 63.44,
+    "%D": 37.03
+  },
+  "images": {
+    "main": "panels/main/0545_main.png",
+    "ao": "panels/ao/0545_ao.png",
+    "rsi": "panels/rsi/0545_rsi.png"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "symbol": "LINK/USDT",
+  "timeframe": "1h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 17.91,
+    "trend": 17.22,
+    "ao": 0.55,
+    "%K": 77.02,
+    "%D": 76.66
+  },
+  "images": {
+    "main": "panels/main/0193_main.png",
+    "ao": "panels/ao/0193_ao.png",
+    "rsi": "panels/rsi/0193_rsi.png"
+  }
+}

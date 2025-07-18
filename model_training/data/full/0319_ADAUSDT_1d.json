@@ -1,0 +1,22 @@
+{
+  "symbol": "ADA/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Stoch RSI in overbought range may trigger pullback.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.83,
+    "trend": 0.7,
+    "ao": 0.15,
+    "%K": 100.0,
+    "%D": 98.95
+  },
+  "images": {
+    "main": "panels/main/0319_main.png",
+    "ao": "panels/ao/0319_ao.png",
+    "rsi": "panels/rsi/0319_rsi.png"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "symbol": "POL/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 0.24,
+    "trend": 0.23,
+    "ao": 0.0,
+    "%K": 95.97,
+    "%D": 85.59
+  },
+  "images": {
+    "main": "panels/main/0436_main.png",
+    "ao": "panels/ao/0436_ao.png",
+    "rsi": "panels/rsi/0436_rsi.png"
+  }
+}

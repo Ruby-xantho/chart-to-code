@@ -1,0 +1,20 @@
+{
+  "symbol": "BNB/USDT",
+  "timeframe": "1h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 721.92,
+    "trend": 717.87,
+    "ao": 5.31,
+    "%K": 81.07,
+    "%D": 61.76
+  },
+  "images": {
+    "main": "panels/main/0355_main.png",
+    "ao": "panels/ao/0355_ao.png",
+    "rsi": "panels/rsi/0355_rsi.png"
+  }
+}

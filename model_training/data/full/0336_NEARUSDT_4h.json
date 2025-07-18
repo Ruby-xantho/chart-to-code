@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "AO is positive, indicating bullish momentum.",
+    "Momentum is contained within typical bounds."
+  ],
+  "debug": {
+    "price": 2.8,
+    "trend": 2.7,
+    "ao": 0.17,
+    "%K": 65.8,
+    "%D": 70.78
+  },
+  "images": {
+    "main": "panels/main/0336_main.png",
+    "ao": "panels/ao/0336_ao.png",
+    "rsi": "panels/rsi/0336_rsi.png"
+  }
+}

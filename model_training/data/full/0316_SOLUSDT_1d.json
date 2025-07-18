@@ -1,0 +1,22 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "Stoch RSI is above 80, suggesting overbought conditions.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 176.02,
+    "trend": 161.1,
+    "ao": 16.7,
+    "%K": 100.0,
+    "%D": 100.0
+  },
+  "images": {
+    "main": "panels/main/0316_main.png",
+    "ao": "panels/ao/0316_ao.png",
+    "rsi": "panels/rsi/0316_rsi.png"
+  }
+}

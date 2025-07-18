@@ -1,0 +1,22 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "Bullish momentum is building per AO.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 101.85,
+    "trend": 100.55,
+    "ao": 2.43,
+    "%K": 39.24,
+    "%D": 39.13
+  },
+  "images": {
+    "main": "panels/main/0375_main.png",
+    "ao": "panels/ao/0375_ao.png",
+    "rsi": "panels/rsi/0375_rsi.png"
+  }
+}

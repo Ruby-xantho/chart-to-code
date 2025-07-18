@@ -1,0 +1,22 @@
+{
+  "symbol": "DOT/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "RSI is stable, not flashing reversal risk."
+  ],
+  "debug": {
+    "price": 4.3,
+    "trend": 4.12,
+    "ao": 0.17,
+    "%K": 74.03,
+    "%D": 68.4
+  },
+  "images": {
+    "main": "panels/main/0507_main.png",
+    "ao": "panels/ao/0507_ao.png",
+    "rsi": "panels/rsi/0507_rsi.png"
+  }
+}

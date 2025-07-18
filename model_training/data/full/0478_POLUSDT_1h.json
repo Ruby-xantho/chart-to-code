@@ -1,0 +1,22 @@
+{
+  "symbol": "POL/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "AO histogram is green and climbing.",
+    "RSI is stable, not flashing reversal risk."
+  ],
+  "debug": {
+    "price": 0.24,
+    "trend": 0.23,
+    "ao": 0.0,
+    "%K": 40.76,
+    "%D": 29.47
+  },
+  "images": {
+    "main": "panels/main/0478_main.png",
+    "ao": "panels/ao/0478_ao.png",
+    "rsi": "panels/rsi/0478_rsi.png"
+  }
+}

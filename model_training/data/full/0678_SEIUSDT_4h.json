@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "AO histogram is green and climbing.",
+    "Stoch RSI signals a possible bottoming setup."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.35,
+    "ao": 0.01,
+    "%K": 21.05,
+    "%D": 7.02
+  },
+  "images": {
+    "main": "panels/main/0678_main.png",
+    "ao": "panels/ao/0678_ao.png",
+    "rsi": "panels/rsi/0678_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Rising AO bars indicate growing strength.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 1.97,
+    "trend": 1.93,
+    "ao": 0.03,
+    "%K": 57.53,
+    "%D": 56.59
+  },
+  "images": {
+    "main": "panels/main/0526_main.png",
+    "ao": "panels/ao/0526_ao.png",
+    "rsi": "panels/rsi/0526_rsi.png"
+  }
+}

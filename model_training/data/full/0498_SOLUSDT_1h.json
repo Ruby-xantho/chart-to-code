@@ -1,0 +1,22 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "AO confirms upward momentum bias.",
+    "RSI is stable, not flashing reversal risk."
+  ],
+  "debug": {
+    "price": 177.82,
+    "trend": 174.38,
+    "ao": 1.68,
+    "%K": 52.69,
+    "%D": 32.08
+  },
+  "images": {
+    "main": "panels/main/0498_main.png",
+    "ao": "panels/ao/0498_ao.png",
+    "rsi": "panels/rsi/0498_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "RSI at upper bound warns of market topping.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 176.49,
+    "trend": 169.88,
+    "ao": 9.35,
+    "%K": 82.54,
+    "%D": 80.2
+  },
+  "images": {
+    "main": "panels/main/0413_main.png",
+    "ao": "panels/ao/0413_ao.png",
+    "rsi": "panels/rsi/0413_rsi.png"
+  }
+}

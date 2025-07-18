@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Lower highs and lower lows dominate the structure.",
+    "AO continues to print lower bars.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.35,
+    "ao": -0.01,
+    "%K": 10.45,
+    "%D": 18.13
+  },
+  "images": {
+    "main": "panels/main/0054_main.png",
+    "ao": "panels/ao/0054_ao.png",
+    "rsi": "panels/rsi/0054_rsi.png"
+  }
+}

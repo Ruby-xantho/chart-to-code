@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "AO histogram is green and climbing.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 119220.82,
+    "trend": 119040.7,
+    "ao": 741.6,
+    "%K": 70.53,
+    "%D": 71.75
+  },
+  "images": {
+    "main": "panels/main/0346_main.png",
+    "ao": "panels/ao/0346_ao.png",
+    "rsi": "panels/rsi/0346_rsi.png"
+  }
+}

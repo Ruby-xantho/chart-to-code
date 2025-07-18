@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "1h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "AO drift into negative confirms bearish mood.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 1.98,
+    "trend": 1.95,
+    "ao": -0.03,
+    "%K": 94.18,
+    "%D": 69.81
+  },
+  "images": {
+    "main": "panels/main/0638_main.png",
+    "ao": "panels/ao/0638_ao.png",
+    "rsi": "panels/rsi/0638_rsi.png"
+  }
+}

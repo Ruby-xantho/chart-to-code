@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "AO remains in bullish territory.",
+    "Stoch RSI is under 75, showing no overbought conditions."
+  ],
+  "debug": {
+    "price": 1.98,
+    "trend": 1.94,
+    "ao": 0.03,
+    "%K": 64.69,
+    "%D": 58.98
+  },
+  "images": {
+    "main": "panels/main/0657_main.png",
+    "ao": "panels/ao/0657_ao.png",
+    "rsi": "panels/rsi/0657_rsi.png"
+  }
+}

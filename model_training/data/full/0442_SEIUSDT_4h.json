@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Price action reflects weak momentum below trend.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.35,
+    "ao": 0.01,
+    "%K": 12.34,
+    "%D": 4.11
+  },
+  "images": {
+    "main": "panels/main/0442_main.png",
+    "ao": "panels/ao/0442_ao.png",
+    "rsi": "panels/rsi/0442_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "ALGO/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "AO histogram is green and climbing.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 0.32,
+    "trend": 0.3,
+    "ao": 0.02,
+    "%K": 60.72,
+    "%D": 64.2
+  },
+  "images": {
+    "main": "panels/main/0161_main.png",
+    "ao": "panels/ao/0161_ao.png",
+    "rsi": "panels/rsi/0161_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Market is trading beneath EMA and SMMA support.",
+    "The Awesome Oscillator is below zero.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.35,
+    "ao": -0.01,
+    "%K": 29.22,
+    "%D": 22.32
+  },
+  "images": {
+    "main": "panels/main/0667_main.png",
+    "ao": "panels/ao/0667_ao.png",
+    "rsi": "panels/rsi/0667_rsi.png"
+  }
+}

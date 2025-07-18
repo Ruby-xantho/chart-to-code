@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Stoch RSI is deeply reset, preparing for reversal."
+  ],
+  "debug": {
+    "price": 4.0,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 10.68,
+    "%D": 8.33
+  },
+  "images": {
+    "main": "panels/main/0705_main.png",
+    "ao": "panels/ao/0705_ao.png",
+    "rsi": "panels/rsi/0705_rsi.png"
+  }
+}

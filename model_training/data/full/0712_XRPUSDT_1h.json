@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "AO histogram is green and climbing.",
+    "Momentum cycle reset near bottom range."
+  ],
+  "debug": {
+    "price": 3.62,
+    "trend": 3.36,
+    "ao": 0.32,
+    "%K": 24.57,
+    "%D": 23.08
+  },
+  "images": {
+    "main": "panels/main/0712_main.png",
+    "ao": "panels/ao/0712_ao.png",
+    "rsi": "panels/rsi/0712_rsi.png"
+  }
+}

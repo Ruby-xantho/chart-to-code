@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Bullish momentum is building per AO.",
+    "Mid-range RSI supports trend continuation."
+  ],
+  "debug": {
+    "price": 3.59,
+    "trend": 3.32,
+    "ao": 0.27,
+    "%K": 30.1,
+    "%D": 11.01
+  },
+  "images": {
+    "main": "panels/main/0532_main.png",
+    "ao": "panels/ao/0532_ao.png",
+    "rsi": "panels/rsi/0532_rsi.png"
+  }
+}

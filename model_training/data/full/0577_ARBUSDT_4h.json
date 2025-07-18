@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Momentum is positive according to AO.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 0.46,
+    "trend": 0.43,
+    "ao": 0.02,
+    "%K": 65.82,
+    "%D": 62.23
+  },
+  "images": {
+    "main": "panels/main/0577_main.png",
+    "ao": "panels/ao/0577_ao.png",
+    "rsi": "panels/rsi/0577_rsi.png"
+  }
+}

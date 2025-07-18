@@ -1,0 +1,22 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "Extreme RSI values could precede retracement.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 175.81,
+    "trend": 161.08,
+    "ao": 16.7,
+    "%K": 100.0,
+    "%D": 100.0
+  },
+  "images": {
+    "main": "panels/main/0189_main.png",
+    "ao": "panels/ao/0189_ao.png",
+    "rsi": "panels/rsi/0189_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "ADA/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "AO is positive, indicating bullish momentum.",
+    "RSI has fully reset and may support a bounce."
+  ],
+  "debug": {
+    "price": 0.83,
+    "trend": 0.8,
+    "ao": 0.03,
+    "%K": 1.47,
+    "%D": 11.07
+  },
+  "images": {
+    "main": "panels/main/0317_main.png",
+    "ao": "panels/ao/0317_ao.png",
+    "rsi": "panels/rsi/0317_rsi.png"
+  }
+}

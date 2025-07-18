@@ -1,0 +1,22 @@
+{
+  "symbol": "HBAR/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "Overbought conditions signal caution.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.28,
+    "trend": 0.21,
+    "ao": 0.08,
+    "%K": 100.0,
+    "%D": 98.89
+  },
+  "images": {
+    "main": "panels/main/0325_main.png",
+    "ao": "panels/ao/0325_ao.png",
+    "rsi": "panels/rsi/0325_rsi.png"
+  }
+}

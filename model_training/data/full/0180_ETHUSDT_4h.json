@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "Stoch RSI is above 80, suggesting overbought conditions.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 3470.14,
+    "trend": 3276.2,
+    "ao": 316.3,
+    "%K": 81.36,
+    "%D": 84.89
+  },
+  "images": {
+    "main": "panels/main/0180_main.png",
+    "ao": "panels/ao/0180_ao.png",
+    "rsi": "panels/rsi/0180_rsi.png"
+  }
+}

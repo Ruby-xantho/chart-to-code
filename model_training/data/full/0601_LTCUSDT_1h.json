@@ -1,0 +1,22 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Rising AO bars indicate growing strength.",
+    "RSI is stable, not flashing reversal risk."
+  ],
+  "debug": {
+    "price": 103.21,
+    "trend": 100.69,
+    "ao": 2.55,
+    "%K": 64.62,
+    "%D": 47.59
+  },
+  "images": {
+    "main": "panels/main/0601_main.png",
+    "ao": "panels/ao/0601_ao.png",
+    "rsi": "panels/rsi/0601_rsi.png"
+  }
+}

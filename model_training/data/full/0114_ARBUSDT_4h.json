@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "AO confirms upward momentum bias.",
+    "RSI remains in a healthy range."
+  ],
+  "debug": {
+    "price": 0.45,
+    "trend": 0.43,
+    "ao": 0.02,
+    "%K": 44.74,
+    "%D": 55.21
+  },
+  "images": {
+    "main": "panels/main/0114_main.png",
+    "ao": "panels/ao/0114_ao.png",
+    "rsi": "panels/rsi/0114_rsi.png"
+  }
+}

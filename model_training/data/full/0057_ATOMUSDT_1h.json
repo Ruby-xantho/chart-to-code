@@ -1,0 +1,22 @@
+{
+  "symbol": "ATOM/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Bullish momentum is building per AO.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 4.84,
+    "trend": 4.79,
+    "ao": 0.05,
+    "%K": 52.16,
+    "%D": 53.04
+  },
+  "images": {
+    "main": "panels/main/0057_main.png",
+    "ao": "panels/ao/0057_ao.png",
+    "rsi": "panels/rsi/0057_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "BNB/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "AO confirms upward momentum bias.",
+    "Neither overbought nor oversold signals present."
+  ],
+  "debug": {
+    "price": 720.73,
+    "trend": 717.75,
+    "ao": 5.31,
+    "%K": 73.49,
+    "%D": 59.24
+  },
+  "images": {
+    "main": "panels/main/0009_main.png",
+    "ao": "panels/ao/0009_ao.png",
+    "rsi": "panels/rsi/0009_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "AO confirms upward momentum bias.",
+    "Momentum cycle reset near bottom range."
+  ],
+  "debug": {
+    "price": 3.6,
+    "trend": 3.36,
+    "ao": 0.32,
+    "%K": 13.26,
+    "%D": 19.31
+  },
+  "images": {
+    "main": "panels/main/0717_main.png",
+    "ao": "panels/ao/0717_ao.png",
+    "rsi": "panels/rsi/0717_rsi.png"
+  }
+}

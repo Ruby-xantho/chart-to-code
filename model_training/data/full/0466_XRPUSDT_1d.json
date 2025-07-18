@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Both %K and %D above 80 \u2014 typical sell zone.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 3.55,
+    "trend": 2.74,
+    "ao": 0.73,
+    "%K": 100.0,
+    "%D": 100.0
+  },
+  "images": {
+    "main": "panels/main/0466_main.png",
+    "ao": "panels/ao/0466_ao.png",
+    "rsi": "panels/rsi/0466_rsi.png"
+  }
+}

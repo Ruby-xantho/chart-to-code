@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "AO confirms upward momentum bias.",
+    "Oversold conditions in RSI suggest rebound risk."
+  ],
+  "debug": {
+    "price": 3.61,
+    "trend": 3.36,
+    "ao": 0.32,
+    "%K": 22.96,
+    "%D": 22.55
+  },
+  "images": {
+    "main": "panels/main/0704_main.png",
+    "ao": "panels/ao/0704_ao.png",
+    "rsi": "panels/rsi/0704_rsi.png"
+  }
+}

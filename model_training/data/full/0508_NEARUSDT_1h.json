@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "AO confirms upward momentum bias.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 2.84,
+    "trend": 2.79,
+    "ao": 0.03,
+    "%K": 30.35,
+    "%D": 31.89
+  },
+  "images": {
+    "main": "panels/main/0508_main.png",
+    "ao": "panels/ao/0508_ao.png",
+    "rsi": "panels/rsi/0508_rsi.png"
+  }
+}

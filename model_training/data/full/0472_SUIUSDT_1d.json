@@ -1,0 +1,20 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "1d",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 3.94,
+    "trend": 3.45,
+    "ao": 0.88,
+    "%K": 82.84,
+    "%D": 76.72
+  },
+  "images": {
+    "main": "panels/main/0472_main.png",
+    "ao": "panels/ao/0472_ao.png",
+    "rsi": "panels/rsi/0472_rsi.png"
+  }
+}

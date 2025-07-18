@@ -1,0 +1,22 @@
+{
+  "symbol": "FET/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "Rising AO bars indicate growing strength.",
+    "Stoch RSI is under 75, showing no overbought conditions."
+  ],
+  "debug": {
+    "price": 0.76,
+    "trend": 0.75,
+    "ao": 0.03,
+    "%K": 48.48,
+    "%D": 72.53
+  },
+  "images": {
+    "main": "panels/main/0259_main.png",
+    "ao": "panels/ao/0259_ao.png",
+    "rsi": "panels/rsi/0259_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "LINK/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Momentum is stretched as RSI enters overbought zone.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 17.85,
+    "trend": 16.67,
+    "ao": 1.28,
+    "%K": 88.42,
+    "%D": 94.04
+  },
+  "images": {
+    "main": "panels/main/0239_main.png",
+    "ao": "panels/ao/0239_ao.png",
+    "rsi": "panels/rsi/0239_rsi.png"
+  }
+}

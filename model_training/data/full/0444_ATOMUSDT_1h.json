@@ -1,0 +1,22 @@
+{
+  "symbol": "ATOM/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "Bullish momentum is building per AO.",
+    "RSI remains in a healthy range."
+  ],
+  "debug": {
+    "price": 4.86,
+    "trend": 4.8,
+    "ao": 0.05,
+    "%K": 60.06,
+    "%D": 55.67
+  },
+  "images": {
+    "main": "panels/main/0444_main.png",
+    "ao": "panels/ao/0444_ao.png",
+    "rsi": "panels/rsi/0444_rsi.png"
+  }
+}

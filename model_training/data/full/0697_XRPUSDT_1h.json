@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Stoch RSI is deeply reset, preparing for reversal."
+  ],
+  "debug": {
+    "price": 3.6,
+    "trend": 3.36,
+    "ao": 0.32,
+    "%K": 16.02,
+    "%D": 20.23
+  },
+  "images": {
+    "main": "panels/main/0697_main.png",
+    "ao": "panels/ao/0697_ao.png",
+    "rsi": "panels/rsi/0697_rsi.png"
+  }
+}

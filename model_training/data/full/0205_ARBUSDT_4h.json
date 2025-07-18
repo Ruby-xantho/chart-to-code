@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Momentum is positive according to AO.",
+    "Neither overbought nor oversold signals present."
+  ],
+  "debug": {
+    "price": 0.45,
+    "trend": 0.43,
+    "ao": 0.02,
+    "%K": 50.08,
+    "%D": 56.99
+  },
+  "images": {
+    "main": "panels/main/0205_main.png",
+    "ao": "panels/ao/0205_ao.png",
+    "rsi": "panels/rsi/0205_rsi.png"
+  }
+}

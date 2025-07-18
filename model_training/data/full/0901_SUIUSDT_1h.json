@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Market is trading beneath EMA and SMMA support.",
+    "Momentum has turned bearish according to AO.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 4.01,
+    "trend": 4.03,
+    "ao": -0.01,
+    "%K": 31.92,
+    "%D": 34.32
+  },
+  "images": {
+    "main": "panels/main/0901_main.png",
+    "ao": "panels/ao/0901_ao.png",
+    "rsi": "panels/rsi/0901_rsi.png"
+  }
+}

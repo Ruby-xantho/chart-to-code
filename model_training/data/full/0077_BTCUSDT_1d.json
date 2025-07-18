@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Extreme RSI values could precede retracement.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 119160.0,
+    "trend": 114201.95,
+    "ao": 9601.41,
+    "%K": 100.0,
+    "%D": 83.38
+  },
+  "images": {
+    "main": "panels/main/0077_main.png",
+    "ao": "panels/ao/0077_ao.png",
+    "rsi": "panels/rsi/0077_rsi.png"
+  }
+}

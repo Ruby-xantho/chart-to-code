@@ -1,0 +1,22 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "RSI is elevated, warning of possible reversal.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 101.66,
+    "trend": 97.99,
+    "ao": 4.81,
+    "%K": 84.19,
+    "%D": 90.72
+  },
+  "images": {
+    "main": "panels/main/0293_main.png",
+    "ao": "panels/ao/0293_ao.png",
+    "rsi": "panels/rsi/0293_rsi.png"
+  }
+}

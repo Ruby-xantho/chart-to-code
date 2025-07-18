@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Market is trading beneath EMA and SMMA support.",
+    "AO confirms upward momentum bias.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.35,
+    "ao": 0.01,
+    "%K": 10.19,
+    "%D": 3.4
+  },
+  "images": {
+    "main": "panels/main/0055_main.png",
+    "ao": "panels/ao/0055_ao.png",
+    "rsi": "panels/rsi/0055_rsi.png"
+  }
+}

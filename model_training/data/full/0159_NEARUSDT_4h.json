@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "Rising AO bars indicate growing strength.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 2.81,
+    "trend": 2.7,
+    "ao": 0.17,
+    "%K": 66.67,
+    "%D": 71.07
+  },
+  "images": {
+    "main": "panels/main/0159_main.png",
+    "ao": "panels/ao/0159_ao.png",
+    "rsi": "panels/rsi/0159_rsi.png"
+  }
+}

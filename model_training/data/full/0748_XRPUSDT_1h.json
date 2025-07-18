@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "AO confirms upward momentum bias.",
+    "Stochastic RSI is oversold, indicating potential upside."
+  ],
+  "debug": {
+    "price": 3.58,
+    "trend": 3.38,
+    "ao": 0.33,
+    "%K": 4.88,
+    "%D": 19.91
+  },
+  "images": {
+    "main": "panels/main/0748_main.png",
+    "ao": "panels/ao/0748_ao.png",
+    "rsi": "panels/rsi/0748_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "Momentum is positive according to AO.",
+    "Stochastic RSI values remain neutral."
+  ],
+  "debug": {
+    "price": 0.45,
+    "trend": 0.44,
+    "ao": 0.0,
+    "%K": 28.69,
+    "%D": 28.8
+  },
+  "images": {
+    "main": "panels/main/0113_main.png",
+    "ao": "panels/ao/0113_ao.png",
+    "rsi": "panels/rsi/0113_rsi.png"
+  }
+}

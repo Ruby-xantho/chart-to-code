@@ -1,0 +1,20 @@
+{
+  "symbol": "FET/USDT",
+  "timeframe": "1d",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 0.78,
+    "trend": 0.72,
+    "ao": 0.06,
+    "%K": 100.0,
+    "%D": 75.66
+  },
+  "images": {
+    "main": "panels/main/0584_main.png",
+    "ao": "panels/ao/0584_ao.png",
+    "rsi": "panels/rsi/0584_rsi.png"
+  }
+}

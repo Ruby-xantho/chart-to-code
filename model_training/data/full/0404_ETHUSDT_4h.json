@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "RSI is elevated, warning of possible reversal.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 3476.77,
+    "trend": 3276.88,
+    "ao": 316.3,
+    "%K": 85.08,
+    "%D": 86.13
+  },
+  "images": {
+    "main": "panels/main/0404_main.png",
+    "ao": "panels/ao/0404_ao.png",
+    "rsi": "panels/rsi/0404_rsi.png"
+  }
+}

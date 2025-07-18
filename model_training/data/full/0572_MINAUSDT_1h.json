@@ -1,0 +1,22 @@
+{
+  "symbol": "MINA/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "Positive AO supports upward price movement.",
+    "Stoch RSI is under 75, showing no overbought conditions."
+  ],
+  "debug": {
+    "price": 0.22,
+    "trend": 0.21,
+    "ao": 0.0,
+    "%K": 56.96,
+    "%D": 45.1
+  },
+  "images": {
+    "main": "panels/main/0572_main.png",
+    "ao": "panels/ao/0572_ao.png",
+    "rsi": "panels/rsi/0572_rsi.png"
+  }
+}

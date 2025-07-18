@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "Momentum is stretched as RSI enters overbought zone.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.31,
+    "ao": 0.08,
+    "%K": 99.3,
+    "%D": 91.04
+  },
+  "images": {
+    "main": "panels/main/0209_main.png",
+    "ao": "panels/ao/0209_ao.png",
+    "rsi": "panels/rsi/0209_rsi.png"
+  }
+}

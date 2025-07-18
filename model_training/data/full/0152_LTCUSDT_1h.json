@@ -1,0 +1,22 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Momentum is contained within typical bounds."
+  ],
+  "debug": {
+    "price": 101.79,
+    "trend": 100.54,
+    "ao": 2.43,
+    "%K": 37.89,
+    "%D": 38.68
+  },
+  "images": {
+    "main": "panels/main/0152_main.png",
+    "ao": "panels/ao/0152_ao.png",
+    "rsi": "panels/rsi/0152_rsi.png"
+  }
+}

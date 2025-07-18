@@ -1,0 +1,22 @@
+{
+  "symbol": "MANTA/USDT",
+  "timeframe": "1h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "Momentum remains weak as AO trends lower.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 0.25,
+    "trend": 0.24,
+    "ao": -0.0,
+    "%K": 61.69,
+    "%D": 44.96
+  },
+  "images": {
+    "main": "panels/main/0589_main.png",
+    "ao": "panels/ao/0589_ao.png",
+    "rsi": "panels/rsi/0589_rsi.png"
+  }
+}

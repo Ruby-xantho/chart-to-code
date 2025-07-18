@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "AO histogram is green and climbing.",
+    "RSI is stable, not flashing reversal risk."
+  ],
+  "debug": {
+    "price": 0.45,
+    "trend": 0.44,
+    "ao": 0.0,
+    "%K": 33.95,
+    "%D": 30.55
+  },
+  "images": {
+    "main": "panels/main/0051_main.png",
+    "ao": "panels/ao/0051_ao.png",
+    "rsi": "panels/rsi/0051_rsi.png"
+  }
+}

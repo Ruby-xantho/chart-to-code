@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Neither overbought nor oversold signals present."
+  ],
+  "debug": {
+    "price": 2.8,
+    "trend": 2.7,
+    "ao": 0.17,
+    "%K": 64.49,
+    "%D": 70.34
+  },
+  "images": {
+    "main": "panels/main/0296_main.png",
+    "ao": "panels/ao/0296_ao.png",
+    "rsi": "panels/rsi/0296_rsi.png"
+  }
+}

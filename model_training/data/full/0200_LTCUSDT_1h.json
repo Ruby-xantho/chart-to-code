@@ -1,0 +1,22 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "AO remains in bullish territory.",
+    "Stoch RSI is under 75, showing no overbought conditions."
+  ],
+  "debug": {
+    "price": 101.87,
+    "trend": 100.55,
+    "ao": 2.43,
+    "%K": 39.68,
+    "%D": 39.28
+  },
+  "images": {
+    "main": "panels/main/0200_main.png",
+    "ao": "panels/ao/0200_ao.png",
+    "rsi": "panels/rsi/0200_rsi.png"
+  }
+}

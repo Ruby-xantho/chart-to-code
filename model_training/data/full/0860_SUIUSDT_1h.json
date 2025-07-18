@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Downward trend remains in control.",
+    "AO histogram shows consistent red bars.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 3.98,
+    "trend": 4.03,
+    "ao": -0.0,
+    "%K": 30.14,
+    "%D": 33.72
+  },
+  "images": {
+    "main": "panels/main/0860_main.png",
+    "ao": "panels/ao/0860_ao.png",
+    "rsi": "panels/rsi/0860_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "LINK/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "Extreme RSI values could precede retracement.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 17.87,
+    "trend": 16.67,
+    "ao": 1.28,
+    "%K": 89.78,
+    "%D": 94.5
+  },
+  "images": {
+    "main": "panels/main/0321_main.png",
+    "ao": "panels/ao/0321_ao.png",
+    "rsi": "panels/rsi/0321_rsi.png"
+  }
+}

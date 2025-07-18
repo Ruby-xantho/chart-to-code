@@ -1,0 +1,22 @@
+{
+  "symbol": "OP/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Momentum is positive according to AO.",
+    "Momentum is contained within typical bounds."
+  ],
+  "debug": {
+    "price": 0.72,
+    "trend": 0.71,
+    "ao": 0.0,
+    "%K": 34.96,
+    "%D": 35.25
+  },
+  "images": {
+    "main": "panels/main/0066_main.png",
+    "ao": "panels/ao/0066_ao.png",
+    "rsi": "panels/rsi/0066_rsi.png"
+  }
+}

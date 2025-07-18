@@ -1,0 +1,22 @@
+{
+  "symbol": "ADA/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Momentum is stretched as RSI enters overbought zone.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.83,
+    "trend": 0.77,
+    "ao": 0.06,
+    "%K": 94.98,
+    "%D": 86.93
+  },
+  "images": {
+    "main": "panels/main/0278_main.png",
+    "ao": "panels/ao/0278_ao.png",
+    "rsi": "panels/rsi/0278_rsi.png"
+  }
+}

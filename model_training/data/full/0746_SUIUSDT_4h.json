@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "AO histogram is green and climbing.",
+    "Mean reversion may occur as RSI bottoms."
+  ],
+  "debug": {
+    "price": 4.02,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 15.06,
+    "%D": 9.79
+  },
+  "images": {
+    "main": "panels/main/0746_main.png",
+    "ao": "panels/ao/0746_ao.png",
+    "rsi": "panels/rsi/0746_rsi.png"
+  }
+}

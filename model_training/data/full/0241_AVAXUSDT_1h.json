@@ -1,0 +1,22 @@
+{
+  "symbol": "AVAX/USDT",
+  "timeframe": "1h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Stoch RSI in overbought range may trigger pullback.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 23.76,
+    "trend": 22.9,
+    "ao": 0.43,
+    "%K": 97.98,
+    "%D": 81.38
+  },
+  "images": {
+    "main": "panels/main/0241_main.png",
+    "ao": "panels/ao/0241_ao.png",
+    "rsi": "panels/rsi/0241_rsi.png"
+  }
+}

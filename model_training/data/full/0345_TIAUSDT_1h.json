@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Price action reflects weak momentum below trend.",
+    "Bearish AO suggests downside risk.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 1.93,
+    "trend": 1.94,
+    "ao": -0.04,
+    "%K": 60.51,
+    "%D": 58.59
+  },
+  "images": {
+    "main": "panels/main/0345_main.png",
+    "ao": "panels/ao/0345_ao.png",
+    "rsi": "panels/rsi/0345_rsi.png"
+  }
+}

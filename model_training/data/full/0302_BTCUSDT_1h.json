@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Momentum is positive according to AO.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 119158.72,
+    "trend": 119034.38,
+    "ao": 741.6,
+    "%K": 69.05,
+    "%D": 71.26
+  },
+  "images": {
+    "main": "panels/main/0302_main.png",
+    "ao": "panels/ao/0302_ao.png",
+    "rsi": "panels/rsi/0302_rsi.png"
+  }
+}

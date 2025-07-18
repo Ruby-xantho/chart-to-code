@@ -1,0 +1,22 @@
+{
+  "symbol": "FIL/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Stoch RSI in overbought range may trigger pullback.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 2.71,
+    "trend": 2.52,
+    "ao": 0.26,
+    "%K": 100.0,
+    "%D": 86.94
+  },
+  "images": {
+    "main": "panels/main/0301_main.png",
+    "ao": "panels/ao/0301_ao.png",
+    "rsi": "panels/rsi/0301_rsi.png"
+  }
+}

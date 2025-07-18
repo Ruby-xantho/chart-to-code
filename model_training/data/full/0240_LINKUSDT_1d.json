@@ -1,0 +1,22 @@
+{
+  "symbol": "LINK/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "RSI at upper bound warns of market topping.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 17.85,
+    "trend": 15.3,
+    "ao": 2.75,
+    "%K": 100.0,
+    "%D": 99.62
+  },
+  "images": {
+    "main": "panels/main/0240_main.png",
+    "ao": "panels/ao/0240_ao.png",
+    "rsi": "panels/rsi/0240_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "AO remains in bullish territory.",
+    "Stochastic RSI is oversold, indicating potential upside."
+  ],
+  "debug": {
+    "price": 3.5,
+    "trend": 3.31,
+    "ao": 0.27,
+    "%K": 3.15,
+    "%D": 2.03
+  },
+  "images": {
+    "main": "panels/main/0006_main.png",
+    "ao": "panels/ao/0006_ao.png",
+    "rsi": "panels/rsi/0006_rsi.png"
+  }
+}

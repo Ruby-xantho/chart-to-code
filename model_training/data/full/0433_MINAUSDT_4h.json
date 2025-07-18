@@ -1,0 +1,22 @@
+{
+  "symbol": "MINA/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "RSI is stable, not flashing reversal risk."
+  ],
+  "debug": {
+    "price": 0.21,
+    "trend": 0.21,
+    "ao": 0.01,
+    "%K": 58.9,
+    "%D": 66.22
+  },
+  "images": {
+    "main": "panels/main/0433_main.png",
+    "ao": "panels/ao/0433_ao.png",
+    "rsi": "panels/rsi/0433_rsi.png"
+  }
+}

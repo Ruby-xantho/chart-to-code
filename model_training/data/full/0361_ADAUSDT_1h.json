@@ -1,0 +1,22 @@
+{
+  "symbol": "ADA/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "AO histogram is green and climbing.",
+    "Stochastic RSI is oversold, indicating potential upside."
+  ],
+  "debug": {
+    "price": 0.84,
+    "trend": 0.8,
+    "ao": 0.03,
+    "%K": 5.16,
+    "%D": 12.3
+  },
+  "images": {
+    "main": "panels/main/0361_main.png",
+    "ao": "panels/ao/0361_ao.png",
+    "rsi": "panels/rsi/0361_rsi.png"
+  }
+}

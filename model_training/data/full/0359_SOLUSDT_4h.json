@@ -1,0 +1,22 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "Elevated momentum may invite sellers.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 176.27,
+    "trend": 169.85,
+    "ao": 9.35,
+    "%K": 81.97,
+    "%D": 80.01
+  },
+  "images": {
+    "main": "panels/main/0359_main.png",
+    "ao": "panels/ao/0359_ao.png",
+    "rsi": "panels/rsi/0359_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Positive AO supports upward price movement.",
+    "Stoch RSI is deeply reset, preparing for reversal."
+  ],
+  "debug": {
+    "price": 2.81,
+    "trend": 2.78,
+    "ao": 0.03,
+    "%K": 5.01,
+    "%D": 23.45
+  },
+  "images": {
+    "main": "panels/main/0107_main.png",
+    "ao": "panels/ao/0107_ao.png",
+    "rsi": "panels/rsi/0107_rsi.png"
+  }
+}

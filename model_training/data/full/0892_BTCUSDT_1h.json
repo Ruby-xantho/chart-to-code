@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Downtrend evident with price under EMAs.",
+    "Momentum has turned bearish according to AO.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 118760.0,
+    "trend": 119333.93,
+    "ao": -129.99,
+    "%K": 21.88,
+    "%D": 15.56
+  },
+  "images": {
+    "main": "panels/main/0892_main.png",
+    "ao": "panels/ao/0892_ao.png",
+    "rsi": "panels/rsi/0892_rsi.png"
+  }
+}

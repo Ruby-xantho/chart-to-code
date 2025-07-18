@@ -1,0 +1,22 @@
+{
+  "symbol": "HBAR/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "Both %K and %D above 80 \u2014 typical sell zone.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.28,
+    "trend": 0.21,
+    "ao": 0.08,
+    "%K": 100.0,
+    "%D": 98.89
+  },
+  "images": {
+    "main": "panels/main/0371_main.png",
+    "ao": "panels/ao/0371_ao.png",
+    "rsi": "panels/rsi/0371_rsi.png"
+  }
+}

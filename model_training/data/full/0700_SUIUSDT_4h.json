@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "AO histogram is green and climbing.",
+    "Stoch RSI signals a possible bottoming setup."
+  ],
+  "debug": {
+    "price": 3.98,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 7.75,
+    "%D": 7.36
+  },
+  "images": {
+    "main": "panels/main/0700_main.png",
+    "ao": "panels/ao/0700_ao.png",
+    "rsi": "panels/rsi/0700_rsi.png"
+  }
+}

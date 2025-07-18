@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "AO is positive, indicating bullish momentum.",
+    "Mean reversion may occur as RSI bottoms."
+  ],
+  "debug": {
+    "price": 3.99,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 10.06,
+    "%D": 8.12
+  },
+  "images": {
+    "main": "panels/main/0686_main.png",
+    "ao": "panels/ao/0686_ao.png",
+    "rsi": "panels/rsi/0686_rsi.png"
+  }
+}

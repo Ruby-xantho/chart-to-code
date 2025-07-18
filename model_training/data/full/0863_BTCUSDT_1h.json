@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Price action reflects weak momentum below trend.",
+    "Momentum remains weak as AO trends lower.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 118750.0,
+    "trend": 119332.91,
+    "ao": -117.1,
+    "%K": 21.57,
+    "%D": 15.46
+  },
+  "images": {
+    "main": "panels/main/0863_main.png",
+    "ao": "panels/ao/0863_ao.png",
+    "rsi": "panels/rsi/0863_rsi.png"
+  }
+}

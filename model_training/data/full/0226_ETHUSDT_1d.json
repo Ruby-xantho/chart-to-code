@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Both %K and %D above 80 \u2014 typical sell zone.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 3469.15,
+    "trend": 2938.87,
+    "ao": 593.44,
+    "%K": 100.0,
+    "%D": 100.0
+  },
+  "images": {
+    "main": "panels/main/0226_main.png",
+    "ao": "panels/ao/0226_ao.png",
+    "rsi": "panels/rsi/0226_rsi.png"
+  }
+}

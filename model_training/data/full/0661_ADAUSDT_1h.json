@@ -1,0 +1,22 @@
+{
+  "symbol": "ADA/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "AO confirms upward momentum bias.",
+    "Stoch RSI is under 75, showing no overbought conditions."
+  ],
+  "debug": {
+    "price": 0.86,
+    "trend": 0.81,
+    "ao": 0.03,
+    "%K": 40.22,
+    "%D": 23.99
+  },
+  "images": {
+    "main": "panels/main/0661_main.png",
+    "ao": "panels/ao/0661_ao.png",
+    "rsi": "panels/rsi/0661_rsi.png"
+  }
+}

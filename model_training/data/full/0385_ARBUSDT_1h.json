@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "AO remains in bullish territory.",
+    "Mid-range RSI supports trend continuation."
+  ],
+  "debug": {
+    "price": 0.45,
+    "trend": 0.44,
+    "ao": 0.0,
+    "%K": 45.41,
+    "%D": 34.37
+  },
+  "images": {
+    "main": "panels/main/0385_main.png",
+    "ao": "panels/ao/0385_ao.png",
+    "rsi": "panels/rsi/0385_rsi.png"
+  }
+}

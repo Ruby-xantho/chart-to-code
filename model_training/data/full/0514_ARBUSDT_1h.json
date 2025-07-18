@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "RSI remains in a healthy range."
+  ],
+  "debug": {
+    "price": 0.46,
+    "trend": 0.44,
+    "ao": 0.0,
+    "%K": 60.66,
+    "%D": 39.45
+  },
+  "images": {
+    "main": "panels/main/0514_main.png",
+    "ao": "panels/ao/0514_ao.png",
+    "rsi": "panels/rsi/0514_rsi.png"
+  }
+}

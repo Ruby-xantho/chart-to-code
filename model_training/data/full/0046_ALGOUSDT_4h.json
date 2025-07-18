@@ -1,0 +1,22 @@
+{
+  "symbol": "ALGO/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "RSI is elevated, warning of possible reversal.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.32,
+    "trend": 0.29,
+    "ao": 0.03,
+    "%K": 100.0,
+    "%D": 98.14
+  },
+  "images": {
+    "main": "panels/main/0046_main.png",
+    "ao": "panels/ao/0046_ao.png",
+    "rsi": "panels/rsi/0046_rsi.png"
+  }
+}

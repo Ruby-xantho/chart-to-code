@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "RSI has fully reset and may support a bounce."
+  ],
+  "debug": {
+    "price": 3.95,
+    "trend": 3.92,
+    "ao": 0.19,
+    "%K": 2.43,
+    "%D": 5.58
+  },
+  "images": {
+    "main": "panels/main/0648_main.png",
+    "ao": "panels/ao/0648_ao.png",
+    "rsi": "panels/rsi/0648_rsi.png"
+  }
+}

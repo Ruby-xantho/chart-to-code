@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "AO histogram is green and climbing.",
+    "Stoch RSI is under 25, suggesting a momentum reset."
+  ],
+  "debug": {
+    "price": 3.99,
+    "trend": 3.95,
+    "ao": 0.15,
+    "%K": 22.05,
+    "%D": 9.4
+  },
+  "images": {
+    "main": "panels/main/0831_main.png",
+    "ao": "panels/ao/0831_ao.png",
+    "rsi": "panels/rsi/0831_rsi.png"
+  }
+}

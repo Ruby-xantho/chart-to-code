@@ -1,0 +1,20 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 119104.59,
+    "trend": 118420.64,
+    "ao": 352.12,
+    "%K": 97.61,
+    "%D": 97.83
+  },
+  "images": {
+    "main": "panels/main/0222_main.png",
+    "ao": "panels/ao/0222_ao.png",
+    "rsi": "panels/rsi/0222_rsi.png"
+  }
+}

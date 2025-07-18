@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "Positive AO supports upward price movement.",
+    "Conditions oversold based on both %K and %D."
+  ],
+  "debug": {
+    "price": 3.61,
+    "trend": 3.36,
+    "ao": 0.32,
+    "%K": 21.35,
+    "%D": 22.01
+  },
+  "images": {
+    "main": "panels/main/0706_main.png",
+    "ao": "panels/ao/0706_ao.png",
+    "rsi": "panels/rsi/0706_rsi.png"
+  }
+}

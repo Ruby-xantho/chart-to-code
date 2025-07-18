@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "Extreme RSI values could precede retracement.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 2.81,
+    "trend": 2.48,
+    "ao": 0.42,
+    "%K": 100.0,
+    "%D": 95.03
+  },
+  "images": {
+    "main": "panels/main/0109_main.png",
+    "ao": "panels/ao/0109_ao.png",
+    "rsi": "panels/rsi/0109_rsi.png"
+  }
+}

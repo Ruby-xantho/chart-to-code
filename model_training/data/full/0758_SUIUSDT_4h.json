@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "AO is positive, indicating bullish momentum.",
+    "RSI has fully reset and may support a bounce."
+  ],
+  "debug": {
+    "price": 4.04,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 18.72,
+    "%D": 11.01
+  },
+  "images": {
+    "main": "panels/main/0758_main.png",
+    "ao": "panels/ao/0758_ao.png",
+    "rsi": "panels/rsi/0758_rsi.png"
+  }
+}

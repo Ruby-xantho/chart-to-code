@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "AO confirms upward momentum bias.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 3467.5,
+    "trend": 3419.53,
+    "ao": 65.34,
+    "%K": 32.77,
+    "%D": 35.46
+  },
+  "images": {
+    "main": "panels/main/0268_main.png",
+    "ao": "panels/ao/0268_ao.png",
+    "rsi": "panels/rsi/0268_rsi.png"
+  }
+}

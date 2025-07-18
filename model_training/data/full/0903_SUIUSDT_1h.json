@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Downtrend evident with price under EMAs.",
+    "Momentum remains weak as AO trends lower.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 4.01,
+    "trend": 4.03,
+    "ao": -0.01,
+    "%K": 32.72,
+    "%D": 34.59
+  },
+  "images": {
+    "main": "panels/main/0903_main.png",
+    "ao": "panels/ao/0903_ao.png",
+    "rsi": "panels/rsi/0903_rsi.png"
+  }
+}

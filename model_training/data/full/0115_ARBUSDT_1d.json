@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "Momentum is stretched as RSI enters overbought zone.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.45,
+    "trend": 0.39,
+    "ao": 0.09,
+    "%K": 100.0,
+    "%D": 96.85
+  },
+  "images": {
+    "main": "panels/main/0115_main.png",
+    "ao": "panels/ao/0115_ao.png",
+    "rsi": "panels/rsi/0115_rsi.png"
+  }
+}

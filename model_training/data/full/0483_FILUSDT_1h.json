@@ -1,0 +1,22 @@
+{
+  "symbol": "FIL/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "AO remains in bullish territory.",
+    "Neither overbought nor oversold signals present."
+  ],
+  "debug": {
+    "price": 2.72,
+    "trend": 2.68,
+    "ao": 0.02,
+    "%K": 63.87,
+    "%D": 56.56
+  },
+  "images": {
+    "main": "panels/main/0483_main.png",
+    "ao": "panels/ao/0483_ao.png",
+    "rsi": "panels/rsi/0483_rsi.png"
+  }
+}

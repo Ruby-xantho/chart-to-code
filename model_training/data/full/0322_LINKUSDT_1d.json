@@ -1,0 +1,22 @@
+{
+  "symbol": "LINK/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Overbought conditions signal caution.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 17.88,
+    "trend": 15.3,
+    "ao": 2.75,
+    "%K": 100.0,
+    "%D": 99.62
+  },
+  "images": {
+    "main": "panels/main/0322_main.png",
+    "ao": "panels/ao/0322_ao.png",
+    "rsi": "panels/rsi/0322_rsi.png"
+  }
+}

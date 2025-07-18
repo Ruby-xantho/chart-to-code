@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "Rising AO bars indicate growing strength.",
+    "Mean reversion may occur as RSI bottoms."
+  ],
+  "debug": {
+    "price": 4.01,
+    "trend": 3.93,
+    "ao": 0.19,
+    "%K": 14.15,
+    "%D": 9.49
+  },
+  "images": {
+    "main": "panels/main/0743_main.png",
+    "ao": "panels/ao/0743_ao.png",
+    "rsi": "panels/rsi/0743_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Oversold conditions in RSI suggest rebound risk."
+  ],
+  "debug": {
+    "price": 3.61,
+    "trend": 3.36,
+    "ao": 0.32,
+    "%K": 20.19,
+    "%D": 21.62
+  },
+  "images": {
+    "main": "panels/main/0701_main.png",
+    "ao": "panels/ao/0701_ao.png",
+    "rsi": "panels/rsi/0701_rsi.png"
+  }
+}

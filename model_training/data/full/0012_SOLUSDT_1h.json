@@ -1,0 +1,22 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Stoch RSI is under 25, suggesting a momentum reset."
+  ],
+  "debug": {
+    "price": 175.83,
+    "trend": 174.18,
+    "ao": 1.6,
+    "%K": 15.11,
+    "%D": 19.55
+  },
+  "images": {
+    "main": "panels/main/0012_main.png",
+    "ao": "panels/ao/0012_ao.png",
+    "rsi": "panels/rsi/0012_rsi.png"
+  }
+}

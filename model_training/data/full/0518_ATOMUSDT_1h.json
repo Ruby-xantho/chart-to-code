@@ -1,0 +1,22 @@
+{
+  "symbol": "ATOM/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Mid-range RSI supports trend continuation."
+  ],
+  "debug": {
+    "price": 4.9,
+    "trend": 4.8,
+    "ao": 0.05,
+    "%K": 73.21,
+    "%D": 60.05
+  },
+  "images": {
+    "main": "panels/main/0518_main.png",
+    "ao": "panels/ao/0518_ao.png",
+    "rsi": "panels/rsi/0518_rsi.png"
+  }
+}

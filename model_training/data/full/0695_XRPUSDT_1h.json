@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "Rising AO bars indicate growing strength.",
+    "Momentum cycle reset near bottom range."
+  ],
+  "debug": {
+    "price": 3.61,
+    "trend": 3.36,
+    "ao": 0.32,
+    "%K": 22.22,
+    "%D": 22.3
+  },
+  "images": {
+    "main": "panels/main/0695_main.png",
+    "ao": "panels/ao/0695_ao.png",
+    "rsi": "panels/rsi/0695_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Downward trend remains in control.",
+    "The Awesome Oscillator is below zero.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.35,
+    "ao": -0.01,
+    "%K": 25.43,
+    "%D": 23.12
+  },
+  "images": {
+    "main": "panels/main/0548_main.png",
+    "ao": "panels/ao/0548_ao.png",
+    "rsi": "panels/rsi/0548_rsi.png"
+  }
+}

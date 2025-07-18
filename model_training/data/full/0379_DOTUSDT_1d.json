@@ -1,0 +1,22 @@
+{
+  "symbol": "DOT/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Stoch RSI in overbought range may trigger pullback.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 4.26,
+    "trend": 3.86,
+    "ao": 0.5,
+    "%K": 100.0,
+    "%D": 95.55
+  },
+  "images": {
+    "main": "panels/main/0379_main.png",
+    "ao": "panels/ao/0379_ao.png",
+    "rsi": "panels/rsi/0379_rsi.png"
+  }
+}

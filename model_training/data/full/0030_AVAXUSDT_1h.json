@@ -1,0 +1,22 @@
+{
+  "symbol": "AVAX/USDT",
+  "timeframe": "1h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "RSI surge may lead to short-term exhaustion.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 23.87,
+    "trend": 22.91,
+    "ao": 0.43,
+    "%K": 100.0,
+    "%D": 82.06
+  },
+  "images": {
+    "main": "panels/main/0030_main.png",
+    "ao": "panels/ao/0030_ao.png",
+    "rsi": "panels/rsi/0030_rsi.png"
+  }
+}

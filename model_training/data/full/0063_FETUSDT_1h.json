@@ -1,0 +1,22 @@
+{
+  "symbol": "FET/USDT",
+  "timeframe": "1h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "AO drift into negative confirms bearish mood.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 0.77,
+    "trend": 0.77,
+    "ao": -0.0,
+    "%K": 41.74,
+    "%D": 41.46
+  },
+  "images": {
+    "main": "panels/main/0063_main.png",
+    "ao": "panels/ao/0063_ao.png",
+    "rsi": "panels/rsi/0063_rsi.png"
+  }
+}

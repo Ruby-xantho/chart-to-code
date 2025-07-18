@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "AO is positive, indicating bullish momentum.",
+    "Stochastic RSI values remain neutral."
+  ],
+  "debug": {
+    "price": 1.98,
+    "trend": 1.94,
+    "ao": 0.03,
+    "%K": 64.26,
+    "%D": 58.83
+  },
+  "images": {
+    "main": "panels/main/0588_main.png",
+    "ao": "panels/ao/0588_ao.png",
+    "rsi": "panels/rsi/0588_rsi.png"
+  }
+}

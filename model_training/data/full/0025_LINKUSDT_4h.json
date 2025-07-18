@@ -1,0 +1,22 @@
+{
+  "symbol": "LINK/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "Stoch RSI in overbought range may trigger pullback.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 17.97,
+    "trend": 16.68,
+    "ao": 1.28,
+    "%K": 96.8,
+    "%D": 96.84
+  },
+  "images": {
+    "main": "panels/main/0025_main.png",
+    "ao": "panels/ao/0025_ao.png",
+    "rsi": "panels/rsi/0025_rsi.png"
+  }
+}

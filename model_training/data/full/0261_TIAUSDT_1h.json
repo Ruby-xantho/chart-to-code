@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Candlesticks are under the trend lines.",
+    "AO histogram shows consistent red bars.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 1.93,
+    "trend": 1.94,
+    "ao": -0.04,
+    "%K": 58.05,
+    "%D": 57.77
+  },
+  "images": {
+    "main": "panels/main/0261_main.png",
+    "ao": "panels/ao/0261_ao.png",
+    "rsi": "panels/rsi/0261_rsi.png"
+  }
+}

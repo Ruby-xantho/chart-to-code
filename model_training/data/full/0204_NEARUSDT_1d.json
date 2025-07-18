@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Stoch RSI is above 80, suggesting overbought conditions.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 2.81,
+    "trend": 2.48,
+    "ao": 0.42,
+    "%K": 100.0,
+    "%D": 95.03
+  },
+  "images": {
+    "main": "panels/main/0204_main.png",
+    "ao": "panels/ao/0204_ao.png",
+    "rsi": "panels/rsi/0204_rsi.png"
+  }
+}

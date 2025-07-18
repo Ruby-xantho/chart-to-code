@@ -1,0 +1,22 @@
+{
+  "symbol": "LINK/USDT",
+  "timeframe": "4h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "RSI surge may lead to short-term exhaustion.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 17.95,
+    "trend": 16.68,
+    "ao": 1.28,
+    "%K": 95.37,
+    "%D": 96.36
+  },
+  "images": {
+    "main": "panels/main/0096_main.png",
+    "ao": "panels/ao/0096_ao.png",
+    "rsi": "panels/rsi/0096_rsi.png"
+  }
+}

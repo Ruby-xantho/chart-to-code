@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "Overbought conditions signal caution.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 3471.15,
+    "trend": 2939.07,
+    "ao": 593.44,
+    "%K": 100.0,
+    "%D": 100.0
+  },
+  "images": {
+    "main": "panels/main/0134_main.png",
+    "ao": "panels/ao/0134_ao.png",
+    "rsi": "panels/rsi/0134_rsi.png"
+  }
+}

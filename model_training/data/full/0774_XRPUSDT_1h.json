@@ -1,0 +1,22 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "AO remains in bullish territory.",
+    "Mean reversion may occur as RSI bottoms."
+  ],
+  "debug": {
+    "price": 3.48,
+    "trend": 3.45,
+    "ao": 0.11,
+    "%K": 0.0,
+    "%D": 7.8
+  },
+  "images": {
+    "main": "panels/main/0774_main.png",
+    "ao": "panels/ao/0774_ao.png",
+    "rsi": "panels/rsi/0774_rsi.png"
+  }
+}

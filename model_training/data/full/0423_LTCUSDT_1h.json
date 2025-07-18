@@ -1,0 +1,22 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "AO remains in bullish territory.",
+    "No oversold or overbought condition in RSI."
+  ],
+  "debug": {
+    "price": 101.92,
+    "trend": 100.56,
+    "ao": 2.43,
+    "%K": 40.77,
+    "%D": 39.64
+  },
+  "images": {
+    "main": "panels/main/0423_main.png",
+    "ao": "panels/ao/0423_ao.png",
+    "rsi": "panels/rsi/0423_rsi.png"
+  }
+}

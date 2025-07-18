@@ -1,0 +1,22 @@
+{
+  "symbol": "OP/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Positive AO supports upward price movement.",
+    "No oversold or overbought condition in RSI."
+  ],
+  "debug": {
+    "price": 0.74,
+    "trend": 0.7,
+    "ao": 0.03,
+    "%K": 70.98,
+    "%D": 65.23
+  },
+  "images": {
+    "main": "panels/main/0586_main.png",
+    "ao": "panels/ao/0586_ao.png",
+    "rsi": "panels/rsi/0586_rsi.png"
+  }
+}

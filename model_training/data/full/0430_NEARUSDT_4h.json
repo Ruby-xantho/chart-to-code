@@ -1,0 +1,22 @@
+{
+  "symbol": "NEAR/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "AO is positive, indicating bullish momentum.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 2.81,
+    "trend": 2.7,
+    "ao": 0.17,
+    "%K": 71.13,
+    "%D": 72.56
+  },
+  "images": {
+    "main": "panels/main/0430_main.png",
+    "ao": "panels/ao/0430_ao.png",
+    "rsi": "panels/rsi/0430_rsi.png"
+  }
+}

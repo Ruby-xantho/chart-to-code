@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "4h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Rising AO bars indicate growing strength.",
+    "Momentum cycle reset near bottom range."
+  ],
+  "debug": {
+    "price": 3.99,
+    "trend": 3.95,
+    "ao": 0.17,
+    "%K": 6.32,
+    "%D": 7.66
+  },
+  "images": {
+    "main": "panels/main/0799_main.png",
+    "ao": "panels/ao/0799_ao.png",
+    "rsi": "panels/rsi/0799_rsi.png"
+  }
+}

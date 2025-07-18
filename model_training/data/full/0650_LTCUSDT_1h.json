@@ -1,0 +1,22 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "AO remains in bullish territory.",
+    "Mid-range RSI supports trend continuation."
+  ],
+  "debug": {
+    "price": 103.15,
+    "trend": 100.68,
+    "ao": 2.55,
+    "%K": 63.67,
+    "%D": 47.27
+  },
+  "images": {
+    "main": "panels/main/0650_main.png",
+    "ao": "panels/ao/0650_ao.png",
+    "rsi": "panels/rsi/0650_rsi.png"
+  }
+}

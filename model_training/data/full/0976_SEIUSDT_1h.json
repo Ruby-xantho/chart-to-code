@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Market is under pressure beneath averages.",
+    "Momentum remains weak as AO trends lower.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.36,
+    "ao": -0.0,
+    "%K": 11.3,
+    "%D": 14.14
+  },
+  "images": {
+    "main": "panels/main/0976_main.png",
+    "ao": "panels/ao/0976_ao.png",
+    "rsi": "panels/rsi/0976_rsi.png"
+  }
+}

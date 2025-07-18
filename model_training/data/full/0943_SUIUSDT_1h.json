@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Bearish continuation below trend lines.",
+    "Bearish AO suggests downside risk.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 3.9,
+    "trend": 4.02,
+    "ao": -0.03,
+    "%K": 0.0,
+    "%D": 23.69
+  },
+  "images": {
+    "main": "panels/main/0943_main.png",
+    "ao": "panels/ao/0943_ao.png",
+    "rsi": "panels/rsi/0943_rsi.png"
+  }
+}

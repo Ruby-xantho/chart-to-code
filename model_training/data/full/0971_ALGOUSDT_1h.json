@@ -1,0 +1,22 @@
+{
+  "symbol": "ALGO/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Market is trading beneath EMA and SMMA support.",
+    "AO drift into negative confirms bearish mood.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 0.3,
+    "trend": 0.31,
+    "ao": -0.0,
+    "%K": 14.72,
+    "%D": 6.29
+  },
+  "images": {
+    "main": "panels/main/0971_main.png",
+    "ao": "panels/ao/0971_ao.png",
+    "rsi": "panels/rsi/0971_rsi.png"
+  }
+}

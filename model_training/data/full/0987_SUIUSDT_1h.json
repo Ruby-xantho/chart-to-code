@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Market is under pressure beneath averages.",
+    "Momentum has turned bearish according to AO.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 3.88,
+    "trend": 3.99,
+    "ao": -0.08,
+    "%K": 11.69,
+    "%D": 3.9
+  },
+  "images": {
+    "main": "panels/main/0987_main.png",
+    "ao": "panels/ao/0987_ao.png",
+    "rsi": "panels/rsi/0987_rsi.png"
+  }
+}

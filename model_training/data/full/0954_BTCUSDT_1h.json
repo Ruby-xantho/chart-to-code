@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Lower highs and lower lows dominate the structure.",
+    "AO drift into negative confirms bearish mood.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 118255.4,
+    "trend": 119116.27,
+    "ao": -359.58,
+    "%K": 0.0,
+    "%D": 7.43
+  },
+  "images": {
+    "main": "panels/main/0954_main.png",
+    "ao": "panels/ao/0954_ao.png",
+    "rsi": "panels/rsi/0954_rsi.png"
+  }
+}

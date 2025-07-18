@@ -1,0 +1,22 @@
+{
+  "symbol": "SUI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Sustained price action below EMAs signals caution.",
+    "The Awesome Oscillator is below zero.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 3.87,
+    "trend": 3.99,
+    "ao": -0.08,
+    "%K": 8.91,
+    "%D": 2.97
+  },
+  "images": {
+    "main": "panels/main/0974_main.png",
+    "ao": "panels/ao/0974_ao.png",
+    "rsi": "panels/rsi/0974_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Sustained price action below EMAs signals caution.",
+    "AO histogram shows consistent red bars.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 117774.07,
+    "trend": 119067.3,
+    "ao": -402.77,
+    "%K": 0.0,
+    "%D": 7.43
+  },
+  "images": {
+    "main": "panels/main/0969_main.png",
+    "ao": "panels/ao/0969_ao.png",
+    "rsi": "panels/rsi/0969_rsi.png"
+  }
+}

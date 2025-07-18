@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "1h",
+  "label": "Bearish",
+  "reasoning": [
+    "Downtrend evident with price under EMAs.",
+    "The Awesome Oscillator is below zero.",
+    "Both trend and momentum indicate weakness."
+  ],
+  "debug": {
+    "price": 0.35,
+    "trend": 0.36,
+    "ao": -0.0,
+    "%K": 7.91,
+    "%D": 13.0
+  },
+  "images": {
+    "main": "panels/main/0972_main.png",
+    "ao": "panels/ao/0972_ao.png",
+    "rsi": "panels/rsi/0972_rsi.png"
+  }
+}

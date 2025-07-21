@@ -1,4 +1,4 @@
-# Chart-to-Code: VLM-Driven PineScript Generator
+# Chart-to-Code: VLM-Driven Trend Trader
 
 A self-hosted, open-source toolkit to convert TradingView chart screenshots into executable PineScript strategies.
 Leverages a vision-language model (VLM) to identify moving-average lines, crosses, and annotations, then auto-generates PineScript code. Ideal for traders, quant researchers, and anyone experimenting with algorithmic trading.

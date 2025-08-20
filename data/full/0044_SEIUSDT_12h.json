@@ -1,0 +1,22 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "12h",
+  "label": "Bullish",
+  "reasoning": [
+    "Candlesticks are trading above trend lines.",
+    "The Awesome Oscillator is above zero, suggesting strength.",
+    "Mid-range RSI supports trend continuation."
+  ],
+  "debug": {
+    "price": 0.37,
+    "trend": 0.34,
+    "ao": 0.04,
+    "%K": 62.28,
+    "%D": 41.89
+  },
+  "images": {
+    "main": "panels/main/0044_main.png",
+    "ao": "panels/ao/0044_ao.png",
+    "rsi": "panels/rsi/0044_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "SOL/USDT",
+  "timeframe": "12h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is above short- and long-term moving averages.",
+    "RSI is elevated, warning of possible reversal.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 182.08,
+    "trend": 170.63,
+    "ao": 16.38,
+    "%K": 100.0,
+    "%D": 95.54
+  },
+  "images": {
+    "main": "panels/main/0071_main.png",
+    "ao": "panels/ao/0071_ao.png",
+    "rsi": "panels/rsi/0071_rsi.png"
+  }
+}

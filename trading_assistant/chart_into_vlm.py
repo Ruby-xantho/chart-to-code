@@ -11,6 +11,9 @@ from oscillator_plot import plot_oscillator
 from stock_rsi_plot import plot_stock_rsi
 from utils import make_rows
 
+# Import rule engine
+from rule_engine import evaluate_chart_logic
+
 # Streamlit page config
 st.set_page_config(page_title="Trading Assistant", layout="wide")
 
@@ -20,13 +23,28 @@ model_name = "/workspace/PDF-AI/hf/hub/models--Qwen--Qwen2.5-VL-72B-Instruct-AWQ
 exchange = ccxt.binance()
 exchange.load_markets()
 
-# Sidebar inputs
-tickers_input = st.sidebar.text_input(
-    "Enter up to 10 tokens (comma-separated)",
-    "BTC/USDT, ETH/USDT, NEAR/USDT"
-)
+# Load system and user prompts from files
+with open("chart_analysis_system_prompt.md", "r") as f:
+    system_prompt_text = f.read()
+with open("prompt.txt", "r") as f:
+    user_prompt_text = f.read()
+
+# Sidebar form for input
+with st.sidebar.form(key="settings_form"):
+    st.markdown("### Settings")
+    tickers_input = st.text_input(
+        "Enter up to 10 tokens (comma-separated)",
+        value="BTC/USDT, ETH/USDT, LINK/USDT"
+    )
+    run_button = st.form_submit_button(label="Run Analysis")
+
+# Only run after user presses button
+if not run_button:
+    st.sidebar.info("Enter tickers (max 10) and click 'Run Analysis' to start.")
+    st.stop()
+
+# Process and validate input
 input_symbols = [t.strip().upper() for t in tickers_input.split(",") if t.strip()]
-# Validate input count and symbols
 if len(input_symbols) > 10:
     st.sidebar.error("Please enter at most 10 tickers.")
     st.stop()
@@ -34,12 +52,11 @@ invalid = [s for s in input_symbols if s not in exchange.symbols]
 if invalid:
     st.sidebar.error(f"Invalid tickers: {', '.join(invalid)}")
     st.stop()
+
 SYMBOLS = input_symbols
 
-osc_kind = st.sidebar.selectbox("Oscillator", ["ao", "rsi"])
-
-# auto-refresh every 5 minutes
-_ = st_autorefresh(interval=300_000, key="ticker")
+# Auto-refresh every 5 minutes
+_ = st_autorefresh(interval=300_000, key="ticker_refresh")
 
 @st.cache_resource
 def get_client():
@@ -58,45 +75,65 @@ def make_image_part(png_bytes: bytes):
 # Title
 st.markdown("<h1 style='text-align: center;'>Trading Assistant</h1>", unsafe_allow_html=True)
 
-# Split into rows of 2 or 3
+# Split into rows of up to 3 symbols
 rows = make_rows(SYMBOLS)
 
 for row in rows:
     cols = st.columns(len(row))
     for col, symbol in zip(cols, row):
+        if symbol is None:
+            continue
         with col:
-            if symbol is None:
-                st.empty()
-                continue
-
             st.subheader(symbol)
-            # Fetch OHLCV from initialized exchange
+            # Fetch data
             data = exchange.fetch_ohlcv(symbol, timeframe="1h", limit=100)
             df = pd.DataFrame(data, columns=["ts","open","high","low","close","volume"])
             df["ts"] = pd.to_datetime(df["ts"], unit="ms")
             df.set_index("ts", inplace=True)
 
-            # Generate images using modular functions
+            # Plot charts
             main_png = plot_main_chart(df)
             osc_png  = plot_oscillator(df)
-            rsi_png  = plot_stock_rsi(df)
+            # now returns (png_bytes, last_K, last_D)
+            rsi_png, k_last, d_last = plot_stock_rsi(df)
 
-            # Display charts
+
             st.image(main_png, caption="Main Chart", use_container_width=True)
-            st.image(osc_png,  caption="Oscillator Panel", use_container_width=True)
-            st.image(rsi_png,  caption="Stochastic RSI Panel", use_container_width=True)
+            st.image(osc_png, caption="Oscillator Panel", use_container_width=True)
+            st.image(rsi_png, caption="Stochastic RSI Panel", use_container_width=True)
 
-            # Build VLM prompt with three images
-            system_msg = {"role": "system", "content": [{"type": "text", "text": "You are a market-chart analysis assistant."}]}
-            user_msgs = [
-                {"role": "user", "content": [{"type": "text", "text": f"Here is {symbol} main chart."}]},
-                {"role": "user", "content": [{"type": "text", "text": "Oscillator panel."}]},
-                {"role": "user", "content": [{"type": "text", "text": "Stochastic RSI panel."}]}
-            ]
-            user_msgs[0]["content"].append(make_image_part(main_png))
-            user_msgs[1]["content"].append(make_image_part(osc_png))
-            user_msgs[2]["content"].append(make_image_part(rsi_png))
+            # Evaluate rule engine for numeric debug values
 
+            label, reasons, debug = evaluate_chart_logic(df)
+            # override so they match the chart’s last points exactly:
+            debug['%K'] = round(k_last, 2)
+            debug['%D'] = round(d_last, 2)
+
+
+            # Prepare debug text
+            debug_text = (
+                f"price: {debug.get('price')}, trend: {debug.get('trend')}, ao: {debug.get('ao')}, "
+                f"%K: {debug.get('%K')}, %D: {debug.get('%D')}"
+            )
+            # Display debug values (for debugging)
+            st.markdown(f"**Debug Values:** {debug_text}")
+
+            # Build VLM prompt
+            system_msg = {"role": "system", "content": [{"type": "text", "text": system_prompt_text}]}
+            user_msgs = []
+            # Pass user prompt and debug data before images
+            for img in [main_png, osc_png, rsi_png]:
+                part = make_image_part(img)
+                user_msgs.append({
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": user_prompt_text},
+                        {"type": "text", "text": debug_text},
+                        part
+                    ]
+                })
+
+            # Call OpenAI once
             start = time.time()
             resp = client.chat.completions.create(
                 model=model_name,
@@ -105,15 +142,14 @@ for row in rows:
             )
             latency = time.time() - start
 
-            # Colorize
-            result = resp.choices[0].message.content.strip().lower()
-            if "bullish" in result:
-                display = f"<span style='color:green;font-weight:bold;'>{result}</span>"
-            elif "bearish" in result:
-                display = f"<span style='color:red;font-weight:bold;'>{result}</span>"
-            else:
-                display = result
+            # Display result with bold label
+            result_text = resp.choices[0].message.content.strip()
+            lines = result_text.split("\n", 1)
+            label_line = lines[0]
+            rest = lines[1] if len(lines) > 1 else ""
 
             st.write(f"⏱️ {latency:.2f}s")
-            st.markdown("**Analysis:**")
-            st.markdown(display, unsafe_allow_html=True)
+            if rest:
+                st.markdown(f"**{label_line}**\n{rest}")
+            else:
+                st.markdown(f"**{label_line}**")

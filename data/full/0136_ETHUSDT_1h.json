@@ -1,0 +1,22 @@
+{
+  "symbol": "ETH/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "Bullish momentum is building per AO.",
+    "Stoch RSI is deeply reset, preparing for reversal."
+  ],
+  "debug": {
+    "price": 3763.62,
+    "trend": 3710.74,
+    "ao": 125.45,
+    "%K": 20.58,
+    "%D": 9.79
+  },
+  "images": {
+    "main": "panels/main/0136_main.png",
+    "ao": "panels/ao/0136_ao.png",
+    "rsi": "panels/rsi/0136_rsi.png"
+  }
+}

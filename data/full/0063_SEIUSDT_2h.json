@@ -1,0 +1,20 @@
+{
+  "symbol": "SEI/USDT",
+  "timeframe": "2h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 0.37,
+    "trend": 0.36,
+    "ao": 0.01,
+    "%K": 100.0,
+    "%D": 98.9
+  },
+  "images": {
+    "main": "panels/main/0063_main.png",
+    "ao": "panels/ao/0063_ao.png",
+    "rsi": "panels/rsi/0063_rsi.png"
+  }
+}

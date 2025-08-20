@@ -1,0 +1,22 @@
+{
+  "symbol": "MINA/USDT",
+  "timeframe": "8h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Extreme RSI values could precede retracement.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.23,
+    "trend": 0.21,
+    "ao": 0.02,
+    "%K": 96.44,
+    "%D": 98.81
+  },
+  "images": {
+    "main": "panels/main/0107_main.png",
+    "ao": "panels/ao/0107_ao.png",
+    "rsi": "panels/rsi/0107_rsi.png"
+  }
+}

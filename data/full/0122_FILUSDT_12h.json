@@ -1,0 +1,22 @@
+{
+  "symbol": "FIL/USDT",
+  "timeframe": "12h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Positive AO supports upward price movement.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 2.93,
+    "trend": 2.68,
+    "ao": 0.29,
+    "%K": 42.93,
+    "%D": 33.03
+  },
+  "images": {
+    "main": "panels/main/0122_main.png",
+    "ao": "panels/ao/0122_ao.png",
+    "rsi": "panels/rsi/0122_rsi.png"
+  }
+}

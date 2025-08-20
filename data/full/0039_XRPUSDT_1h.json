@@ -1,0 +1,20 @@
+{
+  "symbol": "XRP/USDT",
+  "timeframe": "1h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 3.54,
+    "trend": 3.49,
+    "ao": 0.07,
+    "%K": 100.0,
+    "%D": 89.88
+  },
+  "images": {
+    "main": "panels/main/0039_main.png",
+    "ao": "panels/ao/0039_ao.png",
+    "rsi": "panels/rsi/0039_rsi.png"
+  }
+}

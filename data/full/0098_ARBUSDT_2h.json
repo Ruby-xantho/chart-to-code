@@ -1,0 +1,22 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "2h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Both %K and %D above 80 \u2014 typical sell zone.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.49,
+    "trend": 0.48,
+    "ao": 0.02,
+    "%K": 91.79,
+    "%D": 93.25
+  },
+  "images": {
+    "main": "panels/main/0098_main.png",
+    "ao": "panels/ao/0098_ao.png",
+    "rsi": "panels/rsi/0098_rsi.png"
+  }
+}

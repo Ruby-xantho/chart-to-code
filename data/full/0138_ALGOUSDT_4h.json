@@ -1,0 +1,22 @@
+{
+  "symbol": "ALGO/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "Rising AO bars indicate growing strength.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 0.3,
+    "trend": 0.29,
+    "ao": 0.0,
+    "%K": 48.2,
+    "%D": 36.98
+  },
+  "images": {
+    "main": "panels/main/0138_main.png",
+    "ao": "panels/ao/0138_ao.png",
+    "rsi": "panels/rsi/0138_rsi.png"
+  }
+}

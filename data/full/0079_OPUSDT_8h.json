@@ -1,0 +1,22 @@
+{
+  "symbol": "OP/USDT",
+  "timeframe": "8h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "AO histogram is green and climbing.",
+    "Stoch RSI does not indicate excess."
+  ],
+  "debug": {
+    "price": 0.8,
+    "trend": 0.73,
+    "ao": 0.08,
+    "%K": 61.5,
+    "%D": 71.42
+  },
+  "images": {
+    "main": "panels/main/0079_main.png",
+    "ao": "panels/ao/0079_ao.png",
+    "rsi": "panels/rsi/0079_rsi.png"
+  }
+}

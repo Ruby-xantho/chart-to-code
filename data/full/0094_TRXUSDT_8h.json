@@ -1,0 +1,22 @@
+{
+  "symbol": "TRX/USDT",
+  "timeframe": "8h",
+  "label": "Bullish",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "Bullish momentum is building per AO.",
+    "Mid-range RSI supports trend continuation."
+  ],
+  "debug": {
+    "price": 0.32,
+    "trend": 0.31,
+    "ao": 0.01,
+    "%K": 59.06,
+    "%D": 64.94
+  },
+  "images": {
+    "main": "panels/main/0094_main.png",
+    "ao": "panels/ao/0094_ao.png",
+    "rsi": "panels/rsi/0094_rsi.png"
+  }
+}

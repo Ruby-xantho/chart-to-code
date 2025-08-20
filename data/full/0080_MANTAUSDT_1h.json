@@ -1,0 +1,22 @@
+{
+  "symbol": "MANTA/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "Momentum is positive according to AO.",
+    "Momentum exhaustion reached on downside."
+  ],
+  "debug": {
+    "price": 0.26,
+    "trend": 0.25,
+    "ao": 0.01,
+    "%K": 2.59,
+    "%D": 11.42
+  },
+  "images": {
+    "main": "panels/main/0080_main.png",
+    "ao": "panels/ao/0080_ao.png",
+    "rsi": "panels/rsi/0080_rsi.png"
+  }
+}

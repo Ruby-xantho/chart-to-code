@@ -1,0 +1,22 @@
+{
+  "symbol": "OP/USDT",
+  "timeframe": "12h",
+  "label": "Bullish",
+  "reasoning": [
+    "Trend indicators support continued upside.",
+    "AO histogram is green and climbing.",
+    "Stoch RSI is under 75, showing no overbought conditions."
+  ],
+  "debug": {
+    "price": 0.8,
+    "trend": 0.71,
+    "ao": 0.13,
+    "%K": 61.35,
+    "%D": 44.6
+  },
+  "images": {
+    "main": "panels/main/0117_main.png",
+    "ao": "panels/ao/0117_ao.png",
+    "rsi": "panels/rsi/0117_rsi.png"
+  }
+}

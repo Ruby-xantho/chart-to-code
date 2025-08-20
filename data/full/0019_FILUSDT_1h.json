@@ -1,0 +1,22 @@
+{
+  "symbol": "FIL/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Positive AO supports upward price movement.",
+    "No oversold or overbought condition in RSI."
+  ],
+  "debug": {
+    "price": 2.94,
+    "trend": 2.87,
+    "ao": 0.13,
+    "%K": 31.29,
+    "%D": 35.17
+  },
+  "images": {
+    "main": "panels/main/0019_main.png",
+    "ao": "panels/ao/0019_ao.png",
+    "rsi": "panels/rsi/0019_rsi.png"
+  }
+}

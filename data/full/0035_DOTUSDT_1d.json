@@ -1,0 +1,22 @@
+{
+  "symbol": "DOT/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "RSI surge may lead to short-term exhaustion.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 4.54,
+    "trend": 3.97,
+    "ao": 0.64,
+    "%K": 100.0,
+    "%D": 100.0
+  },
+  "images": {
+    "main": "panels/main/0035_main.png",
+    "ao": "panels/ao/0035_ao.png",
+    "rsi": "panels/rsi/0035_rsi.png"
+  }
+}

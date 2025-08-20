@@ -1,14 +1,26 @@
-# synthetic_data_generator.py
+# data_generator.py
 """
-Generates a synthetic dataset of chart-analysis examples by:
-  1. Fetching 100 candles for each symbol and timeframe.
-  2. Producing three image panels via the plotting modules:
+Automates creation of a labeled chart‑analysis dataset by:
+
+1. Iterating over a list of symbols and timeframes.
+2. Fetching the latest 100 OHLC candles for each combination.
+3. Generating three chart panels (price, Awesome Oscillator, Stochastic RSI) via:
      - main_plot.plot_main_chart
      - oscillator_plot.plot_oscillator
      - stock_rsi_plot.plot_stock_rsi
-  3. Applying rule-based logic to label each example.
-  4. Saving each example as JSON with file path references to the chart images.
+4. Applying rule_engine.evaluate_chart_logic to each DataFrame to produce:
+     - a label
+     - explanatory phrases
+     - debug metadata (only for sample checking, not for training)
+5. Saving each example into a JSON‑lines for training (and per‑sample JSON) with:
+     - file paths to the rendered images
+     - the generated label and supporting reasons
+     - debug information (only in the per-sample JSON for sample checking)
+
+The result is a large, rule‑annotated corpus of chart snapshots and human‑readable
+commentary for model training.
 """
+
 import os
 import json
 import time
@@ -37,20 +49,26 @@ IMAGE_DIRS = {
     "ao": os.path.join(BASE_DIR, "panels/ao"),
     "rsi": os.path.join(BASE_DIR, "panels/rsi")
 }
+
+
+
+
 SYMBOLS = [
-    "BTC/USDT", "ETH/USDT", "XRP/USDT", "BNB/USDT", "SOL/USDT", "TRX/USDT", "ADA/USDT", "SUI/USDT", "LINK/USDT", "HBAR/USDT",
-    "AVAX/USDT", "LTC/USDT", "DOT/USDT", "NEAR/USDT", "MINA/USDT", "ALGO/USDT", "POL/USDT", "ARB/USDT", "SEI/USDT", "ATOM/USDT",
-    "FIL/USDT", "FET/USDT", "OP/USDT", "TIA/USDT", "MANTA/USDT"
+    "BTC/USDT", "ETH/USDT", "XRP/USDT", "BNB/USDT", "SOL/USDT", "TRX/USDT",
+    "ADA/USDT", "SUI/USDT", "LINK/USDT", "HBAR/USDT", "AVAX/USDT", "LTC/USDT",
+    "DOT/USDT", "NEAR/USDT", "MINA/USDT", "ALGO/USDT", "POL/USDT", "ARB/USDT",
+    "SEI/USDT", "ATOM/USDT", "FIL/USDT", "FET/USDT", "OP/USDT", "TIA/USDT", "MANTA/USDT"
 ]
 
 TIMEFRAMES = ["1h", "4h", "1d"]
-MAX_EXAMPLES = 1000
+MAX_EXAMPLES = 250
+
 LABEL_QUOTA = {
-    "Sell Signal": 200,
-    "Possible Buy Entry": 200,
-    "Bullish": 200,
-    "Inconclusive": 200,
-    "Bearish": 200
+    "Sell Signal": 50,
+    "Possible Buy Entry": 50,
+    "Bullish": 50,
+    "Inconclusive": 50,
+    "Bearish": 50
 }
 
 # Create directories
@@ -88,10 +106,11 @@ while total_count < MAX_EXAMPLES:
                 continue
             seen_fingerprints.add(fingerprint)
 
-            # Generate charts
-            main_img = plot_main_chart(df)
-            ao_img = plot_oscillator(df)
-            rsi_img = plot_stock_rsi(df)
+
+            # Generate charts (note unpack of rsi)
+            main_img        = plot_main_chart(df)                # bytes
+            ao_img          = plot_oscillator(df)                # bytes
+            rsi_img, k_last, d_last = plot_stock_rsi(df)         # bytes, float, float
 
             # Evaluate rule-based logic
             label, reasoning, debug = evaluate_chart_logic(df)

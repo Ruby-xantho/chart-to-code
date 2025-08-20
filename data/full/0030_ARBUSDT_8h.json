@@ -1,0 +1,20 @@
+{
+  "symbol": "ARB/USDT",
+  "timeframe": "8h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 0.49,
+    "trend": 0.45,
+    "ao": 0.05,
+    "%K": 76.17,
+    "%D": 86.83
+  },
+  "images": {
+    "main": "panels/main/0030_main.png",
+    "ao": "panels/ao/0030_ao.png",
+    "rsi": "panels/rsi/0030_rsi.png"
+  }
+}

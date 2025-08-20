@@ -1,0 +1,22 @@
+{
+  "symbol": "POL/USDT",
+  "timeframe": "8h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "Stoch RSI is above 80, suggesting overbought conditions.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 0.26,
+    "trend": 0.24,
+    "ao": 0.01,
+    "%K": 100.0,
+    "%D": 98.15
+  },
+  "images": {
+    "main": "panels/main/0058_main.png",
+    "ao": "panels/ao/0058_ao.png",
+    "rsi": "panels/rsi/0058_rsi.png"
+  }
+}

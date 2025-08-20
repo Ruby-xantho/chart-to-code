@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "4h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "AO reflects declining market momentum.",
+    "Only partial alignment between price and momentum."
+  ],
+  "debug": {
+    "price": 118360.7,
+    "trend": 118229.82,
+    "ao": -103.43,
+    "%K": 61.99,
+    "%D": 36.05
+  },
+  "images": {
+    "main": "panels/main/0130_main.png",
+    "ao": "panels/ao/0130_ao.png",
+    "rsi": "panels/rsi/0130_rsi.png"
+  }
+}

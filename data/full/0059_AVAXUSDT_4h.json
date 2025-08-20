@@ -1,0 +1,22 @@
+{
+  "symbol": "AVAX/USDT",
+  "timeframe": "4h",
+  "label": "Bullish",
+  "reasoning": [
+    "Price remains elevated over trend levels.",
+    "Rising AO bars indicate growing strength.",
+    "RSI is balanced within expected range."
+  ],
+  "debug": {
+    "price": 25.34,
+    "trend": 24.1,
+    "ao": 1.73,
+    "%K": 46.9,
+    "%D": 21.49
+  },
+  "images": {
+    "main": "panels/main/0059_main.png",
+    "ao": "panels/ao/0059_ao.png",
+    "rsi": "panels/rsi/0059_rsi.png"
+  }
+}

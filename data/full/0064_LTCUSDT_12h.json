@@ -1,0 +1,20 @@
+{
+  "symbol": "LTC/USDT",
+  "timeframe": "12h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 117.41,
+    "trend": 102.02,
+    "ao": 14.78,
+    "%K": 78.81,
+    "%D": 73.56
+  },
+  "images": {
+    "main": "panels/main/0064_main.png",
+    "ao": "panels/ao/0064_ao.png",
+    "rsi": "panels/rsi/0064_rsi.png"
+  }
+}

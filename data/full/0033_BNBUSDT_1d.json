@@ -1,0 +1,22 @@
+{
+  "symbol": "BNB/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Overbought conditions signal caution.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 754.26,
+    "trend": 695.37,
+    "ao": 59.85,
+    "%K": 100.0,
+    "%D": 100.0
+  },
+  "images": {
+    "main": "panels/main/0033_main.png",
+    "ao": "panels/ao/0033_ao.png",
+    "rsi": "panels/rsi/0033_rsi.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "symbol": "BNB/USDT",
+  "timeframe": "8h",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price continues to trade in an uptrend.",
+    "Elevated momentum may invite sellers.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 754.1,
+    "trend": 723.03,
+    "ao": 36.96,
+    "%K": 100.0,
+    "%D": 99.91
+  },
+  "images": {
+    "main": "panels/main/0050_main.png",
+    "ao": "panels/ao/0050_ao.png",
+    "rsi": "panels/rsi/0050_rsi.png"
+  }
+}

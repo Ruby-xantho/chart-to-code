@@ -1,0 +1,20 @@
+{
+  "symbol": "ALGO/USDT",
+  "timeframe": "2h",
+  "label": "Inconclusive",
+  "reasoning": [
+    "Unclear signal based on chart data."
+  ],
+  "debug": {
+    "price": 0.3,
+    "trend": 0.3,
+    "ao": 0.0,
+    "%K": 100.0,
+    "%D": 95.29
+  },
+  "images": {
+    "main": "panels/main/0084_main.png",
+    "ao": "panels/ao/0084_ao.png",
+    "rsi": "panels/rsi/0084_rsi.png"
+  }
+}

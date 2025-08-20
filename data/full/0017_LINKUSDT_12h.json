@@ -1,0 +1,22 @@
+{
+  "symbol": "LINK/USDT",
+  "timeframe": "12h",
+  "label": "Bullish",
+  "reasoning": [
+    "The current close is comfortably above moving averages.",
+    "Momentum is positive according to AO.",
+    "RSI is stable, not flashing reversal risk."
+  ],
+  "debug": {
+    "price": 19.49,
+    "trend": 17.02,
+    "ao": 3.1,
+    "%K": 41.91,
+    "%D": 38.89
+  },
+  "images": {
+    "main": "panels/main/0017_main.png",
+    "ao": "panels/ao/0017_ao.png",
+    "rsi": "panels/rsi/0017_rsi.png"
+  }
+}

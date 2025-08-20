@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "1h",
+  "label": "Possible Buy Entry",
+  "reasoning": [
+    "Market is holding above EMA and SMMA levels.",
+    "AO confirms upward momentum bias.",
+    "Momentum exhaustion reached on downside."
+  ],
+  "debug": {
+    "price": 2.19,
+    "trend": 2.13,
+    "ao": 0.16,
+    "%K": 0.0,
+    "%D": 1.56
+  },
+  "images": {
+    "main": "panels/main/0125_main.png",
+    "ao": "panels/ao/0125_ao.png",
+    "rsi": "panels/rsi/0125_rsi.png"
+  }
+}

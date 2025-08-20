@@ -1,0 +1,22 @@
+{
+  "symbol": "FIL/USDT",
+  "timeframe": "1d",
+  "label": "Sell Signal",
+  "reasoning": [
+    "Price is above the moving averages (bullish trend).",
+    "RSI is elevated, warning of possible reversal.",
+    "Price is significantly extended above trend (>3%)."
+  ],
+  "debug": {
+    "price": 2.93,
+    "trend": 2.59,
+    "ao": 0.35,
+    "%K": 100.0,
+    "%D": 100.0
+  },
+  "images": {
+    "main": "panels/main/0101_main.png",
+    "ao": "panels/ao/0101_ao.png",
+    "rsi": "panels/rsi/0101_rsi.png"
+  }
+}

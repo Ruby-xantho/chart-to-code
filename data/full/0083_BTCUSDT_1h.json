@@ -1,0 +1,22 @@
+{
+  "symbol": "BTC/USDT",
+  "timeframe": "1h",
+  "label": "Bullish",
+  "reasoning": [
+    "Bullish structure confirmed above EMAs.",
+    "Zero-line cross confirms bullish shift in AO.",
+    "Momentum is contained within typical bounds."
+  ],
+  "debug": {
+    "price": 118360.71,
+    "trend": 118190.06,
+    "ao": 375.97,
+    "%K": 58.19,
+    "%D": 48.17
+  },
+  "images": {
+    "main": "panels/main/0083_main.png",
+    "ao": "panels/ao/0083_ao.png",
+    "rsi": "panels/rsi/0083_rsi.png"
+  }
+}

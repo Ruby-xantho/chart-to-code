@@ -1,0 +1,22 @@
+{
+  "symbol": "TIA/USDT",
+  "timeframe": "12h",
+  "label": "Bullish",
+  "reasoning": [
+    "The uptrend remains intact.",
+    "AO histogram is green and climbing.",
+    "Momentum is contained within typical bounds."
+  ],
+  "debug": {
+    "price": 2.19,
+    "trend": 1.95,
+    "ao": 0.23,
+    "%K": 58.34,
+    "%D": 46.58
+  },
+  "images": {
+    "main": "panels/main/0144_main.png",
+    "ao": "panels/ao/0144_ao.png",
+    "rsi": "panels/rsi/0144_rsi.png"
+  }
+}

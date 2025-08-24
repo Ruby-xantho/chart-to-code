@@ -6,14 +6,11 @@ import time
 import base64
 from openai import OpenAI
 
-
-from main_plot import plot_main_chart
-from oscillator_plot import plot_oscillator
-from stock_rsi_plot import plot_stock_rsi
-from utils import make_rows
-
-# Import rule engine
-from rule_engine import evaluate_chart_logic
+from chart_to_code.main_plot import plot_main_chart
+from chart_to_code.oscillator_plot import plot_oscillator
+from chart_to_code.stock_rsi_plot import plot_stock_rsi
+from chart_to_code.utils import make_rows
+from chart_to_code.rule_engine import evaluate_chart_logic
 
 # Streamlit page config
 st.set_page_config(page_title="Trading Assistant", layout="wide")

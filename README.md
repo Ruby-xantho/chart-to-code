@@ -1,12 +1,16 @@
 # Chart to Code
 
+![PyPI version](https://img.shields.io/pypi/v/chart-to-code.svg)
+[![Documentation Status](https://readthedocs.org/projects/chart-to-code/badge/?version=latest)](https://chart-to-code.readthedocs.io/en/latest/?version=latest)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A self-hosted trading assistant powered by a trained vision-language model (VLM) for trend analysis and algorithmic trading decisions.
 
+* PyPI package: https://pypi.org/project/chart-to-code/
 * Repository: https://github.com/Ruby-xantho/chart-to-code
 * Free software: MIT License
+* Documentation: https://chart-to-code.readthedocs.io
 
 ## About
 
@@ -95,7 +99,7 @@ chart-to-code/
 ## Future Development
 
 - **Live Trading Integration**: Connect to exchange APIs for automated execution
-- **Additional Markets**: Expand beyond crypto to forex, stocks, commodities
+- **Additional Markets**: Expand beyond crypto to forex, stocks, commodities  
 - **Advanced Strategies**: Multi-timeframe analysis and complex trading logic
 - **Portfolio Management**: Risk management and position sizing
 - **Backtesting Engine**: Historical strategy performance analysis

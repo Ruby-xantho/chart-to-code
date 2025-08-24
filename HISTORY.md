@@ -15,3 +15,7 @@
 ## 0.4.0 (2025-08-24)
 
 * Fourth release on PyPI.
+
+## 0.5.0 (2025-08-24)
+
+* Fifth release on PyPI.

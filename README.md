@@ -1,3 +1,16 @@
+# Chart to Code
+
+![PyPI version](https://img.shields.io/pypi/v/chart-to-code.svg)
+[![Documentation Status](https://readthedocs.org/projects/chart-to-code/badge/?version=latest)](https://chart-to-code.readthedocs.io/en/latest/?version=latest)
+
+Chart-to-code is a self-hosted trading assistant based on a trained vision-language-model and algorithmic trading concepts. 
+
+* PyPI package: https://pypi.org/project/chart-to-code/
+* Free software: MIT License
+* Documentation: https://chart-to-code.readthedocs.io.
+
+## Features
+
 # Chart-to-Code: VLM-Driven Trend Trader
 
 A self-hosted, open-source toolkit to convert TradingView chart screenshots into executable PineScript strategies.
@@ -86,3 +99,11 @@ By chaining these steps into a single CLI/API, you get a fully local, open-sourc
    ```bash
    git clone https://github.com/your-username/chart-to-code.git
    cd chart-to-code
+
+
+
+
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/audreyfeldroy/cookiecutter) and the [audreyfeldroy/cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage) project template.

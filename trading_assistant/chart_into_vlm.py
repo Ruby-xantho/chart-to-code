@@ -1,10 +1,11 @@
 import streamlit as st
+from streamlit_autorefresh import st_autorefresh
 import pandas as pd
 import ccxt
 import time
 import base64
 from openai import OpenAI
-from streamlit_autorefresh import st_autorefresh
+
 
 from main_plot import plot_main_chart
 from oscillator_plot import plot_oscillator
@@ -17,16 +18,16 @@ from rule_engine import evaluate_chart_logic
 # Streamlit page config
 st.set_page_config(page_title="Trading Assistant", layout="wide")
 
-model_name = "/workspace/PDF-AI/hf/hub/models--Qwen--Qwen2.5-VL-72B-Instruct-AWQ/snapshots/c8b87d4b81f34b6a147577a310d7e75f0698f6c2"
+model_name = "/trained_model/snapshots/files"
 
 # Initialize exchange once and load markets
 exchange = ccxt.binance()
 exchange.load_markets()
 
 # Load system and user prompts from files
-with open("chart_analysis_system_prompt.md", "r") as f:
+with open("prompts/chart_analysis_system_prompt.md", "r") as f:
     system_prompt_text = f.read()
-with open("prompt.txt", "r") as f:
+with open("prompts/prompt.txt", "r") as f:
     user_prompt_text = f.read()
 
 # Sidebar form for input
@@ -62,7 +63,7 @@ _ = st_autorefresh(interval=300_000, key="ticker_refresh")
 def get_client():
     return OpenAI(
         api_key="EMPTY",
-        base_url="http://localhost:8501/v1"
+        base_url="http://194.68.245.133:22184/v1"
     )
 
 client = get_client()

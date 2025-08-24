@@ -1,5 +1,7 @@
 # helper to split into rows of 2 or 3 (never a single 1)
-def make_rows(symbols: list[str]) -> list[list[str|None]]:
+from typing import List, Union, Optional
+
+def make_rows(symbols: List[str]) -> List[List[Optional[str]]]:
     n = len(symbols)
     if n == 0:
         return []

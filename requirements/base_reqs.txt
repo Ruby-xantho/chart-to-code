@@ -1,0 +1,7 @@
+streamlit
+streamlit-autorefresh
+pandas
+ccxt
+OpenAI # to run vLLM, which relies on the OpenAI api protocol
+mplfinance
+pyarrow

@@ -47,7 +47,7 @@ cd chart-to-code
 pip install -e .
 ```
 
-### If you have access to a NVIDIA GPU like an A40, you can try this
+### If you have access to a NVIDIA GPU like an A40, you can install it this way to self-host the model.
 ```bash
 pip install -e ".[gpu]"
 ```
@@ -60,6 +60,8 @@ pip install -e ".[gpu]"
 ## Usage
 
 ### Run the Trading Assistant
+
+Make sure you're in the chart-to-code directory and run:
 ```bash
 streamlit run app/trading_assistant.py
 ```

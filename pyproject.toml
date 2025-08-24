@@ -1,57 +1,116 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "chart-to-code"
 version = "0.1.0"
-description = "Chart-to-code is a self-hosted trading assistant based on a trained vision-language-model and algorithmic trading concepts. "
+description = "A self-hosted trading assistant based on a trained vision-language-model and algorithmic trading concepts."
 readme = "README.md"
+license = {file = "LICENSE"}
 authors = [
-  {name = "Ahmad Shalaby", email = "ahmad.t.shalaby@gmail.com"}
+    {name = "Ahmad Shalaby", email = "ahmad.t.shalaby@gmail.com"}
 ]
 maintainers = [
-  {name = "Ahmad Shalaby", email = "ahmad.t.shalaby@gmail.com"}
+    {name = "Ahmad Shalaby", email = "ahmad.t.shalaby@gmail.com"}
 ]
 classifiers = [
-    # TODO
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
-license = {text = "MIT"}
+requires-python = ">=3.10"
+
 dependencies = [
-  "typer"
+    "streamlit",
+    "streamlit-autorefresh",
+    "pandas",
+    "ccxt",
+    # NOT for their modes but rather to run vLLM, which relies on the OpenAI protocol standard
+    "openai",
+    "mplfinance",
+    "pyarrow",
+    "numpy",
+    "matplotlib",
 ]
-requires-python = ">= 3.10"
 
 [project.optional-dependencies]
-test = [
-    "coverage",  # testing
-    "pytest",  # testing
-    "ruff",  # linting
-    "ty", # checking types
-    "ipdb", # debugging
+gpu = [
+    "accelerate==1.6.0",
+    "autoawq==0.2.9",
+    "build==1.2.2.post1",
+    "cachetools==5.5.2",
+    "langchain==0.3.25",
+    "langchain-community==0.3.24",
+    "openpyxl==3.1.5",
+    "optimum==1.25.3",
+    "pillow==11.2.1",
+    "PyPDF4==1.27.0",
+    "qwen-vl-utils==0.0.8",
+    "tiktoken==0.9.0",
+    "torch==2.6.0",
+    "torchaudio==2.6.0",
+    "torchvision==0.21.0",
+    "transformers==4.51.3",
+    "triton==3.2.0",
+    "typing==3.7.4.3",
+    "vllm==0.8.3",
+]
+extras = [
+    "python-dotenv",
+    "Pillow",
+]
+trading = [
+    "ccxt",
+    "python-dotenv",
+    "asyncio-mqtt",
+]
+training = [
+    "torch",
+    "transformers",
+    "peft",
+    "datasets",
+    "evaluate",
+    "jsonlines",
+    "scikit-learn",
+]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "black",
+    "flake8",
+    "mypy",
 ]
 
 [project.urls]
-bugs = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues"
-changelog = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/blob/master/changelog.md"
-homepage = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}"
+Homepage = "https://github.com/Ruby-xantho/chart-to-code"
+Repository = "https://github.com/Ruby-xantho/chart-to-code"
+Issues = "https://github.com/Ruby-xantho/chart-to-code/issues"
+Documentation = "https://github.com/Ruby-xantho/chart-to-code#readme"
 
-[project.scripts]
-chart_to_code = "chart_to_code.cli:app"
+[tool.hatch.build.targets.wheel]
+packages = ["src/chart_to_code"]
 
-[tool.ty]
-# All rules are enabled as "error" by default; no need to specify unless overriding.
-# Example override: relax a rule for the entire project (uncomment if needed).
-# rules.TY015 = "warn"  # For invalid-argument-type, warn instead of error.
-
-[tool.ruff]
-line-length = 120
-
-[tool.ruff.lint]
-select = [
-    "E",   # pycodestyle errors
-    "W",   # pycodestyle warnings
-    "F",   # Pyflakes
-    "I",   # isort
-    "B",   # flake8-bugbear
-    "UP",  # pyupgrade
-]
-
-[tool.uv]
-package = true
+[tool.black]
+line-length = 88
+target-version = ['py310']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''

@@ -9,7 +9,7 @@ Chart-to-code is a self-hosted trading assistant based on a trained vision-langu
 * Free software: MIT License
 * Documentation: https://chart-to-code.readthedocs.io.
 
-## Features
+## About
 
 # Chart-to-Code: VLM-Driven Trend Trader
 

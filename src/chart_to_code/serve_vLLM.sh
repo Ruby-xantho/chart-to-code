@@ -1,7 +1,3 @@
-export CUDA_LAUNCH_BLOCKING=1
-export NCCL_DEBUG=INFO
-export NCCL_DEBUG_SUBSYS=ALL
-
 vllm serve /trained_model/snapshots/files \
   --host 0.0.0.0 \
   --port 8501 \

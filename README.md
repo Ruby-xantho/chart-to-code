@@ -1,7 +1,7 @@
 # Chart to Code
 
 ![PyPI version](https://img.shields.io/pypi/v/chart-to-code.svg)
-[![Documentation Status](https://readthedocs.org/projects/chart-to-code/badge/?version=latest)](https://chart-to-code.readthedocs.io/en/latest/?version=latest)
+
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -61,7 +61,7 @@ pip install -e ".[gpu]"
 
 ### Run the Trading Assistant
 ```bash
-streamlit run app/streamlit_app.py
+streamlit run app/trading_assistant.py
 ```
 
 The web interface allows you to:

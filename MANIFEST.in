@@ -1,10 +1,25 @@
-include CONTRIBUTING.md
-include HISTORY.md
-include LICENSE
-include README.md
+# I left this in even though I'm using Hatchling (the MANIFEST.in file is completely ignored).
+# But I left it in case I switch to setuptools.
 
-recursive-include tests *
+# Include metadata
+include README.md
+include LICENSE
+include HISTORY.md
+include pyproject.toml
+
+# Include the main package
+recursive-include src/chart_to_code *
+
+# Exclude unnecessary dirs
+prune trained_model
+prune generated_dataset
+prune model_training
+prune app
+prune exchange_bots
+prune validate_model
+prune docs
+prune tests
+
+# Exclude Python cache
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]
-
-recursive-include docs *.md Makefile *.jpg *.png *.gif

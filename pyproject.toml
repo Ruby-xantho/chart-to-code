@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "chart-to-code"
-version = "0.1.0"
+version = "0.1.2"
 description = "A self-hosted trading assistant based on a trained vision-language-model and algorithmic trading concepts."
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -93,6 +93,29 @@ Homepage = "https://github.com/Ruby-xantho/chart-to-code"
 Repository = "https://github.com/Ruby-xantho/chart-to-code"
 Issues = "https://github.com/Ruby-xantho/chart-to-code/issues"
 Documentation = "https://github.com/Ruby-xantho/chart-to-code#readme"
+
+[tool.hatch.build]
+include = [
+  "src/chart_to_code",
+  "src/chart_to_code/app",
+  "README.md",
+  "LICENSE",
+  "HISTORY.md",
+  "pyproject.toml",
+]
+exclude = [
+  "trained_model",
+  "generated_dataset",
+  "model_training",
+  "exchange_bots",
+  "validate_model",
+  "docs",
+  "tests",
+]
+
+[project.scripts]
+chart-to-code = "chart_to_code.cli:main"
+
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/chart_to_code"]

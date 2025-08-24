@@ -1,109 +1,117 @@
 # Chart to Code
 
-![PyPI version](https://img.shields.io/pypi/v/chart-to-code.svg)
-[![Documentation Status](https://readthedocs.org/projects/chart-to-code/badge/?version=latest)](https://chart-to-code.readthedocs.io/en/latest/?version=latest)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Chart-to-code is a self-hosted trading assistant based on a trained vision-language-model and algorithmic trading concepts. 
+A self-hosted trading assistant powered by a trained vision-language model (VLM) for trend analysis and algorithmic trading decisions.
 
-* PyPI package: https://pypi.org/project/chart-to-code/
+* Repository: https://github.com/Ruby-xantho/chart-to-code
 * Free software: MIT License
-* Documentation: https://chart-to-code.readthedocs.io.
 
 ## About
 
-# Chart-to-Code: VLM-Driven Trend Trader
-
-A self-hosted, open-source toolkit to convert TradingView chart screenshots into executable PineScript strategies.
-Leverages a vision-language model (VLM) to identify moving-average lines, crosses, and annotations, then auto-generates PineScript code. Ideal for traders, quant researchers, and anyone experimenting with algorithmic trading.
-
----
-
-## Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Key Features](#key-features)
-3. [Getting Started](#getting-started)
-   - [Requirements](#requirements)
-   - [Installation](#installation)
-4. [Usage](#usage)
-   - [CLI Workflow](#cli-workflow)
-   - [Docker (Optional)](#docker-optional)
-5. [Examples](#examples)
-6. [Folder Structure](#folder-structure)
-7. [Configuration & Environment Variables](#configuration--environment-variables)
-8. [Development & Contributing](#development--contributing)
-9. [License](#license)
-10. [Acknowledgments](#acknowledgments)
-
----
-
-## Project Overview
-
-**Chart-to-Code** provides a reproducible pipeline that transforms static TradingView screenshots into ready-to-use PineScript strategy templates. The core idea is:
-
-1. **Ingest** a screenshot of a TradingView chart containing moving-average lines (e.g., EMA50, EMA200).
-2. **Run** a Vision-Language Model (e.g., qwen2.5-vl) to detect:
-   - Symbol/ticker (e.g., “AAPL”, “BTCUSDT”)
-   - Timeframe (e.g., “1H”, “4H”, “1D”)
-   - Moving-average types & lengths (e.g., 50 EMA, 200 EMA)
-   - Cross events (golden/death cross points)
-   - Bullish/Bearish Trends
-
-3. **Generate** PineScript code that sets up those MAs and defines buy/sell conditions based on the identified crosses.
-4. **Output** a `.pine` file that can be imported or copy-pasted into TradingView’s Pine editor for immediate backtesting.
-
-By chaining these steps into a single CLI/API, you get a fully local, open-source solution—no third-party cloud calls required.
-
----
+**Chart-to-Code** is a vision-language model trained specifically for financial chart analysis and trend trading. The system analyzes live market data, generates technical analysis charts, and provides trading signals through a trained VLM that understands price action, momentum indicators, and market trends.
 
 ## Key Features
 
-- **VLM-Powered Chart Parsing**
-  - Detect lines, labels, and crossover points directly from screenshots.
-  - Identify instrument symbol and timeframe.
-- **Automated PineScript Generation**
-  - Generate valid PineScript v5 code with:
-    - MA definitions (`ta.ema()`, `ta.sma()`, etc.)
-    - Crossover logic (`ta.crossover()`, `ta.crossunder()`)
-    - Basic plot styling (colors, line widths)
-  - Optionally insert default stop-loss/take-profit placeholders.
-- **Reproducible CLI Modules**
-  - `ingest` → load and preprocess image.
-  - `infer` → VLM inference + line extraction.
-  - `generate` → PineScript code generation.
-  - `export` → write `.pine` file and metadata manifest.
-- **Self-Hostable**
-  - Fully offline: runs on a single GPU (32–96 GB VRAM recommended).
-  - Bundled Dockerfile for reproducibility.
-  - vLLM engine
-- **FAIR Compliance**
-  - Automatically save metadata (image hash, model checkpoints, extracted features).
-  - Export a `manifest.json` capturing inputs, VLM version, and generated code hash.
+- **Custom-Trained VLM**: Fine-tuned vision-language model specialized for financial chart analysis
+- **Real-Time Market Analysis**: Live data fetching from cryptocurrency exchanges via CCXT
+- **Multi-Panel Chart Generation**:
+  - Price charts with moving averages (EMA13, EMA21, SMMA14)
+  - Awesome Oscillator momentum analysis
+  - Stochastic RSI indicators
+- **Automated Trading Signals**: AI-generated buy/sell/hold recommendations
+- **Rule-Based Validation**: Hybrid approach combining ML predictions with algorithmic rules
+- **Interactive Web Interface**: Streamlit-based dashboard for real-time analysis
+- **Exchange Integration Ready**: Framework prepared for future live trading connections
+
+## Technical Architecture
+
+The system combines several components:
+- **VLM Core**: Custom-trained Qwen2.5-VL model for chart interpretation
+- **Data Pipeline**: Real-time market data via CCXT (Binance, others)
+- **Chart Generation**: Multi-panel technical analysis visualization
+- **Signal Processing**: Rule engine for trade signal validation
+- **Web Interface**: Streamlit app for user interaction
+
+## Installation
+
+### Basic Installation
+```bash
+git clone https://github.com/Ruby-xantho/chart-to-code.git
+cd chart-to-code
+pip install -e .
+```
+
+### For GPU-Enabled Model Inference
+```bash
+pip install -e ".[gpu]"
+```
+
+### Requirements
+- **Python**: 3.10+
+- **For VLM inference**: NVIDIA GPU with ≥32 GB VRAM (A40, A100, etc.)
+- **Memory**: ≥16 GB RAM for basic usage, ≥32 GB for model training
+
+## Usage
+
+### Run the Trading Assistant
+```bash
+streamlit run app/streamlit_app.py
+```
+
+The web interface allows you to:
+1. Select cryptocurrency pairs for analysis
+2. View real-time technical analysis charts
+3. Get AI-powered trading signals
+4. Monitor multiple assets simultaneously
+
+### Supported Markets
+Currently supports cryptocurrency markets via CCXT:
+- Bitcoin (BTC/USDT)
+- Ethereum (ETH/USDT)
+- Major altcoins (SOL, ADA, LINK, etc.)
+
+## Model Training
+
+The VLM was trained on a custom dataset of:
+- 250+ labeled chart examples
+- Multiple timeframes (1h, 4h, 1d)
+- Five signal categories: Sell Signal, Possible Buy Entry, Bullish, Bearish, Inconclusive
+- Rule-based ground truth labels for supervised learning
+
+## Project Structure
+
+```
+chart-to-code/
+├── src/chart_to_code/     # Core package
+├── app/                   # Streamlit web application
+├── model_training/        # VLM training pipeline
+├── exchange_bots/         # Trading bot implementations
+├── validate_model/        # Model validation tools
+└── tests/                 # Test suite
+```
+
+## Future Development
+
+- **Live Trading Integration**: Connect to exchange APIs for automated execution
+- **Additional Markets**: Expand beyond crypto to forex, stocks, commodities
+- **Advanced Strategies**: Multi-timeframe analysis and complex trading logic
+- **Portfolio Management**: Risk management and position sizing
+- **Backtesting Engine**: Historical strategy performance analysis
+
+## Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and guidelines.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Disclaimer
+
+This software is for educational and research purposes. Trading involves significant risk of loss. Always do your own research and never invest more than you can afford to lose.
 
 ---
 
-## Getting Started
-
-### Requirements
-
-- **Operating System:** Linux or macOS (tested on Ubuntu 20.04+).
-- **GPU:** NVIDIA GPU with ≥32 GB VRAM (e.g., RTX PRO 6000, A100).
-- **CUDA:** CUDA 12.x (compatible with PyTorch 2.x).
-- **Python:** 3.10+
-- **Disk Space:** ≥50 GB for model weights and indexing.
-- **Memory:** ≥32 GB RAM.
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/chart-to-code.git
-   cd chart-to-code
-
-
-
-
-
-## Credits
-
-This package was created with [Cookiecutter](https://github.com/audreyfeldroy/cookiecutter) and the [audreyfeldroy/cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage) project template.
+*This package was created with [Cookiecutter](https://github.com/audreyfeldroy/cookiecutter) and the [audreyfeldroy/cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage) project template.*

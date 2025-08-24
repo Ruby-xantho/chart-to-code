@@ -10,7 +10,7 @@ A self-hosted trading assistant powered by a trained vision-language model (VLM)
 * PyPI package: https://pypi.org/project/chart-to-code/
 * Repository: https://github.com/Ruby-xantho/chart-to-code
 * Free software: MIT License
-* Documentation: https://chart-to-code.readthedocs.io
+* Documentation: https://github.com/Ruby-xantho/chart-to-code#readme
 
 ## About
 
@@ -47,15 +47,15 @@ cd chart-to-code
 pip install -e .
 ```
 
-### For GPU-Enabled Model Inference
+### If you have access to a NVIDIA GPU like an A40, you can try this
 ```bash
 pip install -e ".[gpu]"
 ```
 
 ### Requirements
 - **Python**: 3.10+
-- **For VLM inference**: NVIDIA GPU with ≥32 GB VRAM (A40, A100, etc.)
-- **Memory**: ≥16 GB RAM for basic usage, ≥32 GB for model training
+- **For local hosting the model and running it with VLM inference**: NVIDIA GPU with ≥32 GB VRAM (A40, A100, etc.)
+- **Memory**: ≥4 GB RAM for basic usage, ≥32 GB for model training and self hosting the model
 
 ## Usage
 
@@ -79,7 +79,7 @@ Currently supports cryptocurrency markets via CCXT:
 ## Model Training
 
 The VLM was trained on a custom dataset of:
-- 250+ labeled chart examples
+- 1000+ labeled chart examples
 - Multiple timeframes (1h, 4h, 1d)
 - Five signal categories: Sell Signal, Possible Buy Entry, Bullish, Bearish, Inconclusive
 - Rule-based ground truth labels for supervised learning

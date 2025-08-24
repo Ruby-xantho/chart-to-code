@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 import pandas as pd
 
-from rule_engine import compute_stoch_rsi  # <-- import the same helper
+from chart_to_code.rule_engine import compute_stoch_rsi
 
 def plot_stock_rsi(df: pd.DataFrame,
                    timeperiod: int = 14,
